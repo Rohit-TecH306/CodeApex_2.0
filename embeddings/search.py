@@ -5,6 +5,8 @@ import unicodedata
 from pathlib import Path
 from contextlib import redirect_stderr, redirect_stdout
 from typing import Dict, List, Optional, Tuple
+import os
+import google.generativeai as genai
 
 from chromadb import PersistentClient
 from sentence_transformers import SentenceTransformer
@@ -12,7 +14,7 @@ from sentence_transformers import SentenceTransformer
 # 1) Load model and vector DB
 # Resolve paths relative to this file so imports work from any working directory.
 BASE_DIR = Path(__file__).resolve().parent
-DATA_DIR = BASE_DIR.parent / "data"
+DATA_DIR = BASE_DIR / "data"
 DB_DIR = BASE_DIR / "db"
 
 # Silence non-critical model load report text during startup.
@@ -333,6 +335,13 @@ def is_bank_related(query: str) -> bool:
     ]
     return any(k in q for k in keywords)
 
+def unrelated_message(lang: str) -> str:
+    messages = {
+        "en": "It seems this question is not related to the bank queries.",
+        "hi": "ऐसा लगता है कि यह प्रश्न बैंक से संबंधित नहीं है।",
+        "mr": "असे दिसते की हा प्रश्न बँकेंशी संबंधित नाही."
+    }
+    return messages.get(lang, messages["en"])
 
 def handoff_message(lang: str) -> str:
     messages = {
@@ -675,31 +684,72 @@ def vector_search_faq(query: str, lang: str) -> str:
     return uncertain_faq_message(lang)
 
 
+def enhance_response_with_gemini(raw_answer: str, user_name: str, lang: str) -> str:
+    """Uses Gemini to refine the raw technical response into an impressive natural language output."""
+    lang_names = {"en": "English", "hi": "Hindi", "mr": "Marathi"}
+    language_name = lang_names.get(lang, "English")
+
+    system_prompt = f"""You are a polite and highly efficient AI Banking Assistant.
+Your task is to rewrite the provided raw system response into a very short, clear, and direct statement.
+- Maximum 1-2 sentences ONLY.
+- Always use the exact data provided (don't makeup balances or dates).
+- Do not include any greeting fillers like "I hope you are doing well" or sign-offs.
+- Address the user briefly by name ({user_name}).
+- MUST respond directly in {language_name}.
+"""
+
+    api_key = os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        print("GEMINI_API_KEY not found in environment. Returning raw answer.")
+        return raw_answer
+
+    genai.configure(api_key=api_key)
+
+    try:
+        model = genai.GenerativeModel('gemini-1.5-flash', system_instruction=system_prompt)
+        response = model.generate_content(
+            f"Raw response to rewrite: '{raw_answer}'",
+            generation_config=genai.types.GenerationConfig(
+                temperature=0.1,
+            )
+        )
+        return response.text.strip()
+    except Exception as e:
+        print(f"Gemini enhancement failed: {e}")
+        return raw_answer
+
+
 def answer_query(user: dict, query: str, lang_hint: Optional[str] = None) -> str:
     lang = lang_hint if lang_hint in {"en", "hi", "mr"} else detect_language(query)
     intent = detect_intent(query)
     user_id = user["user_id"]
 
-    # Deterministic intents: NEVER refine with LLM for banking facts to prevent hallucination.
+    raw_answer = ""
+    # Deterministic intents should be answered directly, even if keyword guard is weak.
     if intent == "account_balance":
-        return get_balance(user_id, lang)
-    if intent == "transactions":
-        return get_transactions(user_id, lang)
-    if intent == "account_details":
-        return get_account_details(user_id, lang)
-    if intent == "account_status":
-        return get_account_status(lang)
-    if intent == "user_profile":
-        return get_user_profile(user, lang)
+        raw_answer = get_balance(user_id, lang)
+    elif intent == "transactions":
+        raw_answer = get_transactions(user_id, lang)
+    elif intent == "account_details":
+        raw_answer = get_account_details(user_id, lang)
+    elif intent == "account_status":
+        raw_answer = get_account_status(lang)
+    elif intent == "user_profile":
+        raw_answer = get_user_profile(user, lang)
+    elif intent != "general":
+        # For non-general intents (loan/kyc etc.), try FAQ retrieval directly.
+        raw_answer = vector_search_faq(query, lang)
+    elif not is_bank_related(query):
+        raw_answer = unrelated_message(lang)
+    else:
+        raw_answer = vector_search_faq(query, lang)
 
-    # For FAQ/general banking queries, use vector search with optional LLM refinement.
-    if intent != "general":
-        return refine_answer(query, vector_search_faq(query, lang), lang)
+    # Fast-pass handoff messages to skip rewriting
+    if "officer" in raw_answer.lower() or "अधिकारी" in raw_answer or "not related" in raw_answer.lower() or "संबंधित नहीं" in raw_answer:
+        return raw_answer
 
-    if not is_bank_related(query):
-        return out_of_scope_message(lang)
-
-    return refine_answer(query, vector_search_faq(query, lang), lang)
+    # Apply Gemini rewrite
+    return enhance_response_with_gemini(raw_answer, user.get("name", "User"), lang)
 
 
 def run_cli() -> None:
