@@ -34,6 +34,7 @@ Thumbs.db
 
 # Local runtime data for this project
 embeddings/db/
+
 embeddings/__pycache__/
 
 # Frontend local dependencies and build outputs

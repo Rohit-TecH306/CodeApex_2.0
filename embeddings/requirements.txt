@@ -1,0 +1,8 @@
+chromadb
+sentence-transformers
+SpeechRecognition
+PyAudio
+pyttsx3
+gTTS
+playsound==1.2.2
+Flask
