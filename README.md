@@ -15,7 +15,7 @@ New **STOP Audio** button renders when answering to instantly interrupt long TTS
 Added contextual Follow-Up Suggestion Chips dynamically generated based on previous questions (e.g. asking about balance recommends asking about transactions).
 
 ? **Problem 5: Advanced Knowledge Processing** ? **FIXED**
-Expanded vector database to interpret complex nested JSONs like dvanced_bank_knowledge.json for Home Loans, Eligibility, and Interest Rates out-of-the-box.
+Expanded vector database to interpret complex nested JSONs like \dvanced_bank_knowledge.json\ for Home Loans, Eligibility, and Interest Rates out-of-the-box.
 
 ## System Architecture
 
@@ -25,28 +25,6 @@ Expanded vector database to interpret complex nested JSONs like dvanced_bank_kn
 - **Refinement layer:** Optional local Indic-LLaMA or Gemini for language polish only.
 - **Interactive UI:** React + Vite modern dashboard with dynamically updating Follow-Up Prompts and Interrupt Hooks.
 
-## Refinement Modes (Gemini vs Indic-LLaMA)
-
-- **Gemini (recommended for hackathon demos):** Best speed/quality tradeoff. Assumes stable internet.
-- **Indic-LLaMA-7B (optional):** local model path, better when you have strong GPU resources and want fully offline-ish control.
-
-### Option A: Gemini setup (recommended)
-
-1. Set environment variables:
-   `ash
-   export GEMINI_ENABLED="true"
-   export GEMINI_API_KEY="YOUR_API_KEY"
-   `
-2. Start backend: python app.py
-
-### Option B: Offline LLaMA setup (optional)
-
-`ash
-export GEMINI_ENABLED="false"
-export INDIC_LLM_ENABLED="true"
-python app.py
-`
-
 ## Setup Instructions
 
 ### 1) Prerequisites
@@ -54,35 +32,56 @@ python app.py
 - Node.js 18+
 
 ### 2) Clone project
-`ash
+\\\ash
 git clone https://github.com/Pranay9-coder/CodeApex_2.0.git
 cd CodeApex_2.0
-`
+\\\
 
-### 3) Python Backend
-`ash
+### 3) Python Backend Setup
+\\\ash
 python -m venv .venv
-# Activate venv
+# Activate venv (Windows: .\\.venv\\Scripts\\Activate)
+# Activate venv (Mac/Linux: source .venv/bin/activate)
 pip install -r requirements.txt
-`
+\\\
 
-### 4) Re-Build Vector Embeddings (Crucial after Data updates)
-`ash
+### 4) Setup .env Configuration File (CRITICAL)
+Create a new file named \.env\ in the root directory \CodeApex_2.0/\.
+This file tells the system which AI model to use.
+
+**Option A: Gemini setup (recommended for hackathon demos)**
+\\\env
+# .env file
+GEMINI_ENABLED=true
+GEMINI_API_KEY=your_actual_gemini_api_key_here
+INDIC_LLM_ENABLED=false
+\\\
+
+**Option B: Offline Indic-LLaMA setup (optional)**
+\\\env
+# .env file
+GEMINI_ENABLED=false
+INDIC_LLM_ENABLED=true
+# Optional: Use "cuda" if you have an Nvidia GPU, otherwise "cpu"
+INDIC_LLM_DEVICE=cpu
+\\\
+
+### 5) Re-Build Vector Embeddings (Run after updating JSON data)
+\\\ash
 python embeddings/create_embeddings.py
-`
-This builds new definitions mapping localized text to intents, plus all nested logic from embeddings/data/advanced_bank_knowledge.json.
+\\\
+This builds new definitions mapping localized text to intents, plus all nested logic from \embeddings/data/advanced_bank_knowledge.json\.
 
-### 5) Run Backend + Frontend
-**Terminal 1 (Flask):**
-`ash
+### 6) Run Backend + Frontend
+**Terminal 1 (Flask Backend):**
+\\\ash
 python app.py
-`
-**Terminal 2 (React):**
-`ash
+\\\
+**Terminal 2 (React Frontend):**
+\\\ash
 cd frontend
 npm install
 npm run dev
-`
+\\\
 
-Use Demo Phone: 9000007124 to Login.
-
+?? **Login:** Use Demo Phone Number \9000007124\ to interact!
