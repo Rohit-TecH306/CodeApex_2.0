@@ -1,0 +1,16 @@
+{
+  "profile": {
+    "name": "BharatTrust Bank",
+    "tagline": "Trusted Banking for Every Indian",
+    "branchName": "Pune Main Branch",
+    "branchCode": "BTB-PN-001",
+    "ifscCode": "BTB0001234"
+  },
+  "stats": [
+    { "id": "total_branches", "label": "Total Branches", "value": "1,250", "icon": "Building2" },
+    { "id": "active_branches", "label": "Active Branches", "value": "1,180", "icon": "Store" },
+    { "id": "atms_installed", "label": "ATMs Installed", "value": "3,500", "icon": "CreditCard" },
+    { "id": "services_available", "label": "Services Available", "value": "25+", "icon": "Layers" },
+    { "id": "ai_kiosks", "label": "AI Kiosks Deployed", "value": "820", "icon": "Bot" }
+  ]
+}

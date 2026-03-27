@@ -1,4 +1,8 @@
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
 from io import BytesIO
 
 from flask import Flask, jsonify, render_template, request, send_file, session

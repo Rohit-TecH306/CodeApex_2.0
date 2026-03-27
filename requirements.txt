@@ -1,5 +1,7 @@
 chromadb
 sentence-transformers
+google-generativeai
+python-dotenv
 SpeechRecognition
 PyAudio
 pyttsx3

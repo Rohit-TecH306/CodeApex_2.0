@@ -17,17 +17,21 @@ except Exception:
 collection = client.get_or_create_collection(name="bank_data")
 
 # 3) Load all JSON files
-with open("../data/users.json", encoding="utf-8") as f:
+with open("data/users.json", encoding="utf-8") as f:
     users = json.load(f)
 
-with open("../data/accounts.json", encoding="utf-8") as f:
+with open("data/accounts.json", encoding="utf-8") as f:
     accounts = json.load(f)
 
-with open("../data/transactions.json", encoding="utf-8") as f:
+with open("data/transactions.json", encoding="utf-8") as f:
     transactions = json.load(f)
 
-with open("../data/general.json", encoding="utf-8") as f:
+with open("data/general.json", encoding="utf-8") as f:
     faqs = json.load(f)
+
+# Load newly added advanced bank knowledge
+with open("data/advanced_bank_knowledge.json", encoding="utf-8") as f:
+    advanced_knowledge = json.load(f)
 
 # 4) Build documents
 records = []
@@ -87,22 +91,51 @@ for t in transactions:
     )
 
 for g in faqs:
-    text = (
-        f"FAQ. Question: {g['question']} "
-        f"Answer: {g['answer']} "
-        f"Intent: {g['intent']} "
-        f"Language: {g['language']}"
-    )
-    records.append(
-        {
-            "document": text,
-            "metadata": {
-                "type": "faq",
-                "intent": g["intent"],
-                "language": g["language"],
-            },
-        }
-    )
+    if "question" in g and "answer" in g:
+        text = (
+            f"FAQ. Question: {g['question']} "
+            f"Answer: {g['answer']} "
+            f"Intent: {g.get('intent', 'unknown')} "
+            f"Language: {g.get('language', 'unknown')}"
+        )
+        records.append(
+            {
+                "document": text,
+                "metadata": {
+                    "type": "faq",
+                    "intent": g.get("intent", "unknown"),
+                    "language": g.get("language", "unknown"),
+                },
+            }
+        )
+
+for category, content in advanced_knowledge.items():
+    if isinstance(content, dict):
+        for sub_category, details in content.items():
+            text = f"Bank Knowledge about {category.replace('_', ' ')} - {sub_category.replace('_', ' ')}. Information: {json.dumps(details, ensure_ascii=False)}"
+            records.append(
+                {
+                    "document": text,
+                    "metadata": {
+                        "type": "advanced_knowledge",
+                        "category": category,
+                        "sub_category": sub_category,
+                        "language": "en"
+                    }
+                }
+            )
+    else:
+        text = f"Bank Knowledge about {category.replace('_', ' ')}. Information: {json.dumps(content, ensure_ascii=False)}"
+        records.append(
+            {
+                "document": text,
+                "metadata": {
+                    "type": "advanced_knowledge",
+                    "category": category,
+                    "language": "en"
+                }
+            }
+        )
 
 # 5) Encode and store
 print("Generating embeddings...")
