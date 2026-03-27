@@ -1,0 +1,4802 @@
+[
+  {
+    "transaction_id": "TXN1001",
+    "user_id": "USR001",
+    "amount": 7296,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2024-04-27"
+  },
+  {
+    "transaction_id": "TXN1002",
+    "user_id": "USR001",
+    "amount": 1151,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2024-05-17"
+  },
+  {
+    "transaction_id": "TXN1003",
+    "user_id": "USR001",
+    "amount": 2268,
+    "type": "credit",
+    "description": "Utility bill payment",
+    "date": "2025-03-24"
+  },
+  {
+    "transaction_id": "TXN1004",
+    "user_id": "USR001",
+    "amount": 23624,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2024-12-01"
+  },
+  {
+    "transaction_id": "TXN1005",
+    "user_id": "USR001",
+    "amount": 16458,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-03-14"
+  },
+  {
+    "transaction_id": "TXN1006",
+    "user_id": "USR002",
+    "amount": 8779,
+    "type": "credit",
+    "description": "NEFT transfer",
+    "date": "2025-01-16"
+  },
+  {
+    "transaction_id": "TXN1007",
+    "user_id": "USR002",
+    "amount": 18494,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-08-07"
+  },
+  {
+    "transaction_id": "TXN1008",
+    "user_id": "USR002",
+    "amount": 19221,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-04-22"
+  },
+  {
+    "transaction_id": "TXN1009",
+    "user_id": "USR002",
+    "amount": 4632,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2025-01-21"
+  },
+  {
+    "transaction_id": "TXN1010",
+    "user_id": "USR002",
+    "amount": 1643,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-11-17"
+  },
+  {
+    "transaction_id": "TXN1011",
+    "user_id": "USR003",
+    "amount": 5342,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-02-02"
+  },
+  {
+    "transaction_id": "TXN1012",
+    "user_id": "USR003",
+    "amount": 12708,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-08-27"
+  },
+  {
+    "transaction_id": "TXN1013",
+    "user_id": "USR003",
+    "amount": 17438,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2025-03-16"
+  },
+  {
+    "transaction_id": "TXN1014",
+    "user_id": "USR003",
+    "amount": 476,
+    "type": "credit",
+    "description": "Interest credit",
+    "date": "2025-01-19"
+  },
+  {
+    "transaction_id": "TXN1015",
+    "user_id": "USR003",
+    "amount": 8843,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-05-30"
+  },
+  {
+    "transaction_id": "TXN1016",
+    "user_id": "USR004",
+    "amount": 14346,
+    "type": "credit",
+    "description": "POS merchant payment",
+    "date": "2024-01-02"
+  },
+  {
+    "transaction_id": "TXN1017",
+    "user_id": "USR004",
+    "amount": 23761,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2025-01-25"
+  },
+  {
+    "transaction_id": "TXN1018",
+    "user_id": "USR004",
+    "amount": 5954,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2025-03-06"
+  },
+  {
+    "transaction_id": "TXN1019",
+    "user_id": "USR004",
+    "amount": 21037,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-07-10"
+  },
+  {
+    "transaction_id": "TXN1020",
+    "user_id": "USR004",
+    "amount": 5393,
+    "type": "credit",
+    "description": "Utility bill payment",
+    "date": "2024-06-14"
+  },
+  {
+    "transaction_id": "TXN1021",
+    "user_id": "USR005",
+    "amount": 16110,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-07-04"
+  },
+  {
+    "transaction_id": "TXN1022",
+    "user_id": "USR005",
+    "amount": 10176,
+    "type": "credit",
+    "description": "UPI payment",
+    "date": "2024-05-03"
+  },
+  {
+    "transaction_id": "TXN1023",
+    "user_id": "USR005",
+    "amount": 18691,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2025-01-09"
+  },
+  {
+    "transaction_id": "TXN1024",
+    "user_id": "USR005",
+    "amount": 16024,
+    "type": "credit",
+    "description": "Interest credit",
+    "date": "2025-01-27"
+  },
+  {
+    "transaction_id": "TXN1025",
+    "user_id": "USR005",
+    "amount": 4220,
+    "type": "credit",
+    "description": "POS merchant payment",
+    "date": "2024-10-08"
+  },
+  {
+    "transaction_id": "TXN1026",
+    "user_id": "USR006",
+    "amount": 5510,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2025-03-22"
+  },
+  {
+    "transaction_id": "TXN1027",
+    "user_id": "USR006",
+    "amount": 19976,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2024-10-03"
+  },
+  {
+    "transaction_id": "TXN1028",
+    "user_id": "USR006",
+    "amount": 24848,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-07-23"
+  },
+  {
+    "transaction_id": "TXN1029",
+    "user_id": "USR006",
+    "amount": 22109,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-09-21"
+  },
+  {
+    "transaction_id": "TXN1030",
+    "user_id": "USR006",
+    "amount": 14894,
+    "type": "credit",
+    "description": "NEFT transfer",
+    "date": "2024-04-25"
+  },
+  {
+    "transaction_id": "TXN1031",
+    "user_id": "USR007",
+    "amount": 2198,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2024-10-28"
+  },
+  {
+    "transaction_id": "TXN1032",
+    "user_id": "USR007",
+    "amount": 18250,
+    "type": "credit",
+    "description": "Utility bill payment",
+    "date": "2024-04-22"
+  },
+  {
+    "transaction_id": "TXN1033",
+    "user_id": "USR007",
+    "amount": 335,
+    "type": "credit",
+    "description": "UPI payment",
+    "date": "2024-04-27"
+  },
+  {
+    "transaction_id": "TXN1034",
+    "user_id": "USR007",
+    "amount": 2308,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-02-06"
+  },
+  {
+    "transaction_id": "TXN1035",
+    "user_id": "USR007",
+    "amount": 16947,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-12-08"
+  },
+  {
+    "transaction_id": "TXN1036",
+    "user_id": "USR008",
+    "amount": 16006,
+    "type": "credit",
+    "description": "Interest credit",
+    "date": "2024-03-08"
+  },
+  {
+    "transaction_id": "TXN1037",
+    "user_id": "USR008",
+    "amount": 23802,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2025-02-05"
+  },
+  {
+    "transaction_id": "TXN1038",
+    "user_id": "USR008",
+    "amount": 15598,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2024-02-18"
+  },
+  {
+    "transaction_id": "TXN1039",
+    "user_id": "USR008",
+    "amount": 3276,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-08-04"
+  },
+  {
+    "transaction_id": "TXN1040",
+    "user_id": "USR008",
+    "amount": 13570,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2024-12-10"
+  },
+  {
+    "transaction_id": "TXN1041",
+    "user_id": "USR009",
+    "amount": 21512,
+    "type": "credit",
+    "description": "UPI payment",
+    "date": "2024-07-25"
+  },
+  {
+    "transaction_id": "TXN1042",
+    "user_id": "USR009",
+    "amount": 23962,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-05-07"
+  },
+  {
+    "transaction_id": "TXN1043",
+    "user_id": "USR009",
+    "amount": 6378,
+    "type": "credit",
+    "description": "Interest credit",
+    "date": "2024-08-17"
+  },
+  {
+    "transaction_id": "TXN1044",
+    "user_id": "USR009",
+    "amount": 4693,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2024-05-22"
+  },
+  {
+    "transaction_id": "TXN1045",
+    "user_id": "USR009",
+    "amount": 15259,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-08-14"
+  },
+  {
+    "transaction_id": "TXN1046",
+    "user_id": "USR010",
+    "amount": 18133,
+    "type": "credit",
+    "description": "UPI payment",
+    "date": "2024-11-29"
+  },
+  {
+    "transaction_id": "TXN1047",
+    "user_id": "USR010",
+    "amount": 17813,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2025-01-20"
+  },
+  {
+    "transaction_id": "TXN1048",
+    "user_id": "USR010",
+    "amount": 7845,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2024-09-05"
+  },
+  {
+    "transaction_id": "TXN1049",
+    "user_id": "USR010",
+    "amount": 15873,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2024-01-31"
+  },
+  {
+    "transaction_id": "TXN1050",
+    "user_id": "USR010",
+    "amount": 5494,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2024-07-18"
+  },
+  {
+    "transaction_id": "TXN1051",
+    "user_id": "USR011",
+    "amount": 8790,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2024-08-04"
+  },
+  {
+    "transaction_id": "TXN1052",
+    "user_id": "USR011",
+    "amount": 22925,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2024-04-07"
+  },
+  {
+    "transaction_id": "TXN1053",
+    "user_id": "USR011",
+    "amount": 9822,
+    "type": "credit",
+    "description": "UPI payment",
+    "date": "2024-10-23"
+  },
+  {
+    "transaction_id": "TXN1054",
+    "user_id": "USR011",
+    "amount": 24208,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-01-30"
+  },
+  {
+    "transaction_id": "TXN1055",
+    "user_id": "USR011",
+    "amount": 1743,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2025-03-12"
+  },
+  {
+    "transaction_id": "TXN1056",
+    "user_id": "USR012",
+    "amount": 17503,
+    "type": "credit",
+    "description": "UPI payment",
+    "date": "2024-09-17"
+  },
+  {
+    "transaction_id": "TXN1057",
+    "user_id": "USR012",
+    "amount": 2725,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-10-31"
+  },
+  {
+    "transaction_id": "TXN1058",
+    "user_id": "USR012",
+    "amount": 2326,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2024-03-02"
+  },
+  {
+    "transaction_id": "TXN1059",
+    "user_id": "USR012",
+    "amount": 18767,
+    "type": "credit",
+    "description": "Utility bill payment",
+    "date": "2024-10-31"
+  },
+  {
+    "transaction_id": "TXN1060",
+    "user_id": "USR012",
+    "amount": 1402,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2024-12-02"
+  },
+  {
+    "transaction_id": "TXN1061",
+    "user_id": "USR013",
+    "amount": 19225,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2024-04-14"
+  },
+  {
+    "transaction_id": "TXN1062",
+    "user_id": "USR013",
+    "amount": 22045,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2024-05-15"
+  },
+  {
+    "transaction_id": "TXN1063",
+    "user_id": "USR013",
+    "amount": 13069,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-08-22"
+  },
+  {
+    "transaction_id": "TXN1064",
+    "user_id": "USR013",
+    "amount": 10460,
+    "type": "credit",
+    "description": "UPI payment",
+    "date": "2024-08-22"
+  },
+  {
+    "transaction_id": "TXN1065",
+    "user_id": "USR013",
+    "amount": 20454,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-10-02"
+  },
+  {
+    "transaction_id": "TXN1066",
+    "user_id": "USR014",
+    "amount": 7084,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2024-06-27"
+  },
+  {
+    "transaction_id": "TXN1067",
+    "user_id": "USR014",
+    "amount": 2354,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-05-25"
+  },
+  {
+    "transaction_id": "TXN1068",
+    "user_id": "USR014",
+    "amount": 5269,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2024-12-26"
+  },
+  {
+    "transaction_id": "TXN1069",
+    "user_id": "USR014",
+    "amount": 10012,
+    "type": "credit",
+    "description": "Interest credit",
+    "date": "2024-06-02"
+  },
+  {
+    "transaction_id": "TXN1070",
+    "user_id": "USR014",
+    "amount": 21837,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-05-15"
+  },
+  {
+    "transaction_id": "TXN1071",
+    "user_id": "USR015",
+    "amount": 3882,
+    "type": "credit",
+    "description": "Interest credit",
+    "date": "2024-03-20"
+  },
+  {
+    "transaction_id": "TXN1072",
+    "user_id": "USR015",
+    "amount": 9024,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-04-17"
+  },
+  {
+    "transaction_id": "TXN1073",
+    "user_id": "USR015",
+    "amount": 23614,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2024-12-17"
+  },
+  {
+    "transaction_id": "TXN1074",
+    "user_id": "USR015",
+    "amount": 20882,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2024-09-07"
+  },
+  {
+    "transaction_id": "TXN1075",
+    "user_id": "USR015",
+    "amount": 8328,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-11-20"
+  },
+  {
+    "transaction_id": "TXN1076",
+    "user_id": "USR016",
+    "amount": 13979,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2024-01-02"
+  },
+  {
+    "transaction_id": "TXN1077",
+    "user_id": "USR016",
+    "amount": 11029,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-03-23"
+  },
+  {
+    "transaction_id": "TXN1078",
+    "user_id": "USR016",
+    "amount": 24388,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2024-12-27"
+  },
+  {
+    "transaction_id": "TXN1079",
+    "user_id": "USR016",
+    "amount": 14114,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-02-08"
+  },
+  {
+    "transaction_id": "TXN1080",
+    "user_id": "USR016",
+    "amount": 22743,
+    "type": "credit",
+    "description": "Interest credit",
+    "date": "2024-01-19"
+  },
+  {
+    "transaction_id": "TXN1081",
+    "user_id": "USR017",
+    "amount": 12198,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2024-03-06"
+  },
+  {
+    "transaction_id": "TXN1082",
+    "user_id": "USR017",
+    "amount": 1470,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2025-02-11"
+  },
+  {
+    "transaction_id": "TXN1083",
+    "user_id": "USR017",
+    "amount": 1407,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2024-12-15"
+  },
+  {
+    "transaction_id": "TXN1084",
+    "user_id": "USR017",
+    "amount": 8276,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2025-02-03"
+  },
+  {
+    "transaction_id": "TXN1085",
+    "user_id": "USR017",
+    "amount": 18446,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2025-01-18"
+  },
+  {
+    "transaction_id": "TXN1086",
+    "user_id": "USR018",
+    "amount": 5164,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2025-02-13"
+  },
+  {
+    "transaction_id": "TXN1087",
+    "user_id": "USR018",
+    "amount": 5901,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2024-04-01"
+  },
+  {
+    "transaction_id": "TXN1088",
+    "user_id": "USR018",
+    "amount": 24235,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2025-02-14"
+  },
+  {
+    "transaction_id": "TXN1089",
+    "user_id": "USR018",
+    "amount": 22051,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-03-22"
+  },
+  {
+    "transaction_id": "TXN1090",
+    "user_id": "USR018",
+    "amount": 23079,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2025-03-22"
+  },
+  {
+    "transaction_id": "TXN1091",
+    "user_id": "USR019",
+    "amount": 1368,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2024-04-12"
+  },
+  {
+    "transaction_id": "TXN1092",
+    "user_id": "USR019",
+    "amount": 15183,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2025-02-24"
+  },
+  {
+    "transaction_id": "TXN1093",
+    "user_id": "USR019",
+    "amount": 7557,
+    "type": "credit",
+    "description": "UPI payment",
+    "date": "2024-12-03"
+  },
+  {
+    "transaction_id": "TXN1094",
+    "user_id": "USR019",
+    "amount": 6428,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-05-22"
+  },
+  {
+    "transaction_id": "TXN1095",
+    "user_id": "USR019",
+    "amount": 2374,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-11-24"
+  },
+  {
+    "transaction_id": "TXN1096",
+    "user_id": "USR020",
+    "amount": 16792,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2024-06-18"
+  },
+  {
+    "transaction_id": "TXN1097",
+    "user_id": "USR020",
+    "amount": 1004,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-04-01"
+  },
+  {
+    "transaction_id": "TXN1098",
+    "user_id": "USR020",
+    "amount": 19124,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2024-02-25"
+  },
+  {
+    "transaction_id": "TXN1099",
+    "user_id": "USR020",
+    "amount": 19648,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2025-01-08"
+  },
+  {
+    "transaction_id": "TXN1100",
+    "user_id": "USR020",
+    "amount": 10378,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-09-18"
+  },
+  {
+    "transaction_id": "TXN1101",
+    "user_id": "USR021",
+    "amount": 3889,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-04-07"
+  },
+  {
+    "transaction_id": "TXN1102",
+    "user_id": "USR021",
+    "amount": 8446,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2024-01-01"
+  },
+  {
+    "transaction_id": "TXN1103",
+    "user_id": "USR021",
+    "amount": 17136,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-08-08"
+  },
+  {
+    "transaction_id": "TXN1104",
+    "user_id": "USR021",
+    "amount": 2392,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-06-09"
+  },
+  {
+    "transaction_id": "TXN1105",
+    "user_id": "USR021",
+    "amount": 21837,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-09-16"
+  },
+  {
+    "transaction_id": "TXN1106",
+    "user_id": "USR022",
+    "amount": 10234,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-07-25"
+  },
+  {
+    "transaction_id": "TXN1107",
+    "user_id": "USR022",
+    "amount": 22946,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2024-03-06"
+  },
+  {
+    "transaction_id": "TXN1108",
+    "user_id": "USR022",
+    "amount": 6386,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2024-12-12"
+  },
+  {
+    "transaction_id": "TXN1109",
+    "user_id": "USR022",
+    "amount": 24614,
+    "type": "credit",
+    "description": "Utility bill payment",
+    "date": "2024-10-18"
+  },
+  {
+    "transaction_id": "TXN1110",
+    "user_id": "USR022",
+    "amount": 9961,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2025-03-02"
+  },
+  {
+    "transaction_id": "TXN1111",
+    "user_id": "USR023",
+    "amount": 113,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2024-04-17"
+  },
+  {
+    "transaction_id": "TXN1112",
+    "user_id": "USR023",
+    "amount": 14186,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-08-14"
+  },
+  {
+    "transaction_id": "TXN1113",
+    "user_id": "USR023",
+    "amount": 14588,
+    "type": "credit",
+    "description": "Interest credit",
+    "date": "2024-08-30"
+  },
+  {
+    "transaction_id": "TXN1114",
+    "user_id": "USR023",
+    "amount": 24215,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-05-25"
+  },
+  {
+    "transaction_id": "TXN1115",
+    "user_id": "USR023",
+    "amount": 16990,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2025-02-23"
+  },
+  {
+    "transaction_id": "TXN1116",
+    "user_id": "USR024",
+    "amount": 24713,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-04-25"
+  },
+  {
+    "transaction_id": "TXN1117",
+    "user_id": "USR024",
+    "amount": 6625,
+    "type": "credit",
+    "description": "UPI payment",
+    "date": "2024-01-24"
+  },
+  {
+    "transaction_id": "TXN1118",
+    "user_id": "USR024",
+    "amount": 8123,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2025-03-11"
+  },
+  {
+    "transaction_id": "TXN1119",
+    "user_id": "USR024",
+    "amount": 2486,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2024-11-18"
+  },
+  {
+    "transaction_id": "TXN1120",
+    "user_id": "USR024",
+    "amount": 18963,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2024-09-10"
+  },
+  {
+    "transaction_id": "TXN1121",
+    "user_id": "USR025",
+    "amount": 13195,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-12-01"
+  },
+  {
+    "transaction_id": "TXN1122",
+    "user_id": "USR025",
+    "amount": 22632,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2025-02-02"
+  },
+  {
+    "transaction_id": "TXN1123",
+    "user_id": "USR025",
+    "amount": 14031,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2025-02-15"
+  },
+  {
+    "transaction_id": "TXN1124",
+    "user_id": "USR025",
+    "amount": 22903,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2024-10-12"
+  },
+  {
+    "transaction_id": "TXN1125",
+    "user_id": "USR025",
+    "amount": 8265,
+    "type": "credit",
+    "description": "POS merchant payment",
+    "date": "2024-03-09"
+  },
+  {
+    "transaction_id": "TXN1126",
+    "user_id": "USR026",
+    "amount": 15325,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-11-09"
+  },
+  {
+    "transaction_id": "TXN1127",
+    "user_id": "USR026",
+    "amount": 23669,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2024-08-16"
+  },
+  {
+    "transaction_id": "TXN1128",
+    "user_id": "USR026",
+    "amount": 5315,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-05-12"
+  },
+  {
+    "transaction_id": "TXN1129",
+    "user_id": "USR026",
+    "amount": 24734,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2025-01-27"
+  },
+  {
+    "transaction_id": "TXN1130",
+    "user_id": "USR026",
+    "amount": 17181,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2024-05-20"
+  },
+  {
+    "transaction_id": "TXN1131",
+    "user_id": "USR027",
+    "amount": 14513,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-04-30"
+  },
+  {
+    "transaction_id": "TXN1132",
+    "user_id": "USR027",
+    "amount": 9003,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-10-03"
+  },
+  {
+    "transaction_id": "TXN1133",
+    "user_id": "USR027",
+    "amount": 2740,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-04-28"
+  },
+  {
+    "transaction_id": "TXN1134",
+    "user_id": "USR027",
+    "amount": 12651,
+    "type": "credit",
+    "description": "NEFT transfer",
+    "date": "2024-02-02"
+  },
+  {
+    "transaction_id": "TXN1135",
+    "user_id": "USR027",
+    "amount": 13694,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-10-04"
+  },
+  {
+    "transaction_id": "TXN1136",
+    "user_id": "USR028",
+    "amount": 15367,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2024-04-15"
+  },
+  {
+    "transaction_id": "TXN1137",
+    "user_id": "USR028",
+    "amount": 13867,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-12-22"
+  },
+  {
+    "transaction_id": "TXN1138",
+    "user_id": "USR028",
+    "amount": 740,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-01-04"
+  },
+  {
+    "transaction_id": "TXN1139",
+    "user_id": "USR028",
+    "amount": 11626,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2025-03-12"
+  },
+  {
+    "transaction_id": "TXN1140",
+    "user_id": "USR028",
+    "amount": 13830,
+    "type": "credit",
+    "description": "POS merchant payment",
+    "date": "2024-04-22"
+  },
+  {
+    "transaction_id": "TXN1141",
+    "user_id": "USR029",
+    "amount": 9043,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-01-15"
+  },
+  {
+    "transaction_id": "TXN1142",
+    "user_id": "USR029",
+    "amount": 12842,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2025-01-05"
+  },
+  {
+    "transaction_id": "TXN1143",
+    "user_id": "USR029",
+    "amount": 5508,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2024-11-14"
+  },
+  {
+    "transaction_id": "TXN1144",
+    "user_id": "USR029",
+    "amount": 17602,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2024-10-30"
+  },
+  {
+    "transaction_id": "TXN1145",
+    "user_id": "USR029",
+    "amount": 18593,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-11-25"
+  },
+  {
+    "transaction_id": "TXN1146",
+    "user_id": "USR030",
+    "amount": 14144,
+    "type": "credit",
+    "description": "POS merchant payment",
+    "date": "2024-04-03"
+  },
+  {
+    "transaction_id": "TXN1147",
+    "user_id": "USR030",
+    "amount": 1747,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2024-06-16"
+  },
+  {
+    "transaction_id": "TXN1148",
+    "user_id": "USR030",
+    "amount": 7035,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-06-21"
+  },
+  {
+    "transaction_id": "TXN1149",
+    "user_id": "USR030",
+    "amount": 12523,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2024-05-09"
+  },
+  {
+    "transaction_id": "TXN1150",
+    "user_id": "USR030",
+    "amount": 2783,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2025-01-18"
+  },
+  {
+    "transaction_id": "TXN1151",
+    "user_id": "USR031",
+    "amount": 17775,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-04-24"
+  },
+  {
+    "transaction_id": "TXN1152",
+    "user_id": "USR031",
+    "amount": 21403,
+    "type": "credit",
+    "description": "UPI payment",
+    "date": "2025-01-21"
+  },
+  {
+    "transaction_id": "TXN1153",
+    "user_id": "USR031",
+    "amount": 1116,
+    "type": "credit",
+    "description": "NEFT transfer",
+    "date": "2025-03-05"
+  },
+  {
+    "transaction_id": "TXN1154",
+    "user_id": "USR031",
+    "amount": 767,
+    "type": "credit",
+    "description": "NEFT transfer",
+    "date": "2024-03-05"
+  },
+  {
+    "transaction_id": "TXN1155",
+    "user_id": "USR031",
+    "amount": 15617,
+    "type": "credit",
+    "description": "Utility bill payment",
+    "date": "2024-04-21"
+  },
+  {
+    "transaction_id": "TXN1156",
+    "user_id": "USR032",
+    "amount": 15338,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-03-26"
+  },
+  {
+    "transaction_id": "TXN1157",
+    "user_id": "USR032",
+    "amount": 19953,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-06-08"
+  },
+  {
+    "transaction_id": "TXN1158",
+    "user_id": "USR032",
+    "amount": 3642,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-10-21"
+  },
+  {
+    "transaction_id": "TXN1159",
+    "user_id": "USR032",
+    "amount": 22295,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2025-01-01"
+  },
+  {
+    "transaction_id": "TXN1160",
+    "user_id": "USR032",
+    "amount": 6598,
+    "type": "credit",
+    "description": "Utility bill payment",
+    "date": "2024-12-19"
+  },
+  {
+    "transaction_id": "TXN1161",
+    "user_id": "USR033",
+    "amount": 20653,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-12-22"
+  },
+  {
+    "transaction_id": "TXN1162",
+    "user_id": "USR033",
+    "amount": 9982,
+    "type": "credit",
+    "description": "Utility bill payment",
+    "date": "2025-02-04"
+  },
+  {
+    "transaction_id": "TXN1163",
+    "user_id": "USR033",
+    "amount": 1445,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2024-08-07"
+  },
+  {
+    "transaction_id": "TXN1164",
+    "user_id": "USR033",
+    "amount": 21776,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-09-16"
+  },
+  {
+    "transaction_id": "TXN1165",
+    "user_id": "USR033",
+    "amount": 21318,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2025-03-10"
+  },
+  {
+    "transaction_id": "TXN1166",
+    "user_id": "USR034",
+    "amount": 13864,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-08-09"
+  },
+  {
+    "transaction_id": "TXN1167",
+    "user_id": "USR034",
+    "amount": 11968,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2024-08-10"
+  },
+  {
+    "transaction_id": "TXN1168",
+    "user_id": "USR034",
+    "amount": 5871,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2025-02-17"
+  },
+  {
+    "transaction_id": "TXN1169",
+    "user_id": "USR034",
+    "amount": 17734,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-08-11"
+  },
+  {
+    "transaction_id": "TXN1170",
+    "user_id": "USR034",
+    "amount": 24054,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2025-03-12"
+  },
+  {
+    "transaction_id": "TXN1171",
+    "user_id": "USR035",
+    "amount": 8144,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-08-18"
+  },
+  {
+    "transaction_id": "TXN1172",
+    "user_id": "USR035",
+    "amount": 8090,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-11-08"
+  },
+  {
+    "transaction_id": "TXN1173",
+    "user_id": "USR035",
+    "amount": 21995,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-01-15"
+  },
+  {
+    "transaction_id": "TXN1174",
+    "user_id": "USR035",
+    "amount": 16297,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2024-09-06"
+  },
+  {
+    "transaction_id": "TXN1175",
+    "user_id": "USR035",
+    "amount": 7050,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2024-06-23"
+  },
+  {
+    "transaction_id": "TXN1176",
+    "user_id": "USR036",
+    "amount": 9263,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2024-01-06"
+  },
+  {
+    "transaction_id": "TXN1177",
+    "user_id": "USR036",
+    "amount": 17028,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-05-03"
+  },
+  {
+    "transaction_id": "TXN1178",
+    "user_id": "USR036",
+    "amount": 23695,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-10-11"
+  },
+  {
+    "transaction_id": "TXN1179",
+    "user_id": "USR036",
+    "amount": 24943,
+    "type": "credit",
+    "description": "POS merchant payment",
+    "date": "2024-11-26"
+  },
+  {
+    "transaction_id": "TXN1180",
+    "user_id": "USR036",
+    "amount": 23425,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2025-02-09"
+  },
+  {
+    "transaction_id": "TXN1181",
+    "user_id": "USR037",
+    "amount": 665,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-04-23"
+  },
+  {
+    "transaction_id": "TXN1182",
+    "user_id": "USR037",
+    "amount": 13351,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-12-05"
+  },
+  {
+    "transaction_id": "TXN1183",
+    "user_id": "USR037",
+    "amount": 19156,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-10-10"
+  },
+  {
+    "transaction_id": "TXN1184",
+    "user_id": "USR037",
+    "amount": 17497,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2025-01-16"
+  },
+  {
+    "transaction_id": "TXN1185",
+    "user_id": "USR037",
+    "amount": 18135,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-12-25"
+  },
+  {
+    "transaction_id": "TXN1186",
+    "user_id": "USR038",
+    "amount": 14968,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2024-05-08"
+  },
+  {
+    "transaction_id": "TXN1187",
+    "user_id": "USR038",
+    "amount": 7654,
+    "type": "credit",
+    "description": "NEFT transfer",
+    "date": "2024-06-10"
+  },
+  {
+    "transaction_id": "TXN1188",
+    "user_id": "USR038",
+    "amount": 4017,
+    "type": "credit",
+    "description": "NEFT transfer",
+    "date": "2024-04-20"
+  },
+  {
+    "transaction_id": "TXN1189",
+    "user_id": "USR038",
+    "amount": 24302,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2025-01-05"
+  },
+  {
+    "transaction_id": "TXN1190",
+    "user_id": "USR038",
+    "amount": 19419,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2025-03-02"
+  },
+  {
+    "transaction_id": "TXN1191",
+    "user_id": "USR039",
+    "amount": 6460,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2024-07-03"
+  },
+  {
+    "transaction_id": "TXN1192",
+    "user_id": "USR039",
+    "amount": 5979,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2024-12-28"
+  },
+  {
+    "transaction_id": "TXN1193",
+    "user_id": "USR039",
+    "amount": 17602,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-01-24"
+  },
+  {
+    "transaction_id": "TXN1194",
+    "user_id": "USR039",
+    "amount": 1886,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2024-11-22"
+  },
+  {
+    "transaction_id": "TXN1195",
+    "user_id": "USR039",
+    "amount": 24767,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2025-03-22"
+  },
+  {
+    "transaction_id": "TXN1196",
+    "user_id": "USR040",
+    "amount": 501,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-09-02"
+  },
+  {
+    "transaction_id": "TXN1197",
+    "user_id": "USR040",
+    "amount": 14533,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2024-01-27"
+  },
+  {
+    "transaction_id": "TXN1198",
+    "user_id": "USR040",
+    "amount": 8373,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2025-02-24"
+  },
+  {
+    "transaction_id": "TXN1199",
+    "user_id": "USR040",
+    "amount": 2241,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-02-07"
+  },
+  {
+    "transaction_id": "TXN1200",
+    "user_id": "USR040",
+    "amount": 19007,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-03-17"
+  },
+  {
+    "transaction_id": "TXN1201",
+    "user_id": "USR041",
+    "amount": 18543,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-05-07"
+  },
+  {
+    "transaction_id": "TXN1202",
+    "user_id": "USR041",
+    "amount": 3981,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-11-01"
+  },
+  {
+    "transaction_id": "TXN1203",
+    "user_id": "USR041",
+    "amount": 20364,
+    "type": "credit",
+    "description": "Interest credit",
+    "date": "2024-07-13"
+  },
+  {
+    "transaction_id": "TXN1204",
+    "user_id": "USR041",
+    "amount": 14862,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2025-03-16"
+  },
+  {
+    "transaction_id": "TXN1205",
+    "user_id": "USR041",
+    "amount": 19384,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2024-10-18"
+  },
+  {
+    "transaction_id": "TXN1206",
+    "user_id": "USR042",
+    "amount": 20449,
+    "type": "credit",
+    "description": "Utility bill payment",
+    "date": "2025-01-13"
+  },
+  {
+    "transaction_id": "TXN1207",
+    "user_id": "USR042",
+    "amount": 3351,
+    "type": "credit",
+    "description": "NEFT transfer",
+    "date": "2024-05-15"
+  },
+  {
+    "transaction_id": "TXN1208",
+    "user_id": "USR042",
+    "amount": 21740,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-05-02"
+  },
+  {
+    "transaction_id": "TXN1209",
+    "user_id": "USR042",
+    "amount": 5795,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-01-02"
+  },
+  {
+    "transaction_id": "TXN1210",
+    "user_id": "USR042",
+    "amount": 13486,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-08-28"
+  },
+  {
+    "transaction_id": "TXN1211",
+    "user_id": "USR043",
+    "amount": 9643,
+    "type": "credit",
+    "description": "NEFT transfer",
+    "date": "2024-05-27"
+  },
+  {
+    "transaction_id": "TXN1212",
+    "user_id": "USR043",
+    "amount": 23265,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-02-06"
+  },
+  {
+    "transaction_id": "TXN1213",
+    "user_id": "USR043",
+    "amount": 22624,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2025-02-07"
+  },
+  {
+    "transaction_id": "TXN1214",
+    "user_id": "USR043",
+    "amount": 20581,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2024-02-28"
+  },
+  {
+    "transaction_id": "TXN1215",
+    "user_id": "USR043",
+    "amount": 17944,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-05-16"
+  },
+  {
+    "transaction_id": "TXN1216",
+    "user_id": "USR044",
+    "amount": 4760,
+    "type": "credit",
+    "description": "UPI payment",
+    "date": "2024-03-25"
+  },
+  {
+    "transaction_id": "TXN1217",
+    "user_id": "USR044",
+    "amount": 10179,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-03-04"
+  },
+  {
+    "transaction_id": "TXN1218",
+    "user_id": "USR044",
+    "amount": 15458,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2024-05-19"
+  },
+  {
+    "transaction_id": "TXN1219",
+    "user_id": "USR044",
+    "amount": 16499,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-02-11"
+  },
+  {
+    "transaction_id": "TXN1220",
+    "user_id": "USR044",
+    "amount": 19696,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2025-01-11"
+  },
+  {
+    "transaction_id": "TXN1221",
+    "user_id": "USR045",
+    "amount": 10661,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2024-02-16"
+  },
+  {
+    "transaction_id": "TXN1222",
+    "user_id": "USR045",
+    "amount": 7601,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-10-22"
+  },
+  {
+    "transaction_id": "TXN1223",
+    "user_id": "USR045",
+    "amount": 1418,
+    "type": "credit",
+    "description": "POS merchant payment",
+    "date": "2024-09-22"
+  },
+  {
+    "transaction_id": "TXN1224",
+    "user_id": "USR045",
+    "amount": 21448,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2024-04-02"
+  },
+  {
+    "transaction_id": "TXN1225",
+    "user_id": "USR045",
+    "amount": 19280,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-02-16"
+  },
+  {
+    "transaction_id": "TXN1226",
+    "user_id": "USR046",
+    "amount": 15501,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2024-06-19"
+  },
+  {
+    "transaction_id": "TXN1227",
+    "user_id": "USR046",
+    "amount": 10620,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-06-17"
+  },
+  {
+    "transaction_id": "TXN1228",
+    "user_id": "USR046",
+    "amount": 13588,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2024-12-05"
+  },
+  {
+    "transaction_id": "TXN1229",
+    "user_id": "USR046",
+    "amount": 13222,
+    "type": "credit",
+    "description": "POS merchant payment",
+    "date": "2024-02-15"
+  },
+  {
+    "transaction_id": "TXN1230",
+    "user_id": "USR046",
+    "amount": 10406,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-02-29"
+  },
+  {
+    "transaction_id": "TXN1231",
+    "user_id": "USR047",
+    "amount": 13344,
+    "type": "credit",
+    "description": "Interest credit",
+    "date": "2024-08-24"
+  },
+  {
+    "transaction_id": "TXN1232",
+    "user_id": "USR047",
+    "amount": 13641,
+    "type": "credit",
+    "description": "NEFT transfer",
+    "date": "2024-09-22"
+  },
+  {
+    "transaction_id": "TXN1233",
+    "user_id": "USR047",
+    "amount": 11954,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2025-01-24"
+  },
+  {
+    "transaction_id": "TXN1234",
+    "user_id": "USR047",
+    "amount": 1791,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-10-08"
+  },
+  {
+    "transaction_id": "TXN1235",
+    "user_id": "USR047",
+    "amount": 4393,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2025-03-26"
+  },
+  {
+    "transaction_id": "TXN1236",
+    "user_id": "USR048",
+    "amount": 22980,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-01-15"
+  },
+  {
+    "transaction_id": "TXN1237",
+    "user_id": "USR048",
+    "amount": 20744,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-06-08"
+  },
+  {
+    "transaction_id": "TXN1238",
+    "user_id": "USR048",
+    "amount": 18149,
+    "type": "credit",
+    "description": "Interest credit",
+    "date": "2024-07-27"
+  },
+  {
+    "transaction_id": "TXN1239",
+    "user_id": "USR048",
+    "amount": 3154,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-08-24"
+  },
+  {
+    "transaction_id": "TXN1240",
+    "user_id": "USR048",
+    "amount": 3949,
+    "type": "credit",
+    "description": "POS merchant payment",
+    "date": "2025-01-01"
+  },
+  {
+    "transaction_id": "TXN1241",
+    "user_id": "USR049",
+    "amount": 9663,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2025-03-03"
+  },
+  {
+    "transaction_id": "TXN1242",
+    "user_id": "USR049",
+    "amount": 15910,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2024-08-21"
+  },
+  {
+    "transaction_id": "TXN1243",
+    "user_id": "USR049",
+    "amount": 18163,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2024-04-07"
+  },
+  {
+    "transaction_id": "TXN1244",
+    "user_id": "USR049",
+    "amount": 19740,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-05-21"
+  },
+  {
+    "transaction_id": "TXN1245",
+    "user_id": "USR049",
+    "amount": 13696,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2024-05-16"
+  },
+  {
+    "transaction_id": "TXN1246",
+    "user_id": "USR050",
+    "amount": 184,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2025-03-04"
+  },
+  {
+    "transaction_id": "TXN1247",
+    "user_id": "USR050",
+    "amount": 19332,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2024-08-16"
+  },
+  {
+    "transaction_id": "TXN1248",
+    "user_id": "USR050",
+    "amount": 17748,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-06-19"
+  },
+  {
+    "transaction_id": "TXN1249",
+    "user_id": "USR050",
+    "amount": 18185,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-06-13"
+  },
+  {
+    "transaction_id": "TXN1250",
+    "user_id": "USR050",
+    "amount": 6281,
+    "type": "credit",
+    "description": "Utility bill payment",
+    "date": "2024-07-15"
+  },
+  {
+    "transaction_id": "TXN1251",
+    "user_id": "USR051",
+    "amount": 7753,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2024-06-11"
+  },
+  {
+    "transaction_id": "TXN1252",
+    "user_id": "USR051",
+    "amount": 24502,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2024-07-16"
+  },
+  {
+    "transaction_id": "TXN1253",
+    "user_id": "USR051",
+    "amount": 21847,
+    "type": "credit",
+    "description": "POS merchant payment",
+    "date": "2024-01-19"
+  },
+  {
+    "transaction_id": "TXN1254",
+    "user_id": "USR051",
+    "amount": 4236,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2025-03-23"
+  },
+  {
+    "transaction_id": "TXN1255",
+    "user_id": "USR051",
+    "amount": 14527,
+    "type": "credit",
+    "description": "Interest credit",
+    "date": "2024-08-21"
+  },
+  {
+    "transaction_id": "TXN1256",
+    "user_id": "USR052",
+    "amount": 602,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2025-03-21"
+  },
+  {
+    "transaction_id": "TXN1257",
+    "user_id": "USR052",
+    "amount": 21555,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-08-28"
+  },
+  {
+    "transaction_id": "TXN1258",
+    "user_id": "USR052",
+    "amount": 8784,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-12-20"
+  },
+  {
+    "transaction_id": "TXN1259",
+    "user_id": "USR052",
+    "amount": 13124,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2025-03-12"
+  },
+  {
+    "transaction_id": "TXN1260",
+    "user_id": "USR052",
+    "amount": 22197,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-11-16"
+  },
+  {
+    "transaction_id": "TXN1261",
+    "user_id": "USR053",
+    "amount": 23650,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2024-01-19"
+  },
+  {
+    "transaction_id": "TXN1262",
+    "user_id": "USR053",
+    "amount": 20332,
+    "type": "credit",
+    "description": "NEFT transfer",
+    "date": "2024-11-19"
+  },
+  {
+    "transaction_id": "TXN1263",
+    "user_id": "USR053",
+    "amount": 22526,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2025-01-17"
+  },
+  {
+    "transaction_id": "TXN1264",
+    "user_id": "USR053",
+    "amount": 3061,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2025-01-24"
+  },
+  {
+    "transaction_id": "TXN1265",
+    "user_id": "USR053",
+    "amount": 20866,
+    "type": "credit",
+    "description": "POS merchant payment",
+    "date": "2024-03-26"
+  },
+  {
+    "transaction_id": "TXN1266",
+    "user_id": "USR054",
+    "amount": 22841,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2024-01-24"
+  },
+  {
+    "transaction_id": "TXN1267",
+    "user_id": "USR054",
+    "amount": 10729,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-07-02"
+  },
+  {
+    "transaction_id": "TXN1268",
+    "user_id": "USR054",
+    "amount": 12382,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2024-05-05"
+  },
+  {
+    "transaction_id": "TXN1269",
+    "user_id": "USR054",
+    "amount": 17505,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-12-15"
+  },
+  {
+    "transaction_id": "TXN1270",
+    "user_id": "USR054",
+    "amount": 6000,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-02-10"
+  },
+  {
+    "transaction_id": "TXN1271",
+    "user_id": "USR055",
+    "amount": 20071,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-12-15"
+  },
+  {
+    "transaction_id": "TXN1272",
+    "user_id": "USR055",
+    "amount": 7991,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-03-14"
+  },
+  {
+    "transaction_id": "TXN1273",
+    "user_id": "USR055",
+    "amount": 7708,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2024-08-23"
+  },
+  {
+    "transaction_id": "TXN1274",
+    "user_id": "USR055",
+    "amount": 8466,
+    "type": "credit",
+    "description": "POS merchant payment",
+    "date": "2024-05-27"
+  },
+  {
+    "transaction_id": "TXN1275",
+    "user_id": "USR055",
+    "amount": 22303,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-08-14"
+  },
+  {
+    "transaction_id": "TXN1276",
+    "user_id": "USR056",
+    "amount": 11423,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2024-12-19"
+  },
+  {
+    "transaction_id": "TXN1277",
+    "user_id": "USR056",
+    "amount": 8295,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2024-04-11"
+  },
+  {
+    "transaction_id": "TXN1278",
+    "user_id": "USR056",
+    "amount": 12705,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-05-01"
+  },
+  {
+    "transaction_id": "TXN1279",
+    "user_id": "USR056",
+    "amount": 12596,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-05-31"
+  },
+  {
+    "transaction_id": "TXN1280",
+    "user_id": "USR056",
+    "amount": 23013,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2025-02-28"
+  },
+  {
+    "transaction_id": "TXN1281",
+    "user_id": "USR057",
+    "amount": 21668,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2024-01-05"
+  },
+  {
+    "transaction_id": "TXN1282",
+    "user_id": "USR057",
+    "amount": 18644,
+    "type": "credit",
+    "description": "Utility bill payment",
+    "date": "2025-01-16"
+  },
+  {
+    "transaction_id": "TXN1283",
+    "user_id": "USR057",
+    "amount": 16376,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2024-11-06"
+  },
+  {
+    "transaction_id": "TXN1284",
+    "user_id": "USR057",
+    "amount": 11644,
+    "type": "credit",
+    "description": "NEFT transfer",
+    "date": "2024-11-13"
+  },
+  {
+    "transaction_id": "TXN1285",
+    "user_id": "USR057",
+    "amount": 8312,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-11-17"
+  },
+  {
+    "transaction_id": "TXN1286",
+    "user_id": "USR058",
+    "amount": 21279,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2025-02-07"
+  },
+  {
+    "transaction_id": "TXN1287",
+    "user_id": "USR058",
+    "amount": 14544,
+    "type": "credit",
+    "description": "Utility bill payment",
+    "date": "2024-07-05"
+  },
+  {
+    "transaction_id": "TXN1288",
+    "user_id": "USR058",
+    "amount": 24097,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-05-31"
+  },
+  {
+    "transaction_id": "TXN1289",
+    "user_id": "USR058",
+    "amount": 10805,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2024-04-12"
+  },
+  {
+    "transaction_id": "TXN1290",
+    "user_id": "USR058",
+    "amount": 4430,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2024-09-13"
+  },
+  {
+    "transaction_id": "TXN1291",
+    "user_id": "USR059",
+    "amount": 9030,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2025-02-26"
+  },
+  {
+    "transaction_id": "TXN1292",
+    "user_id": "USR059",
+    "amount": 15889,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2025-02-15"
+  },
+  {
+    "transaction_id": "TXN1293",
+    "user_id": "USR059",
+    "amount": 3873,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-03-13"
+  },
+  {
+    "transaction_id": "TXN1294",
+    "user_id": "USR059",
+    "amount": 24812,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2025-03-09"
+  },
+  {
+    "transaction_id": "TXN1295",
+    "user_id": "USR059",
+    "amount": 18362,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2025-02-08"
+  },
+  {
+    "transaction_id": "TXN1296",
+    "user_id": "USR060",
+    "amount": 13029,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-10-01"
+  },
+  {
+    "transaction_id": "TXN1297",
+    "user_id": "USR060",
+    "amount": 4149,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-12-10"
+  },
+  {
+    "transaction_id": "TXN1298",
+    "user_id": "USR060",
+    "amount": 24643,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-07-14"
+  },
+  {
+    "transaction_id": "TXN1299",
+    "user_id": "USR060",
+    "amount": 21023,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-12-11"
+  },
+  {
+    "transaction_id": "TXN1300",
+    "user_id": "USR060",
+    "amount": 7761,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2024-11-13"
+  },
+  {
+    "transaction_id": "TXN1301",
+    "user_id": "USR061",
+    "amount": 18496,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-04-23"
+  },
+  {
+    "transaction_id": "TXN1302",
+    "user_id": "USR061",
+    "amount": 21322,
+    "type": "credit",
+    "description": "POS merchant payment",
+    "date": "2024-12-24"
+  },
+  {
+    "transaction_id": "TXN1303",
+    "user_id": "USR061",
+    "amount": 10002,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-03-12"
+  },
+  {
+    "transaction_id": "TXN1304",
+    "user_id": "USR061",
+    "amount": 1585,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-09-09"
+  },
+  {
+    "transaction_id": "TXN1305",
+    "user_id": "USR061",
+    "amount": 3905,
+    "type": "credit",
+    "description": "NEFT transfer",
+    "date": "2024-10-02"
+  },
+  {
+    "transaction_id": "TXN1306",
+    "user_id": "USR062",
+    "amount": 4545,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-07-08"
+  },
+  {
+    "transaction_id": "TXN1307",
+    "user_id": "USR062",
+    "amount": 22070,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2025-01-15"
+  },
+  {
+    "transaction_id": "TXN1308",
+    "user_id": "USR062",
+    "amount": 23909,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2024-12-01"
+  },
+  {
+    "transaction_id": "TXN1309",
+    "user_id": "USR062",
+    "amount": 3344,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-07-27"
+  },
+  {
+    "transaction_id": "TXN1310",
+    "user_id": "USR062",
+    "amount": 9266,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-04-21"
+  },
+  {
+    "transaction_id": "TXN1311",
+    "user_id": "USR063",
+    "amount": 14628,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2025-03-13"
+  },
+  {
+    "transaction_id": "TXN1312",
+    "user_id": "USR063",
+    "amount": 11984,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-10-05"
+  },
+  {
+    "transaction_id": "TXN1313",
+    "user_id": "USR063",
+    "amount": 21229,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2024-07-22"
+  },
+  {
+    "transaction_id": "TXN1314",
+    "user_id": "USR063",
+    "amount": 9140,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2025-03-10"
+  },
+  {
+    "transaction_id": "TXN1315",
+    "user_id": "USR063",
+    "amount": 15000,
+    "type": "credit",
+    "description": "NEFT transfer",
+    "date": "2024-11-24"
+  },
+  {
+    "transaction_id": "TXN1316",
+    "user_id": "USR064",
+    "amount": 21054,
+    "type": "credit",
+    "description": "UPI payment",
+    "date": "2025-02-06"
+  },
+  {
+    "transaction_id": "TXN1317",
+    "user_id": "USR064",
+    "amount": 11028,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2025-02-06"
+  },
+  {
+    "transaction_id": "TXN1318",
+    "user_id": "USR064",
+    "amount": 18600,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2025-02-28"
+  },
+  {
+    "transaction_id": "TXN1319",
+    "user_id": "USR064",
+    "amount": 18260,
+    "type": "credit",
+    "description": "Utility bill payment",
+    "date": "2024-04-20"
+  },
+  {
+    "transaction_id": "TXN1320",
+    "user_id": "USR064",
+    "amount": 7734,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2025-02-07"
+  },
+  {
+    "transaction_id": "TXN1321",
+    "user_id": "USR065",
+    "amount": 19629,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2025-03-15"
+  },
+  {
+    "transaction_id": "TXN1322",
+    "user_id": "USR065",
+    "amount": 4841,
+    "type": "credit",
+    "description": "Interest credit",
+    "date": "2024-05-08"
+  },
+  {
+    "transaction_id": "TXN1323",
+    "user_id": "USR065",
+    "amount": 5817,
+    "type": "credit",
+    "description": "UPI payment",
+    "date": "2024-03-08"
+  },
+  {
+    "transaction_id": "TXN1324",
+    "user_id": "USR065",
+    "amount": 586,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2024-10-28"
+  },
+  {
+    "transaction_id": "TXN1325",
+    "user_id": "USR065",
+    "amount": 10709,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-05-15"
+  },
+  {
+    "transaction_id": "TXN1326",
+    "user_id": "USR066",
+    "amount": 1817,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2024-09-26"
+  },
+  {
+    "transaction_id": "TXN1327",
+    "user_id": "USR066",
+    "amount": 3824,
+    "type": "credit",
+    "description": "POS merchant payment",
+    "date": "2024-08-17"
+  },
+  {
+    "transaction_id": "TXN1328",
+    "user_id": "USR066",
+    "amount": 11963,
+    "type": "credit",
+    "description": "POS merchant payment",
+    "date": "2024-09-14"
+  },
+  {
+    "transaction_id": "TXN1329",
+    "user_id": "USR066",
+    "amount": 7359,
+    "type": "credit",
+    "description": "Interest credit",
+    "date": "2024-06-03"
+  },
+  {
+    "transaction_id": "TXN1330",
+    "user_id": "USR066",
+    "amount": 15109,
+    "type": "credit",
+    "description": "UPI payment",
+    "date": "2024-09-02"
+  },
+  {
+    "transaction_id": "TXN1331",
+    "user_id": "USR067",
+    "amount": 13260,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-09-08"
+  },
+  {
+    "transaction_id": "TXN1332",
+    "user_id": "USR067",
+    "amount": 23443,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-02-11"
+  },
+  {
+    "transaction_id": "TXN1333",
+    "user_id": "USR067",
+    "amount": 10654,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-03-05"
+  },
+  {
+    "transaction_id": "TXN1334",
+    "user_id": "USR067",
+    "amount": 9111,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2024-11-01"
+  },
+  {
+    "transaction_id": "TXN1335",
+    "user_id": "USR067",
+    "amount": 17485,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-09-15"
+  },
+  {
+    "transaction_id": "TXN1336",
+    "user_id": "USR068",
+    "amount": 19938,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2025-02-10"
+  },
+  {
+    "transaction_id": "TXN1337",
+    "user_id": "USR068",
+    "amount": 23095,
+    "type": "credit",
+    "description": "Interest credit",
+    "date": "2025-01-04"
+  },
+  {
+    "transaction_id": "TXN1338",
+    "user_id": "USR068",
+    "amount": 7145,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-04-26"
+  },
+  {
+    "transaction_id": "TXN1339",
+    "user_id": "USR068",
+    "amount": 13659,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-07-23"
+  },
+  {
+    "transaction_id": "TXN1340",
+    "user_id": "USR068",
+    "amount": 13731,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-08-06"
+  },
+  {
+    "transaction_id": "TXN1341",
+    "user_id": "USR069",
+    "amount": 10340,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-03-19"
+  },
+  {
+    "transaction_id": "TXN1342",
+    "user_id": "USR069",
+    "amount": 22605,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-02-16"
+  },
+  {
+    "transaction_id": "TXN1343",
+    "user_id": "USR069",
+    "amount": 2897,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2024-02-19"
+  },
+  {
+    "transaction_id": "TXN1344",
+    "user_id": "USR069",
+    "amount": 24498,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2024-10-11"
+  },
+  {
+    "transaction_id": "TXN1345",
+    "user_id": "USR069",
+    "amount": 2065,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-07-29"
+  },
+  {
+    "transaction_id": "TXN1346",
+    "user_id": "USR070",
+    "amount": 11686,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2024-05-27"
+  },
+  {
+    "transaction_id": "TXN1347",
+    "user_id": "USR070",
+    "amount": 19774,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-02-23"
+  },
+  {
+    "transaction_id": "TXN1348",
+    "user_id": "USR070",
+    "amount": 19037,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-12-02"
+  },
+  {
+    "transaction_id": "TXN1349",
+    "user_id": "USR070",
+    "amount": 15900,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-06-28"
+  },
+  {
+    "transaction_id": "TXN1350",
+    "user_id": "USR070",
+    "amount": 18327,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2025-01-25"
+  },
+  {
+    "transaction_id": "TXN1351",
+    "user_id": "USR071",
+    "amount": 9228,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2025-03-08"
+  },
+  {
+    "transaction_id": "TXN1352",
+    "user_id": "USR071",
+    "amount": 18481,
+    "type": "credit",
+    "description": "Utility bill payment",
+    "date": "2024-12-02"
+  },
+  {
+    "transaction_id": "TXN1353",
+    "user_id": "USR071",
+    "amount": 22823,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2024-04-02"
+  },
+  {
+    "transaction_id": "TXN1354",
+    "user_id": "USR071",
+    "amount": 9054,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-06-28"
+  },
+  {
+    "transaction_id": "TXN1355",
+    "user_id": "USR071",
+    "amount": 300,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-10-16"
+  },
+  {
+    "transaction_id": "TXN1356",
+    "user_id": "USR072",
+    "amount": 21639,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-03-13"
+  },
+  {
+    "transaction_id": "TXN1357",
+    "user_id": "USR072",
+    "amount": 24380,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2025-01-17"
+  },
+  {
+    "transaction_id": "TXN1358",
+    "user_id": "USR072",
+    "amount": 17482,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2024-08-02"
+  },
+  {
+    "transaction_id": "TXN1359",
+    "user_id": "USR072",
+    "amount": 14965,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2024-07-08"
+  },
+  {
+    "transaction_id": "TXN1360",
+    "user_id": "USR072",
+    "amount": 10311,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-11-01"
+  },
+  {
+    "transaction_id": "TXN1361",
+    "user_id": "USR073",
+    "amount": 2883,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-03-21"
+  },
+  {
+    "transaction_id": "TXN1362",
+    "user_id": "USR073",
+    "amount": 24821,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-05-19"
+  },
+  {
+    "transaction_id": "TXN1363",
+    "user_id": "USR073",
+    "amount": 14619,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-11-06"
+  },
+  {
+    "transaction_id": "TXN1364",
+    "user_id": "USR073",
+    "amount": 14584,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2024-04-20"
+  },
+  {
+    "transaction_id": "TXN1365",
+    "user_id": "USR073",
+    "amount": 24837,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-08-08"
+  },
+  {
+    "transaction_id": "TXN1366",
+    "user_id": "USR074",
+    "amount": 3733,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-09-06"
+  },
+  {
+    "transaction_id": "TXN1367",
+    "user_id": "USR074",
+    "amount": 17366,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2024-04-22"
+  },
+  {
+    "transaction_id": "TXN1368",
+    "user_id": "USR074",
+    "amount": 13051,
+    "type": "credit",
+    "description": "UPI payment",
+    "date": "2024-04-14"
+  },
+  {
+    "transaction_id": "TXN1369",
+    "user_id": "USR074",
+    "amount": 9976,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2025-01-26"
+  },
+  {
+    "transaction_id": "TXN1370",
+    "user_id": "USR074",
+    "amount": 8472,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-03-02"
+  },
+  {
+    "transaction_id": "TXN1371",
+    "user_id": "USR075",
+    "amount": 353,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2024-03-30"
+  },
+  {
+    "transaction_id": "TXN1372",
+    "user_id": "USR075",
+    "amount": 4333,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2024-12-26"
+  },
+  {
+    "transaction_id": "TXN1373",
+    "user_id": "USR075",
+    "amount": 7640,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-07-22"
+  },
+  {
+    "transaction_id": "TXN1374",
+    "user_id": "USR075",
+    "amount": 24415,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2024-01-10"
+  },
+  {
+    "transaction_id": "TXN1375",
+    "user_id": "USR075",
+    "amount": 15165,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-10-21"
+  },
+  {
+    "transaction_id": "TXN1376",
+    "user_id": "USR076",
+    "amount": 14166,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2024-05-28"
+  },
+  {
+    "transaction_id": "TXN1377",
+    "user_id": "USR076",
+    "amount": 3874,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2024-06-15"
+  },
+  {
+    "transaction_id": "TXN1378",
+    "user_id": "USR076",
+    "amount": 5731,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-02-15"
+  },
+  {
+    "transaction_id": "TXN1379",
+    "user_id": "USR076",
+    "amount": 14410,
+    "type": "credit",
+    "description": "NEFT transfer",
+    "date": "2024-08-11"
+  },
+  {
+    "transaction_id": "TXN1380",
+    "user_id": "USR076",
+    "amount": 19396,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2024-02-10"
+  },
+  {
+    "transaction_id": "TXN1381",
+    "user_id": "USR077",
+    "amount": 13068,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-04-23"
+  },
+  {
+    "transaction_id": "TXN1382",
+    "user_id": "USR077",
+    "amount": 11013,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-09-18"
+  },
+  {
+    "transaction_id": "TXN1383",
+    "user_id": "USR077",
+    "amount": 20849,
+    "type": "credit",
+    "description": "Interest credit",
+    "date": "2024-09-18"
+  },
+  {
+    "transaction_id": "TXN1384",
+    "user_id": "USR077",
+    "amount": 6453,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2025-01-07"
+  },
+  {
+    "transaction_id": "TXN1385",
+    "user_id": "USR077",
+    "amount": 21249,
+    "type": "credit",
+    "description": "NEFT transfer",
+    "date": "2024-02-22"
+  },
+  {
+    "transaction_id": "TXN1386",
+    "user_id": "USR078",
+    "amount": 4898,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2024-03-29"
+  },
+  {
+    "transaction_id": "TXN1387",
+    "user_id": "USR078",
+    "amount": 19839,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-03-31"
+  },
+  {
+    "transaction_id": "TXN1388",
+    "user_id": "USR078",
+    "amount": 20676,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2025-01-21"
+  },
+  {
+    "transaction_id": "TXN1389",
+    "user_id": "USR078",
+    "amount": 18572,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-11-25"
+  },
+  {
+    "transaction_id": "TXN1390",
+    "user_id": "USR078",
+    "amount": 20917,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-03-18"
+  },
+  {
+    "transaction_id": "TXN1391",
+    "user_id": "USR079",
+    "amount": 14510,
+    "type": "credit",
+    "description": "POS merchant payment",
+    "date": "2024-08-14"
+  },
+  {
+    "transaction_id": "TXN1392",
+    "user_id": "USR079",
+    "amount": 20789,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2024-10-29"
+  },
+  {
+    "transaction_id": "TXN1393",
+    "user_id": "USR079",
+    "amount": 1940,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2024-02-07"
+  },
+  {
+    "transaction_id": "TXN1394",
+    "user_id": "USR079",
+    "amount": 10271,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-01-20"
+  },
+  {
+    "transaction_id": "TXN1395",
+    "user_id": "USR079",
+    "amount": 1964,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2024-02-09"
+  },
+  {
+    "transaction_id": "TXN1396",
+    "user_id": "USR080",
+    "amount": 21224,
+    "type": "credit",
+    "description": "Utility bill payment",
+    "date": "2024-10-31"
+  },
+  {
+    "transaction_id": "TXN1397",
+    "user_id": "USR080",
+    "amount": 16715,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-10-24"
+  },
+  {
+    "transaction_id": "TXN1398",
+    "user_id": "USR080",
+    "amount": 18263,
+    "type": "credit",
+    "description": "POS merchant payment",
+    "date": "2025-02-18"
+  },
+  {
+    "transaction_id": "TXN1399",
+    "user_id": "USR080",
+    "amount": 18832,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-11-05"
+  },
+  {
+    "transaction_id": "TXN1400",
+    "user_id": "USR080",
+    "amount": 15685,
+    "type": "credit",
+    "description": "UPI payment",
+    "date": "2024-08-18"
+  },
+  {
+    "transaction_id": "TXN1401",
+    "user_id": "USR081",
+    "amount": 3491,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-09-15"
+  },
+  {
+    "transaction_id": "TXN1402",
+    "user_id": "USR081",
+    "amount": 21272,
+    "type": "credit",
+    "description": "UPI payment",
+    "date": "2024-05-06"
+  },
+  {
+    "transaction_id": "TXN1403",
+    "user_id": "USR081",
+    "amount": 23287,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-09-25"
+  },
+  {
+    "transaction_id": "TXN1404",
+    "user_id": "USR081",
+    "amount": 17229,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-07-09"
+  },
+  {
+    "transaction_id": "TXN1405",
+    "user_id": "USR081",
+    "amount": 9369,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2025-01-31"
+  },
+  {
+    "transaction_id": "TXN1406",
+    "user_id": "USR082",
+    "amount": 11187,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-02-03"
+  },
+  {
+    "transaction_id": "TXN1407",
+    "user_id": "USR082",
+    "amount": 10903,
+    "type": "credit",
+    "description": "Interest credit",
+    "date": "2024-12-13"
+  },
+  {
+    "transaction_id": "TXN1408",
+    "user_id": "USR082",
+    "amount": 12766,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2025-01-05"
+  },
+  {
+    "transaction_id": "TXN1409",
+    "user_id": "USR082",
+    "amount": 21614,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-02-11"
+  },
+  {
+    "transaction_id": "TXN1410",
+    "user_id": "USR082",
+    "amount": 19195,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-06-07"
+  },
+  {
+    "transaction_id": "TXN1411",
+    "user_id": "USR083",
+    "amount": 21597,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2024-10-31"
+  },
+  {
+    "transaction_id": "TXN1412",
+    "user_id": "USR083",
+    "amount": 23327,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-10-13"
+  },
+  {
+    "transaction_id": "TXN1413",
+    "user_id": "USR083",
+    "amount": 12443,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2024-12-09"
+  },
+  {
+    "transaction_id": "TXN1414",
+    "user_id": "USR083",
+    "amount": 23130,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2024-09-17"
+  },
+  {
+    "transaction_id": "TXN1415",
+    "user_id": "USR083",
+    "amount": 11956,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-06-07"
+  },
+  {
+    "transaction_id": "TXN1416",
+    "user_id": "USR084",
+    "amount": 6006,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2025-01-27"
+  },
+  {
+    "transaction_id": "TXN1417",
+    "user_id": "USR084",
+    "amount": 16034,
+    "type": "credit",
+    "description": "NEFT transfer",
+    "date": "2024-03-11"
+  },
+  {
+    "transaction_id": "TXN1418",
+    "user_id": "USR084",
+    "amount": 5177,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2025-03-08"
+  },
+  {
+    "transaction_id": "TXN1419",
+    "user_id": "USR084",
+    "amount": 3414,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2025-03-24"
+  },
+  {
+    "transaction_id": "TXN1420",
+    "user_id": "USR084",
+    "amount": 20351,
+    "type": "credit",
+    "description": "Utility bill payment",
+    "date": "2024-07-11"
+  },
+  {
+    "transaction_id": "TXN1421",
+    "user_id": "USR085",
+    "amount": 5154,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2025-03-01"
+  },
+  {
+    "transaction_id": "TXN1422",
+    "user_id": "USR085",
+    "amount": 22803,
+    "type": "credit",
+    "description": "POS merchant payment",
+    "date": "2024-01-23"
+  },
+  {
+    "transaction_id": "TXN1423",
+    "user_id": "USR085",
+    "amount": 13563,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2024-08-15"
+  },
+  {
+    "transaction_id": "TXN1424",
+    "user_id": "USR085",
+    "amount": 20107,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-04-29"
+  },
+  {
+    "transaction_id": "TXN1425",
+    "user_id": "USR085",
+    "amount": 17598,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2025-02-18"
+  },
+  {
+    "transaction_id": "TXN1426",
+    "user_id": "USR086",
+    "amount": 15468,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-12-13"
+  },
+  {
+    "transaction_id": "TXN1427",
+    "user_id": "USR086",
+    "amount": 18791,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2025-01-28"
+  },
+  {
+    "transaction_id": "TXN1428",
+    "user_id": "USR086",
+    "amount": 9333,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2024-09-27"
+  },
+  {
+    "transaction_id": "TXN1429",
+    "user_id": "USR086",
+    "amount": 13818,
+    "type": "credit",
+    "description": "NEFT transfer",
+    "date": "2025-02-14"
+  },
+  {
+    "transaction_id": "TXN1430",
+    "user_id": "USR086",
+    "amount": 19913,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-01-27"
+  },
+  {
+    "transaction_id": "TXN1431",
+    "user_id": "USR087",
+    "amount": 21110,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-10-10"
+  },
+  {
+    "transaction_id": "TXN1432",
+    "user_id": "USR087",
+    "amount": 3461,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-02-12"
+  },
+  {
+    "transaction_id": "TXN1433",
+    "user_id": "USR087",
+    "amount": 5353,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-09-19"
+  },
+  {
+    "transaction_id": "TXN1434",
+    "user_id": "USR087",
+    "amount": 4928,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-04-23"
+  },
+  {
+    "transaction_id": "TXN1435",
+    "user_id": "USR087",
+    "amount": 14882,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2024-07-31"
+  },
+  {
+    "transaction_id": "TXN1436",
+    "user_id": "USR088",
+    "amount": 1845,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2024-07-10"
+  },
+  {
+    "transaction_id": "TXN1437",
+    "user_id": "USR088",
+    "amount": 7825,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-07-10"
+  },
+  {
+    "transaction_id": "TXN1438",
+    "user_id": "USR088",
+    "amount": 7457,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-02-20"
+  },
+  {
+    "transaction_id": "TXN1439",
+    "user_id": "USR088",
+    "amount": 23519,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2024-03-11"
+  },
+  {
+    "transaction_id": "TXN1440",
+    "user_id": "USR088",
+    "amount": 1355,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-12-22"
+  },
+  {
+    "transaction_id": "TXN1441",
+    "user_id": "USR089",
+    "amount": 4647,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-11-11"
+  },
+  {
+    "transaction_id": "TXN1442",
+    "user_id": "USR089",
+    "amount": 272,
+    "type": "credit",
+    "description": "UPI payment",
+    "date": "2024-05-11"
+  },
+  {
+    "transaction_id": "TXN1443",
+    "user_id": "USR089",
+    "amount": 7166,
+    "type": "credit",
+    "description": "Interest credit",
+    "date": "2025-01-07"
+  },
+  {
+    "transaction_id": "TXN1444",
+    "user_id": "USR089",
+    "amount": 20051,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2025-02-01"
+  },
+  {
+    "transaction_id": "TXN1445",
+    "user_id": "USR089",
+    "amount": 9540,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-03-03"
+  },
+  {
+    "transaction_id": "TXN1446",
+    "user_id": "USR090",
+    "amount": 1664,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2024-11-23"
+  },
+  {
+    "transaction_id": "TXN1447",
+    "user_id": "USR090",
+    "amount": 20508,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-02-26"
+  },
+  {
+    "transaction_id": "TXN1448",
+    "user_id": "USR090",
+    "amount": 16478,
+    "type": "credit",
+    "description": "Interest credit",
+    "date": "2024-10-21"
+  },
+  {
+    "transaction_id": "TXN1449",
+    "user_id": "USR090",
+    "amount": 8027,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-08-07"
+  },
+  {
+    "transaction_id": "TXN1450",
+    "user_id": "USR090",
+    "amount": 151,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2024-10-19"
+  },
+  {
+    "transaction_id": "TXN1451",
+    "user_id": "USR091",
+    "amount": 13750,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-09-25"
+  },
+  {
+    "transaction_id": "TXN1452",
+    "user_id": "USR091",
+    "amount": 11916,
+    "type": "credit",
+    "description": "Interest credit",
+    "date": "2024-10-05"
+  },
+  {
+    "transaction_id": "TXN1453",
+    "user_id": "USR091",
+    "amount": 16724,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2025-03-23"
+  },
+  {
+    "transaction_id": "TXN1454",
+    "user_id": "USR091",
+    "amount": 15505,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2024-07-10"
+  },
+  {
+    "transaction_id": "TXN1455",
+    "user_id": "USR091",
+    "amount": 8411,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2025-02-07"
+  },
+  {
+    "transaction_id": "TXN1456",
+    "user_id": "USR092",
+    "amount": 2313,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2025-01-10"
+  },
+  {
+    "transaction_id": "TXN1457",
+    "user_id": "USR092",
+    "amount": 21631,
+    "type": "credit",
+    "description": "Utility bill payment",
+    "date": "2025-01-11"
+  },
+  {
+    "transaction_id": "TXN1458",
+    "user_id": "USR092",
+    "amount": 24894,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2024-01-23"
+  },
+  {
+    "transaction_id": "TXN1459",
+    "user_id": "USR092",
+    "amount": 11644,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2025-03-01"
+  },
+  {
+    "transaction_id": "TXN1460",
+    "user_id": "USR092",
+    "amount": 22535,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-11-19"
+  },
+  {
+    "transaction_id": "TXN1461",
+    "user_id": "USR093",
+    "amount": 6072,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2025-01-01"
+  },
+  {
+    "transaction_id": "TXN1462",
+    "user_id": "USR093",
+    "amount": 15097,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-04-13"
+  },
+  {
+    "transaction_id": "TXN1463",
+    "user_id": "USR093",
+    "amount": 1535,
+    "type": "credit",
+    "description": "UPI payment",
+    "date": "2024-06-10"
+  },
+  {
+    "transaction_id": "TXN1464",
+    "user_id": "USR093",
+    "amount": 10260,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2024-08-30"
+  },
+  {
+    "transaction_id": "TXN1465",
+    "user_id": "USR093",
+    "amount": 8400,
+    "type": "credit",
+    "description": "NEFT transfer",
+    "date": "2024-05-26"
+  },
+  {
+    "transaction_id": "TXN1466",
+    "user_id": "USR094",
+    "amount": 11797,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-05-19"
+  },
+  {
+    "transaction_id": "TXN1467",
+    "user_id": "USR094",
+    "amount": 4178,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2024-07-23"
+  },
+  {
+    "transaction_id": "TXN1468",
+    "user_id": "USR094",
+    "amount": 24456,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2024-06-22"
+  },
+  {
+    "transaction_id": "TXN1469",
+    "user_id": "USR094",
+    "amount": 6221,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-07-07"
+  },
+  {
+    "transaction_id": "TXN1470",
+    "user_id": "USR094",
+    "amount": 17115,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2025-01-07"
+  },
+  {
+    "transaction_id": "TXN1471",
+    "user_id": "USR095",
+    "amount": 14010,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2024-11-04"
+  },
+  {
+    "transaction_id": "TXN1472",
+    "user_id": "USR095",
+    "amount": 6013,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-02-22"
+  },
+  {
+    "transaction_id": "TXN1473",
+    "user_id": "USR095",
+    "amount": 2723,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2024-06-05"
+  },
+  {
+    "transaction_id": "TXN1474",
+    "user_id": "USR095",
+    "amount": 14711,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2024-12-19"
+  },
+  {
+    "transaction_id": "TXN1475",
+    "user_id": "USR095",
+    "amount": 14645,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-01-22"
+  },
+  {
+    "transaction_id": "TXN1476",
+    "user_id": "USR096",
+    "amount": 23916,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-08-10"
+  },
+  {
+    "transaction_id": "TXN1477",
+    "user_id": "USR096",
+    "amount": 9096,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-12-09"
+  },
+  {
+    "transaction_id": "TXN1478",
+    "user_id": "USR096",
+    "amount": 20990,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-09-19"
+  },
+  {
+    "transaction_id": "TXN1479",
+    "user_id": "USR096",
+    "amount": 24672,
+    "type": "credit",
+    "description": "UPI payment",
+    "date": "2024-03-14"
+  },
+  {
+    "transaction_id": "TXN1480",
+    "user_id": "USR096",
+    "amount": 20008,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2024-03-05"
+  },
+  {
+    "transaction_id": "TXN1481",
+    "user_id": "USR097",
+    "amount": 2303,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-07-04"
+  },
+  {
+    "transaction_id": "TXN1482",
+    "user_id": "USR097",
+    "amount": 12645,
+    "type": "credit",
+    "description": "Utility bill payment",
+    "date": "2024-03-19"
+  },
+  {
+    "transaction_id": "TXN1483",
+    "user_id": "USR097",
+    "amount": 22351,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-07-09"
+  },
+  {
+    "transaction_id": "TXN1484",
+    "user_id": "USR097",
+    "amount": 14647,
+    "type": "credit",
+    "description": "Utility bill payment",
+    "date": "2024-03-11"
+  },
+  {
+    "transaction_id": "TXN1485",
+    "user_id": "USR097",
+    "amount": 17449,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2024-06-09"
+  },
+  {
+    "transaction_id": "TXN1486",
+    "user_id": "USR098",
+    "amount": 21384,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2024-02-28"
+  },
+  {
+    "transaction_id": "TXN1487",
+    "user_id": "USR098",
+    "amount": 949,
+    "type": "credit",
+    "description": "POS merchant payment",
+    "date": "2024-09-22"
+  },
+  {
+    "transaction_id": "TXN1488",
+    "user_id": "USR098",
+    "amount": 12780,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2025-01-31"
+  },
+  {
+    "transaction_id": "TXN1489",
+    "user_id": "USR098",
+    "amount": 8629,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2024-11-09"
+  },
+  {
+    "transaction_id": "TXN1490",
+    "user_id": "USR098",
+    "amount": 9457,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2024-03-03"
+  },
+  {
+    "transaction_id": "TXN1491",
+    "user_id": "USR099",
+    "amount": 4547,
+    "type": "credit",
+    "description": "POS merchant payment",
+    "date": "2024-03-29"
+  },
+  {
+    "transaction_id": "TXN1492",
+    "user_id": "USR099",
+    "amount": 23475,
+    "type": "debit",
+    "description": "ATM cash withdrawal",
+    "date": "2025-02-18"
+  },
+  {
+    "transaction_id": "TXN1493",
+    "user_id": "USR099",
+    "amount": 22445,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-12-29"
+  },
+  {
+    "transaction_id": "TXN1494",
+    "user_id": "USR099",
+    "amount": 2227,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2025-03-11"
+  },
+  {
+    "transaction_id": "TXN1495",
+    "user_id": "USR099",
+    "amount": 5261,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-09-17"
+  },
+  {
+    "transaction_id": "TXN1496",
+    "user_id": "USR100",
+    "amount": 7447,
+    "type": "credit",
+    "description": "NEFT transfer",
+    "date": "2025-02-09"
+  },
+  {
+    "transaction_id": "TXN1497",
+    "user_id": "USR100",
+    "amount": 4650,
+    "type": "credit",
+    "description": "POS merchant payment",
+    "date": "2024-01-14"
+  },
+  {
+    "transaction_id": "TXN1498",
+    "user_id": "USR100",
+    "amount": 11925,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2025-02-15"
+  },
+  {
+    "transaction_id": "TXN1499",
+    "user_id": "USR100",
+    "amount": 18176,
+    "type": "credit",
+    "description": "Utility bill payment",
+    "date": "2024-02-14"
+  },
+  {
+    "transaction_id": "TXN1500",
+    "user_id": "USR100",
+    "amount": 2254,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2025-01-02"
+  },
+  {
+    "transaction_id": "TXN1501",
+    "user_id": "USR101",
+    "amount": 23655,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2024-07-29"
+  },
+  {
+    "transaction_id": "TXN1502",
+    "user_id": "USR101",
+    "amount": 13516,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-06-11"
+  },
+  {
+    "transaction_id": "TXN1503",
+    "user_id": "USR101",
+    "amount": 21148,
+    "type": "credit",
+    "description": "POS merchant payment",
+    "date": "2024-08-26"
+  },
+  {
+    "transaction_id": "TXN1504",
+    "user_id": "USR101",
+    "amount": 22385,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2025-03-25"
+  },
+  {
+    "transaction_id": "TXN1505",
+    "user_id": "USR101",
+    "amount": 18165,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-08-09"
+  },
+  {
+    "transaction_id": "TXN1506",
+    "user_id": "USR102",
+    "amount": 16577,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-09-22"
+  },
+  {
+    "transaction_id": "TXN1507",
+    "user_id": "USR102",
+    "amount": 5114,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2024-03-23"
+  },
+  {
+    "transaction_id": "TXN1508",
+    "user_id": "USR102",
+    "amount": 10672,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-09-22"
+  },
+  {
+    "transaction_id": "TXN1509",
+    "user_id": "USR102",
+    "amount": 9407,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-04-10"
+  },
+  {
+    "transaction_id": "TXN1510",
+    "user_id": "USR102",
+    "amount": 20909,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2024-11-16"
+  },
+  {
+    "transaction_id": "TXN1511",
+    "user_id": "USR103",
+    "amount": 10022,
+    "type": "credit",
+    "description": "Interest credit",
+    "date": "2024-11-24"
+  },
+  {
+    "transaction_id": "TXN1512",
+    "user_id": "USR103",
+    "amount": 5625,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-12-03"
+  },
+  {
+    "transaction_id": "TXN1513",
+    "user_id": "USR103",
+    "amount": 20562,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-01-22"
+  },
+  {
+    "transaction_id": "TXN1514",
+    "user_id": "USR103",
+    "amount": 1029,
+    "type": "credit",
+    "description": "UPI payment",
+    "date": "2024-11-24"
+  },
+  {
+    "transaction_id": "TXN1515",
+    "user_id": "USR103",
+    "amount": 18999,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2025-01-27"
+  },
+  {
+    "transaction_id": "TXN1516",
+    "user_id": "USR104",
+    "amount": 18847,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-11-23"
+  },
+  {
+    "transaction_id": "TXN1517",
+    "user_id": "USR104",
+    "amount": 1092,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2024-05-28"
+  },
+  {
+    "transaction_id": "TXN1518",
+    "user_id": "USR104",
+    "amount": 21134,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-05-05"
+  },
+  {
+    "transaction_id": "TXN1519",
+    "user_id": "USR104",
+    "amount": 22545,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2024-08-20"
+  },
+  {
+    "transaction_id": "TXN1520",
+    "user_id": "USR104",
+    "amount": 2491,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-08-13"
+  },
+  {
+    "transaction_id": "TXN1521",
+    "user_id": "USR105",
+    "amount": 13719,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-04-14"
+  },
+  {
+    "transaction_id": "TXN1522",
+    "user_id": "USR105",
+    "amount": 11247,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2025-03-17"
+  },
+  {
+    "transaction_id": "TXN1523",
+    "user_id": "USR105",
+    "amount": 23639,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-07-23"
+  },
+  {
+    "transaction_id": "TXN1524",
+    "user_id": "USR105",
+    "amount": 4384,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2024-10-14"
+  },
+  {
+    "transaction_id": "TXN1525",
+    "user_id": "USR105",
+    "amount": 3579,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2024-08-26"
+  },
+  {
+    "transaction_id": "TXN1526",
+    "user_id": "USR106",
+    "amount": 4114,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-05-06"
+  },
+  {
+    "transaction_id": "TXN1527",
+    "user_id": "USR106",
+    "amount": 4716,
+    "type": "credit",
+    "description": "UPI payment",
+    "date": "2024-05-28"
+  },
+  {
+    "transaction_id": "TXN1528",
+    "user_id": "USR106",
+    "amount": 12687,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2025-03-19"
+  },
+  {
+    "transaction_id": "TXN1529",
+    "user_id": "USR106",
+    "amount": 5333,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2025-01-04"
+  },
+  {
+    "transaction_id": "TXN1530",
+    "user_id": "USR106",
+    "amount": 10347,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-09-12"
+  },
+  {
+    "transaction_id": "TXN1531",
+    "user_id": "USR107",
+    "amount": 16966,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2025-03-26"
+  },
+  {
+    "transaction_id": "TXN1532",
+    "user_id": "USR107",
+    "amount": 10210,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2024-02-16"
+  },
+  {
+    "transaction_id": "TXN1533",
+    "user_id": "USR107",
+    "amount": 12985,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2024-04-20"
+  },
+  {
+    "transaction_id": "TXN1534",
+    "user_id": "USR107",
+    "amount": 19215,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2024-01-26"
+  },
+  {
+    "transaction_id": "TXN1535",
+    "user_id": "USR107",
+    "amount": 9319,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2025-03-07"
+  },
+  {
+    "transaction_id": "TXN1536",
+    "user_id": "USR108",
+    "amount": 21538,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2024-10-01"
+  },
+  {
+    "transaction_id": "TXN1537",
+    "user_id": "USR108",
+    "amount": 367,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2024-03-09"
+  },
+  {
+    "transaction_id": "TXN1538",
+    "user_id": "USR108",
+    "amount": 8766,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2024-07-06"
+  },
+  {
+    "transaction_id": "TXN1539",
+    "user_id": "USR108",
+    "amount": 1582,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2024-10-18"
+  },
+  {
+    "transaction_id": "TXN1540",
+    "user_id": "USR108",
+    "amount": 18509,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-10-10"
+  },
+  {
+    "transaction_id": "TXN1541",
+    "user_id": "USR109",
+    "amount": 9556,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2024-09-15"
+  },
+  {
+    "transaction_id": "TXN1542",
+    "user_id": "USR109",
+    "amount": 14857,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-12-14"
+  },
+  {
+    "transaction_id": "TXN1543",
+    "user_id": "USR109",
+    "amount": 20122,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-02-19"
+  },
+  {
+    "transaction_id": "TXN1544",
+    "user_id": "USR109",
+    "amount": 13007,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2024-10-12"
+  },
+  {
+    "transaction_id": "TXN1545",
+    "user_id": "USR109",
+    "amount": 12080,
+    "type": "credit",
+    "description": "NEFT transfer",
+    "date": "2024-11-04"
+  },
+  {
+    "transaction_id": "TXN1546",
+    "user_id": "USR110",
+    "amount": 16782,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2024-01-21"
+  },
+  {
+    "transaction_id": "TXN1547",
+    "user_id": "USR110",
+    "amount": 1584,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-12-31"
+  },
+  {
+    "transaction_id": "TXN1548",
+    "user_id": "USR110",
+    "amount": 11013,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2024-08-21"
+  },
+  {
+    "transaction_id": "TXN1549",
+    "user_id": "USR110",
+    "amount": 4980,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-11-09"
+  },
+  {
+    "transaction_id": "TXN1550",
+    "user_id": "USR110",
+    "amount": 10537,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2024-11-11"
+  },
+  {
+    "transaction_id": "TXN1551",
+    "user_id": "USR111",
+    "amount": 24326,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-06-21"
+  },
+  {
+    "transaction_id": "TXN1552",
+    "user_id": "USR111",
+    "amount": 16723,
+    "type": "debit",
+    "description": "Utility bill payment",
+    "date": "2024-06-02"
+  },
+  {
+    "transaction_id": "TXN1553",
+    "user_id": "USR111",
+    "amount": 15661,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-06-18"
+  },
+  {
+    "transaction_id": "TXN1554",
+    "user_id": "USR111",
+    "amount": 22179,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2024-10-25"
+  },
+  {
+    "transaction_id": "TXN1555",
+    "user_id": "USR111",
+    "amount": 10181,
+    "type": "credit",
+    "description": "Utility bill payment",
+    "date": "2024-08-30"
+  },
+  {
+    "transaction_id": "TXN1556",
+    "user_id": "USR112",
+    "amount": 8800,
+    "type": "credit",
+    "description": "UPI payment",
+    "date": "2024-10-25"
+  },
+  {
+    "transaction_id": "TXN1557",
+    "user_id": "USR112",
+    "amount": 15843,
+    "type": "credit",
+    "description": "Interest credit",
+    "date": "2024-11-18"
+  },
+  {
+    "transaction_id": "TXN1558",
+    "user_id": "USR112",
+    "amount": 23731,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2025-02-24"
+  },
+  {
+    "transaction_id": "TXN1559",
+    "user_id": "USR112",
+    "amount": 22406,
+    "type": "credit",
+    "description": "UPI payment",
+    "date": "2024-10-20"
+  },
+  {
+    "transaction_id": "TXN1560",
+    "user_id": "USR112",
+    "amount": 23054,
+    "type": "credit",
+    "description": "NEFT transfer",
+    "date": "2024-01-10"
+  },
+  {
+    "transaction_id": "TXN1561",
+    "user_id": "USR113",
+    "amount": 14551,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2024-03-18"
+  },
+  {
+    "transaction_id": "TXN1562",
+    "user_id": "USR113",
+    "amount": 13631,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2024-09-13"
+  },
+  {
+    "transaction_id": "TXN1563",
+    "user_id": "USR113",
+    "amount": 20136,
+    "type": "debit",
+    "description": "UPI payment",
+    "date": "2024-12-27"
+  },
+  {
+    "transaction_id": "TXN1564",
+    "user_id": "USR113",
+    "amount": 4624,
+    "type": "credit",
+    "description": "Interest credit",
+    "date": "2024-06-15"
+  },
+  {
+    "transaction_id": "TXN1565",
+    "user_id": "USR113",
+    "amount": 21799,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2024-07-11"
+  },
+  {
+    "transaction_id": "TXN1566",
+    "user_id": "USR114",
+    "amount": 10381,
+    "type": "credit",
+    "description": "POS merchant payment",
+    "date": "2024-09-29"
+  },
+  {
+    "transaction_id": "TXN1567",
+    "user_id": "USR114",
+    "amount": 11317,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2024-11-08"
+  },
+  {
+    "transaction_id": "TXN1568",
+    "user_id": "USR114",
+    "amount": 15965,
+    "type": "credit",
+    "description": "NEFT transfer",
+    "date": "2024-05-22"
+  },
+  {
+    "transaction_id": "TXN1569",
+    "user_id": "USR114",
+    "amount": 18387,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2024-06-01"
+  },
+  {
+    "transaction_id": "TXN1570",
+    "user_id": "USR114",
+    "amount": 9570,
+    "type": "credit",
+    "description": "POS merchant payment",
+    "date": "2024-06-11"
+  },
+  {
+    "transaction_id": "TXN1571",
+    "user_id": "USR115",
+    "amount": 15822,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2025-02-11"
+  },
+  {
+    "transaction_id": "TXN1572",
+    "user_id": "USR115",
+    "amount": 23747,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2024-03-03"
+  },
+  {
+    "transaction_id": "TXN1573",
+    "user_id": "USR115",
+    "amount": 18891,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2025-02-23"
+  },
+  {
+    "transaction_id": "TXN1574",
+    "user_id": "USR115",
+    "amount": 11409,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-01-22"
+  },
+  {
+    "transaction_id": "TXN1575",
+    "user_id": "USR115",
+    "amount": 9525,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-08-14"
+  },
+  {
+    "transaction_id": "TXN1576",
+    "user_id": "USR116",
+    "amount": 21594,
+    "type": "debit",
+    "description": "POS merchant payment",
+    "date": "2024-04-19"
+  },
+  {
+    "transaction_id": "TXN1577",
+    "user_id": "USR116",
+    "amount": 6721,
+    "type": "debit",
+    "description": "Interest credit",
+    "date": "2024-12-22"
+  },
+  {
+    "transaction_id": "TXN1578",
+    "user_id": "USR116",
+    "amount": 9000,
+    "type": "credit",
+    "description": "ATM cash withdrawal",
+    "date": "2024-11-11"
+  },
+  {
+    "transaction_id": "TXN1579",
+    "user_id": "USR116",
+    "amount": 24377,
+    "type": "credit",
+    "description": "NEFT transfer",
+    "date": "2024-01-26"
+  },
+  {
+    "transaction_id": "TXN1580",
+    "user_id": "USR116",
+    "amount": 22049,
+    "type": "credit",
+    "description": "NEFT transfer",
+    "date": "2024-01-27"
+  },
+  {
+    "transaction_id": "TXN1581",
+    "user_id": "USR117",
+    "amount": 3383,
+    "type": "debit",
+    "description": "Cash deposit",
+    "date": "2025-01-02"
+  },
+  {
+    "transaction_id": "TXN1582",
+    "user_id": "USR117",
+    "amount": 15579,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-01-03"
+  },
+  {
+    "transaction_id": "TXN1583",
+    "user_id": "USR117",
+    "amount": 18133,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2024-11-30"
+  },
+  {
+    "transaction_id": "TXN1584",
+    "user_id": "USR117",
+    "amount": 15687,
+    "type": "debit",
+    "description": "NEFT transfer",
+    "date": "2025-01-22"
+  },
+  {
+    "transaction_id": "TXN1585",
+    "user_id": "USR117",
+    "amount": 9512,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2024-11-26"
+  },
+  {
+    "transaction_id": "TXN1586",
+    "user_id": "USR118",
+    "amount": 2038,
+    "type": "credit",
+    "description": "Utility bill payment",
+    "date": "2024-04-28"
+  },
+  {
+    "transaction_id": "TXN1587",
+    "user_id": "USR118",
+    "amount": 17635,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-08-01"
+  },
+  {
+    "transaction_id": "TXN1588",
+    "user_id": "USR118",
+    "amount": 5860,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2025-02-07"
+  },
+  {
+    "transaction_id": "TXN1589",
+    "user_id": "USR118",
+    "amount": 16332,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2025-03-24"
+  },
+  {
+    "transaction_id": "TXN1590",
+    "user_id": "USR118",
+    "amount": 1327,
+    "type": "credit",
+    "description": "RTGS transfer",
+    "date": "2024-10-17"
+  },
+  {
+    "transaction_id": "TXN1591",
+    "user_id": "USR119",
+    "amount": 19851,
+    "type": "credit",
+    "description": "Cash deposit",
+    "date": "2024-05-25"
+  },
+  {
+    "transaction_id": "TXN1592",
+    "user_id": "USR119",
+    "amount": 14988,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2025-03-11"
+  },
+  {
+    "transaction_id": "TXN1593",
+    "user_id": "USR119",
+    "amount": 16622,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2024-04-08"
+  },
+  {
+    "transaction_id": "TXN1594",
+    "user_id": "USR119",
+    "amount": 3791,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2025-01-09"
+  },
+  {
+    "transaction_id": "TXN1595",
+    "user_id": "USR119",
+    "amount": 15137,
+    "type": "debit",
+    "description": "Salary credit",
+    "date": "2024-01-08"
+  },
+  {
+    "transaction_id": "TXN1596",
+    "user_id": "USR120",
+    "amount": 24237,
+    "type": "debit",
+    "description": "RTGS transfer",
+    "date": "2024-10-17"
+  },
+  {
+    "transaction_id": "TXN1597",
+    "user_id": "USR120",
+    "amount": 22198,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-11-08"
+  },
+  {
+    "transaction_id": "TXN1598",
+    "user_id": "USR120",
+    "amount": 21029,
+    "type": "debit",
+    "description": "EMI debit",
+    "date": "2024-09-20"
+  },
+  {
+    "transaction_id": "TXN1599",
+    "user_id": "USR120",
+    "amount": 10845,
+    "type": "credit",
+    "description": "EMI debit",
+    "date": "2024-12-08"
+  },
+  {
+    "transaction_id": "TXN1600",
+    "user_id": "USR120",
+    "amount": 3225,
+    "type": "credit",
+    "description": "Salary credit",
+    "date": "2024-09-01"
+  }
+]

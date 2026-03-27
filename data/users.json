@@ -1,0 +1,962 @@
+[
+  {
+    "user_id": "USR001",
+    "name": "Rajesh Patil",
+    "mobile": "9000000137",
+    "user_type": "farmer",
+    "district": "Pune",
+    "created_at": "2019-01-20"
+  },
+  {
+    "user_id": "USR002",
+    "name": "Priya Jadhav",
+    "mobile": "9000000274",
+    "user_type": "student",
+    "district": "Nagpur",
+    "created_at": "2019-02-08"
+  },
+  {
+    "user_id": "USR003",
+    "name": "Suresh Shinde",
+    "mobile": "9000000411",
+    "user_type": "senior",
+    "district": "Amravati",
+    "created_at": "2019-02-27"
+  },
+  {
+    "user_id": "USR004",
+    "name": "Anita Bhosale",
+    "mobile": "9000000548",
+    "user_type": "salaried",
+    "district": "Latur",
+    "created_at": "2019-03-18"
+  },
+  {
+    "user_id": "USR005",
+    "name": "Mohammed More",
+    "mobile": "9000000685",
+    "user_type": "business",
+    "district": "Mumbai",
+    "created_at": "2019-04-06"
+  },
+  {
+    "user_id": "USR006",
+    "name": "Sunita Nair",
+    "mobile": "9000000822",
+    "user_type": "farmer",
+    "district": "Osmanabad",
+    "created_at": "2019-04-25"
+  },
+  {
+    "user_id": "USR007",
+    "name": "Vikram Mane",
+    "mobile": "9000000959",
+    "user_type": "student",
+    "district": "Wardha",
+    "created_at": "2019-05-14"
+  },
+  {
+    "user_id": "USR008",
+    "name": "Meena Nandkar",
+    "mobile": "9000001096",
+    "user_type": "senior",
+    "district": "Yavatmal",
+    "created_at": "2019-06-02"
+  },
+  {
+    "user_id": "USR009",
+    "name": "Ganesh Joshi",
+    "mobile": "9000001233",
+    "user_type": "salaried",
+    "district": "Akola",
+    "created_at": "2019-06-21"
+  },
+  {
+    "user_id": "USR010",
+    "name": "Kavita Chavan",
+    "mobile": "9000001370",
+    "user_type": "business",
+    "district": "Buldhana",
+    "created_at": "2019-07-10"
+  },
+  {
+    "user_id": "USR011",
+    "name": "Ramesh Bankar",
+    "mobile": "9000001507",
+    "user_type": "farmer",
+    "district": "Pune",
+    "created_at": "2019-07-29"
+  },
+  {
+    "user_id": "USR012",
+    "name": "Sneha Godbole",
+    "mobile": "9000001644",
+    "user_type": "student",
+    "district": "Nagpur",
+    "created_at": "2019-08-17"
+  },
+  {
+    "user_id": "USR013",
+    "name": "Arun Bhadane",
+    "mobile": "9000001781",
+    "user_type": "senior",
+    "district": "Amravati",
+    "created_at": "2019-09-05"
+  },
+  {
+    "user_id": "USR014",
+    "name": "Rekha Deshmukh",
+    "mobile": "9000001918",
+    "user_type": "salaried",
+    "district": "Latur",
+    "created_at": "2019-09-24"
+  },
+  {
+    "user_id": "USR015",
+    "name": "Sanjay Idrisi",
+    "mobile": "9000002055",
+    "user_type": "business",
+    "district": "Mumbai",
+    "created_at": "2019-10-13"
+  },
+  {
+    "user_id": "USR016",
+    "name": "Pooja Kulkarni",
+    "mobile": "9000002192",
+    "user_type": "farmer",
+    "district": "Osmanabad",
+    "created_at": "2019-11-01"
+  },
+  {
+    "user_id": "USR017",
+    "name": "Dattatray Yadav",
+    "mobile": "9000002329",
+    "user_type": "student",
+    "district": "Wardha",
+    "created_at": "2019-11-20"
+  },
+  {
+    "user_id": "USR018",
+    "name": "Savita Tiwari",
+    "mobile": "9000002466",
+    "user_type": "senior",
+    "district": "Yavatmal",
+    "created_at": "2019-12-09"
+  },
+  {
+    "user_id": "USR019",
+    "name": "Pramod Kale",
+    "mobile": "9000002603",
+    "user_type": "salaried",
+    "district": "Akola",
+    "created_at": "2019-12-28"
+  },
+  {
+    "user_id": "USR020",
+    "name": "Ritu Agrawal",
+    "mobile": "9000002740",
+    "user_type": "business",
+    "district": "Buldhana",
+    "created_at": "2020-01-16"
+  },
+  {
+    "user_id": "USR021",
+    "name": "Balu Sawant",
+    "mobile": "9000002877",
+    "user_type": "farmer",
+    "district": "Pune",
+    "created_at": "2020-02-04"
+  },
+  {
+    "user_id": "USR022",
+    "name": "Laxmi Dhole",
+    "mobile": "9000003014",
+    "user_type": "student",
+    "district": "Nagpur",
+    "created_at": "2020-02-23"
+  },
+  {
+    "user_id": "USR023",
+    "name": "Nilesh Kadam",
+    "mobile": "9000003151",
+    "user_type": "senior",
+    "district": "Amravati",
+    "created_at": "2020-03-13"
+  },
+  {
+    "user_id": "USR024",
+    "name": "Ashok Pawar",
+    "mobile": "9000003288",
+    "user_type": "salaried",
+    "district": "Latur",
+    "created_at": "2020-04-01"
+  },
+  {
+    "user_id": "USR025",
+    "name": "Deepa Mukherjee",
+    "mobile": "9000003425",
+    "user_type": "business",
+    "district": "Mumbai",
+    "created_at": "2020-04-20"
+  },
+  {
+    "user_id": "USR026",
+    "name": "Santosh Salunkhe",
+    "mobile": "9000003562",
+    "user_type": "farmer",
+    "district": "Osmanabad",
+    "created_at": "2020-05-09"
+  },
+  {
+    "user_id": "USR027",
+    "name": "Amita Kumar",
+    "mobile": "9000003699",
+    "user_type": "student",
+    "district": "Wardha",
+    "created_at": "2020-05-28"
+  },
+  {
+    "user_id": "USR028",
+    "name": "Harish Sharma",
+    "mobile": "9000003836",
+    "user_type": "senior",
+    "district": "Yavatmal",
+    "created_at": "2020-06-16"
+  },
+  {
+    "user_id": "USR029",
+    "name": "Nanda Singh",
+    "mobile": "9000003973",
+    "user_type": "salaried",
+    "district": "Akola",
+    "created_at": "2020-07-05"
+  },
+  {
+    "user_id": "USR030",
+    "name": "Rohit Mishra",
+    "mobile": "9000004110",
+    "user_type": "business",
+    "district": "Buldhana",
+    "created_at": "2020-07-24"
+  },
+  {
+    "user_id": "USR031",
+    "name": "Kamala Gaikwad",
+    "mobile": "9000004247",
+    "user_type": "farmer",
+    "district": "Pune",
+    "created_at": "2020-08-12"
+  },
+  {
+    "user_id": "USR032",
+    "name": "Vinod Verma",
+    "mobile": "9000004384",
+    "user_type": "student",
+    "district": "Nagpur",
+    "created_at": "2020-08-31"
+  },
+  {
+    "user_id": "USR033",
+    "name": "Archana Wagh",
+    "mobile": "9000004521",
+    "user_type": "senior",
+    "district": "Amravati",
+    "created_at": "2020-09-19"
+  },
+  {
+    "user_id": "USR034",
+    "name": "Prakash Pandey",
+    "mobile": "9000004658",
+    "user_type": "salaried",
+    "district": "Latur",
+    "created_at": "2020-10-08"
+  },
+  {
+    "user_id": "USR035",
+    "name": "Geeta Thomas",
+    "mobile": "9000004795",
+    "user_type": "business",
+    "district": "Mumbai",
+    "created_at": "2020-10-27"
+  },
+  {
+    "user_id": "USR036",
+    "name": "Sejal Thakur",
+    "mobile": "9000004932",
+    "user_type": "farmer",
+    "district": "Osmanabad",
+    "created_at": "2020-11-15"
+  },
+  {
+    "user_id": "USR037",
+    "name": "Pranay Devi",
+    "mobile": "9000005069",
+    "user_type": "student",
+    "district": "Wardha",
+    "created_at": "2020-12-04"
+  },
+  {
+    "user_id": "USR038",
+    "name": "Omkar Lokhande",
+    "mobile": "9000005206",
+    "user_type": "senior",
+    "district": "Yavatmal",
+    "created_at": "2020-12-23"
+  },
+  {
+    "user_id": "USR039",
+    "name": "Asha Harne",
+    "mobile": "9000005343",
+    "user_type": "salaried",
+    "district": "Akola",
+    "created_at": "2021-01-11"
+  },
+  {
+    "user_id": "USR040",
+    "name": "Tejas Rao",
+    "mobile": "9000005480",
+    "user_type": "business",
+    "district": "Buldhana",
+    "created_at": "2021-01-30"
+  },
+  {
+    "user_id": "USR041",
+    "name": "Rajesh Patil",
+    "mobile": "9000005617",
+    "user_type": "farmer",
+    "district": "Pune",
+    "created_at": "2021-02-18"
+  },
+  {
+    "user_id": "USR042",
+    "name": "Priya Jadhav",
+    "mobile": "9000005754",
+    "user_type": "student",
+    "district": "Nagpur",
+    "created_at": "2021-03-09"
+  },
+  {
+    "user_id": "USR043",
+    "name": "Suresh Shinde",
+    "mobile": "9000005891",
+    "user_type": "senior",
+    "district": "Amravati",
+    "created_at": "2021-03-28"
+  },
+  {
+    "user_id": "USR044",
+    "name": "Anita Bhosale",
+    "mobile": "9000006028",
+    "user_type": "salaried",
+    "district": "Latur",
+    "created_at": "2021-04-16"
+  },
+  {
+    "user_id": "USR045",
+    "name": "Mohammed More",
+    "mobile": "9000006165",
+    "user_type": "business",
+    "district": "Mumbai",
+    "created_at": "2021-05-05"
+  },
+  {
+    "user_id": "USR046",
+    "name": "Sunita Nair",
+    "mobile": "9000006302",
+    "user_type": "farmer",
+    "district": "Osmanabad",
+    "created_at": "2021-05-24"
+  },
+  {
+    "user_id": "USR047",
+    "name": "Vikram Mane",
+    "mobile": "9000006439",
+    "user_type": "student",
+    "district": "Wardha",
+    "created_at": "2021-06-12"
+  },
+  {
+    "user_id": "USR048",
+    "name": "Meena Nandkar",
+    "mobile": "9000006576",
+    "user_type": "senior",
+    "district": "Yavatmal",
+    "created_at": "2021-07-01"
+  },
+  {
+    "user_id": "USR049",
+    "name": "Ganesh Joshi",
+    "mobile": "9000006713",
+    "user_type": "salaried",
+    "district": "Akola",
+    "created_at": "2021-07-20"
+  },
+  {
+    "user_id": "USR050",
+    "name": "Kavita Chavan",
+    "mobile": "9000006850",
+    "user_type": "business",
+    "district": "Buldhana",
+    "created_at": "2021-08-08"
+  },
+  {
+    "user_id": "USR051",
+    "name": "Ramesh Bankar",
+    "mobile": "9000006987",
+    "user_type": "farmer",
+    "district": "Pune",
+    "created_at": "2021-08-27"
+  },
+  {
+    "user_id": "USR052",
+    "name": "Sneha Godbole",
+    "mobile": "9000007124",
+    "user_type": "student",
+    "district": "Nagpur",
+    "created_at": "2021-09-15"
+  },
+  {
+    "user_id": "USR053",
+    "name": "Arun Bhadane",
+    "mobile": "9000007261",
+    "user_type": "senior",
+    "district": "Amravati",
+    "created_at": "2021-10-04"
+  },
+  {
+    "user_id": "USR054",
+    "name": "Rekha Deshmukh",
+    "mobile": "9000007398",
+    "user_type": "salaried",
+    "district": "Latur",
+    "created_at": "2021-10-23"
+  },
+  {
+    "user_id": "USR055",
+    "name": "Sanjay Idrisi",
+    "mobile": "9000007535",
+    "user_type": "business",
+    "district": "Mumbai",
+    "created_at": "2021-11-11"
+  },
+  {
+    "user_id": "USR056",
+    "name": "Pooja Kulkarni",
+    "mobile": "9000007672",
+    "user_type": "farmer",
+    "district": "Osmanabad",
+    "created_at": "2021-11-30"
+  },
+  {
+    "user_id": "USR057",
+    "name": "Dattatray Yadav",
+    "mobile": "9000007809",
+    "user_type": "student",
+    "district": "Wardha",
+    "created_at": "2021-12-19"
+  },
+  {
+    "user_id": "USR058",
+    "name": "Savita Tiwari",
+    "mobile": "9000007946",
+    "user_type": "senior",
+    "district": "Yavatmal",
+    "created_at": "2022-01-07"
+  },
+  {
+    "user_id": "USR059",
+    "name": "Pramod Kale",
+    "mobile": "9000008083",
+    "user_type": "salaried",
+    "district": "Akola",
+    "created_at": "2022-01-26"
+  },
+  {
+    "user_id": "USR060",
+    "name": "Ritu Agrawal",
+    "mobile": "9000008220",
+    "user_type": "business",
+    "district": "Buldhana",
+    "created_at": "2022-02-14"
+  },
+  {
+    "user_id": "USR061",
+    "name": "Balu Sawant",
+    "mobile": "9000008357",
+    "user_type": "farmer",
+    "district": "Pune",
+    "created_at": "2022-03-05"
+  },
+  {
+    "user_id": "USR062",
+    "name": "Laxmi Dhole",
+    "mobile": "9000008494",
+    "user_type": "student",
+    "district": "Nagpur",
+    "created_at": "2022-03-24"
+  },
+  {
+    "user_id": "USR063",
+    "name": "Nilesh Kadam",
+    "mobile": "9000008631",
+    "user_type": "senior",
+    "district": "Amravati",
+    "created_at": "2022-04-12"
+  },
+  {
+    "user_id": "USR064",
+    "name": "Ashok Pawar",
+    "mobile": "9000008768",
+    "user_type": "salaried",
+    "district": "Latur",
+    "created_at": "2022-05-01"
+  },
+  {
+    "user_id": "USR065",
+    "name": "Deepa Mukherjee",
+    "mobile": "9000008905",
+    "user_type": "business",
+    "district": "Mumbai",
+    "created_at": "2022-05-20"
+  },
+  {
+    "user_id": "USR066",
+    "name": "Santosh Salunkhe",
+    "mobile": "9000009042",
+    "user_type": "farmer",
+    "district": "Osmanabad",
+    "created_at": "2022-06-08"
+  },
+  {
+    "user_id": "USR067",
+    "name": "Amita Kumar",
+    "mobile": "9000009179",
+    "user_type": "student",
+    "district": "Wardha",
+    "created_at": "2022-06-27"
+  },
+  {
+    "user_id": "USR068",
+    "name": "Harish Sharma",
+    "mobile": "9000009316",
+    "user_type": "senior",
+    "district": "Yavatmal",
+    "created_at": "2022-07-16"
+  },
+  {
+    "user_id": "USR069",
+    "name": "Nanda Singh",
+    "mobile": "9000009453",
+    "user_type": "salaried",
+    "district": "Akola",
+    "created_at": "2022-08-04"
+  },
+  {
+    "user_id": "USR070",
+    "name": "Rohit Mishra",
+    "mobile": "9000009590",
+    "user_type": "business",
+    "district": "Buldhana",
+    "created_at": "2022-08-23"
+  },
+  {
+    "user_id": "USR071",
+    "name": "Kamala Gaikwad",
+    "mobile": "9000009727",
+    "user_type": "farmer",
+    "district": "Pune",
+    "created_at": "2022-09-11"
+  },
+  {
+    "user_id": "USR072",
+    "name": "Vinod Verma",
+    "mobile": "9000009864",
+    "user_type": "student",
+    "district": "Nagpur",
+    "created_at": "2022-09-30"
+  },
+  {
+    "user_id": "USR073",
+    "name": "Archana Wagh",
+    "mobile": "9000010001",
+    "user_type": "senior",
+    "district": "Amravati",
+    "created_at": "2022-10-19"
+  },
+  {
+    "user_id": "USR074",
+    "name": "Prakash Pandey",
+    "mobile": "9000010138",
+    "user_type": "salaried",
+    "district": "Latur",
+    "created_at": "2022-11-07"
+  },
+  {
+    "user_id": "USR075",
+    "name": "Geeta Thomas",
+    "mobile": "9000010275",
+    "user_type": "business",
+    "district": "Mumbai",
+    "created_at": "2022-11-26"
+  },
+  {
+    "user_id": "USR076",
+    "name": "Sejal Thakur",
+    "mobile": "9000010412",
+    "user_type": "farmer",
+    "district": "Osmanabad",
+    "created_at": "2022-12-15"
+  },
+  {
+    "user_id": "USR077",
+    "name": "Pranay Devi",
+    "mobile": "9000010549",
+    "user_type": "student",
+    "district": "Wardha",
+    "created_at": "2023-01-03"
+  },
+  {
+    "user_id": "USR078",
+    "name": "Omkar Lokhande",
+    "mobile": "9000010686",
+    "user_type": "senior",
+    "district": "Yavatmal",
+    "created_at": "2023-01-22"
+  },
+  {
+    "user_id": "USR079",
+    "name": "Asha Harne",
+    "mobile": "9000010823",
+    "user_type": "salaried",
+    "district": "Akola",
+    "created_at": "2023-02-10"
+  },
+  {
+    "user_id": "USR080",
+    "name": "Tejas Rao",
+    "mobile": "9000010960",
+    "user_type": "business",
+    "district": "Buldhana",
+    "created_at": "2023-03-01"
+  },
+  {
+    "user_id": "USR081",
+    "name": "Rajesh Patil",
+    "mobile": "9000011097",
+    "user_type": "farmer",
+    "district": "Pune",
+    "created_at": "2023-03-20"
+  },
+  {
+    "user_id": "USR082",
+    "name": "Priya Jadhav",
+    "mobile": "9000011234",
+    "user_type": "student",
+    "district": "Nagpur",
+    "created_at": "2023-04-08"
+  },
+  {
+    "user_id": "USR083",
+    "name": "Suresh Shinde",
+    "mobile": "9000011371",
+    "user_type": "senior",
+    "district": "Amravati",
+    "created_at": "2023-04-27"
+  },
+  {
+    "user_id": "USR084",
+    "name": "Anita Bhosale",
+    "mobile": "9000011508",
+    "user_type": "salaried",
+    "district": "Latur",
+    "created_at": "2023-05-16"
+  },
+  {
+    "user_id": "USR085",
+    "name": "Mohammed More",
+    "mobile": "9000011645",
+    "user_type": "business",
+    "district": "Mumbai",
+    "created_at": "2023-06-04"
+  },
+  {
+    "user_id": "USR086",
+    "name": "Sunita Nair",
+    "mobile": "9000011782",
+    "user_type": "farmer",
+    "district": "Osmanabad",
+    "created_at": "2023-06-23"
+  },
+  {
+    "user_id": "USR087",
+    "name": "Vikram Mane",
+    "mobile": "9000011919",
+    "user_type": "student",
+    "district": "Wardha",
+    "created_at": "2023-07-12"
+  },
+  {
+    "user_id": "USR088",
+    "name": "Meena Nandkar",
+    "mobile": "9000012056",
+    "user_type": "senior",
+    "district": "Yavatmal",
+    "created_at": "2023-07-31"
+  },
+  {
+    "user_id": "USR089",
+    "name": "Ganesh Joshi",
+    "mobile": "9000012193",
+    "user_type": "salaried",
+    "district": "Akola",
+    "created_at": "2023-08-19"
+  },
+  {
+    "user_id": "USR090",
+    "name": "Kavita Chavan",
+    "mobile": "9000012330",
+    "user_type": "business",
+    "district": "Buldhana",
+    "created_at": "2023-09-07"
+  },
+  {
+    "user_id": "USR091",
+    "name": "Ramesh Bankar",
+    "mobile": "9000012467",
+    "user_type": "farmer",
+    "district": "Pune",
+    "created_at": "2023-09-26"
+  },
+  {
+    "user_id": "USR092",
+    "name": "Sneha Godbole",
+    "mobile": "9000012604",
+    "user_type": "student",
+    "district": "Nagpur",
+    "created_at": "2023-10-15"
+  },
+  {
+    "user_id": "USR093",
+    "name": "Arun Bhadane",
+    "mobile": "9000012741",
+    "user_type": "senior",
+    "district": "Amravati",
+    "created_at": "2023-11-03"
+  },
+  {
+    "user_id": "USR094",
+    "name": "Rekha Deshmukh",
+    "mobile": "9000012878",
+    "user_type": "salaried",
+    "district": "Latur",
+    "created_at": "2023-11-22"
+  },
+  {
+    "user_id": "USR095",
+    "name": "Sanjay Idrisi",
+    "mobile": "9000013015",
+    "user_type": "business",
+    "district": "Mumbai",
+    "created_at": "2023-12-11"
+  },
+  {
+    "user_id": "USR096",
+    "name": "Pooja Kulkarni",
+    "mobile": "9000013152",
+    "user_type": "farmer",
+    "district": "Osmanabad",
+    "created_at": "2023-12-30"
+  },
+  {
+    "user_id": "USR097",
+    "name": "Dattatray Yadav",
+    "mobile": "9000013289",
+    "user_type": "student",
+    "district": "Wardha",
+    "created_at": "2024-01-18"
+  },
+  {
+    "user_id": "USR098",
+    "name": "Savita Tiwari",
+    "mobile": "9000013426",
+    "user_type": "senior",
+    "district": "Yavatmal",
+    "created_at": "2024-02-06"
+  },
+  {
+    "user_id": "USR099",
+    "name": "Pramod Kale",
+    "mobile": "9000013563",
+    "user_type": "salaried",
+    "district": "Akola",
+    "created_at": "2024-02-25"
+  },
+  {
+    "user_id": "USR100",
+    "name": "Ritu Agrawal",
+    "mobile": "9000013700",
+    "user_type": "business",
+    "district": "Buldhana",
+    "created_at": "2024-03-15"
+  },
+  {
+    "user_id": "USR101",
+    "name": "Balu Sawant",
+    "mobile": "9000013837",
+    "user_type": "farmer",
+    "district": "Pune",
+    "created_at": "2024-04-03"
+  },
+  {
+    "user_id": "USR102",
+    "name": "Laxmi Dhole",
+    "mobile": "9000013974",
+    "user_type": "student",
+    "district": "Nagpur",
+    "created_at": "2024-04-22"
+  },
+  {
+    "user_id": "USR103",
+    "name": "Nilesh Kadam",
+    "mobile": "9000014111",
+    "user_type": "senior",
+    "district": "Amravati",
+    "created_at": "2024-05-11"
+  },
+  {
+    "user_id": "USR104",
+    "name": "Ashok Pawar",
+    "mobile": "9000014248",
+    "user_type": "salaried",
+    "district": "Latur",
+    "created_at": "2024-05-30"
+  },
+  {
+    "user_id": "USR105",
+    "name": "Deepa Mukherjee",
+    "mobile": "9000014385",
+    "user_type": "business",
+    "district": "Mumbai",
+    "created_at": "2024-06-18"
+  },
+  {
+    "user_id": "USR106",
+    "name": "Santosh Salunkhe",
+    "mobile": "9000014522",
+    "user_type": "farmer",
+    "district": "Osmanabad",
+    "created_at": "2024-07-07"
+  },
+  {
+    "user_id": "USR107",
+    "name": "Amita Kumar",
+    "mobile": "9000014659",
+    "user_type": "student",
+    "district": "Wardha",
+    "created_at": "2024-07-26"
+  },
+  {
+    "user_id": "USR108",
+    "name": "Harish Sharma",
+    "mobile": "9000014796",
+    "user_type": "senior",
+    "district": "Yavatmal",
+    "created_at": "2024-08-14"
+  },
+  {
+    "user_id": "USR109",
+    "name": "Nanda Singh",
+    "mobile": "9000014933",
+    "user_type": "salaried",
+    "district": "Akola",
+    "created_at": "2024-09-02"
+  },
+  {
+    "user_id": "USR110",
+    "name": "Rohit Mishra",
+    "mobile": "9000015070",
+    "user_type": "business",
+    "district": "Buldhana",
+    "created_at": "2024-09-21"
+  },
+  {
+    "user_id": "USR111",
+    "name": "Kamala Gaikwad",
+    "mobile": "9000015207",
+    "user_type": "farmer",
+    "district": "Pune",
+    "created_at": "2024-10-10"
+  },
+  {
+    "user_id": "USR112",
+    "name": "Vinod Verma",
+    "mobile": "9000015344",
+    "user_type": "student",
+    "district": "Nagpur",
+    "created_at": "2024-10-29"
+  },
+  {
+    "user_id": "USR113",
+    "name": "Archana Wagh",
+    "mobile": "9000015481",
+    "user_type": "senior",
+    "district": "Amravati",
+    "created_at": "2024-11-17"
+  },
+  {
+    "user_id": "USR114",
+    "name": "Prakash Pandey",
+    "mobile": "9000015618",
+    "user_type": "salaried",
+    "district": "Latur",
+    "created_at": "2024-12-06"
+  },
+  {
+    "user_id": "USR115",
+    "name": "Geeta Thomas",
+    "mobile": "9000015755",
+    "user_type": "business",
+    "district": "Mumbai",
+    "created_at": "2024-12-25"
+  },
+  {
+    "user_id": "USR116",
+    "name": "Sejal Thakur",
+    "mobile": "9000015892",
+    "user_type": "farmer",
+    "district": "Osmanabad",
+    "created_at": "2025-01-13"
+  },
+  {
+    "user_id": "USR117",
+    "name": "Pranay Devi",
+    "mobile": "9000016029",
+    "user_type": "student",
+    "district": "Wardha",
+    "created_at": "2025-02-01"
+  },
+  {
+    "user_id": "USR118",
+    "name": "Omkar Lokhande",
+    "mobile": "9000016166",
+    "user_type": "senior",
+    "district": "Yavatmal",
+    "created_at": "2025-02-20"
+  },
+  {
+    "user_id": "USR119",
+    "name": "Asha Harne",
+    "mobile": "9000016303",
+    "user_type": "salaried",
+    "district": "Akola",
+    "created_at": "2025-03-11"
+  },
+  {
+    "user_id": "USR120",
+    "name": "Tejas Rao",
+    "mobile": "9000016440",
+    "user_type": "business",
+    "district": "Buldhana",
+    "created_at": "2025-03-30"
+  }
+]

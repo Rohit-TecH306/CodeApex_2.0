@@ -1,0 +1,3122 @@
+[
+  {
+    "intent": "account_balance",
+    "language": "en",
+    "question": "How can I check my balance? variant 1",
+    "answer": "You can check your balance using ATM, mobile banking, SMS banking, or passbook update."
+  },
+  {
+    "intent": "account_balance",
+    "language": "en",
+    "question": "Tell me my account balance? variant 2",
+    "answer": "You can check your balance using ATM, mobile banking, SMS banking, or passbook update."
+  },
+  {
+    "intent": "account_balance",
+    "language": "en",
+    "question": "Available funds in my account? variant 3",
+    "answer": "You can check your balance using ATM, mobile banking, SMS banking, or passbook update."
+  },
+  {
+    "intent": "account_balance",
+    "language": "en",
+    "question": "How can I check my balance? variant 4",
+    "answer": "You can check your balance using ATM, mobile banking, SMS banking, or passbook update."
+  },
+  {
+    "intent": "account_balance",
+    "language": "en",
+    "question": "Tell me my account balance? variant 5",
+    "answer": "You can check your balance using ATM, mobile banking, SMS banking, or passbook update."
+  },
+  {
+    "intent": "account_balance",
+    "language": "en",
+    "question": "Available funds in my account? variant 6",
+    "answer": "You can check your balance using ATM, mobile banking, SMS banking, or passbook update."
+  },
+  {
+    "intent": "account_balance",
+    "language": "en",
+    "question": "How can I check my balance? variant 7",
+    "answer": "You can check your balance using ATM, mobile banking, SMS banking, or passbook update."
+  },
+  {
+    "intent": "account_balance",
+    "language": "en",
+    "question": "Tell me my account balance? variant 8",
+    "answer": "You can check your balance using ATM, mobile banking, SMS banking, or passbook update."
+  },
+  {
+    "intent": "account_balance",
+    "language": "en",
+    "question": "Available funds in my account? variant 9",
+    "answer": "You can check your balance using ATM, mobile banking, SMS banking, or passbook update."
+  },
+  {
+    "intent": "account_balance",
+    "language": "en",
+    "question": "How can I check my balance? variant 10",
+    "answer": "You can check your balance using ATM, mobile banking, SMS banking, or passbook update."
+  },
+  {
+    "intent": "account_balance",
+    "language": "en",
+    "question": "Tell me my account balance? variant 11",
+    "answer": "You can check your balance using ATM, mobile banking, SMS banking, or passbook update."
+  },
+  {
+    "intent": "account_balance",
+    "language": "en",
+    "question": "Available funds in my account? variant 12",
+    "answer": "You can check your balance using ATM, mobile banking, SMS banking, or passbook update."
+  },
+  {
+    "intent": "account_balance",
+    "language": "en",
+    "question": "How can I check my balance? variant 13",
+    "answer": "You can check your balance using ATM, mobile banking, SMS banking, or passbook update."
+  },
+  {
+    "intent": "account_balance",
+    "language": "en",
+    "question": "Tell me my account balance? variant 14",
+    "answer": "You can check your balance using ATM, mobile banking, SMS banking, or passbook update."
+  },
+  {
+    "intent": "account_balance",
+    "language": "en",
+    "question": "Available funds in my account? variant 15",
+    "answer": "You can check your balance using ATM, mobile banking, SMS banking, or passbook update."
+  },
+  {
+    "intent": "account_balance",
+    "language": "en",
+    "question": "How can I check my balance? variant 16",
+    "answer": "You can check your balance using ATM, mobile banking, SMS banking, or passbook update."
+  },
+  {
+    "intent": "account_balance",
+    "language": "hi",
+    "question": "मेरा बैलेंस कैसे चेक करूं? variant 1",
+    "answer": "आप ATM, मोबाइल बैंकिंग, SMS बैंकिंग या पासबुक अपडेट से बैलेंस चेक कर सकते हैं।"
+  },
+  {
+    "intent": "account_balance",
+    "language": "hi",
+    "question": "मेरे खाते में कितना बैलेंस है? variant 2",
+    "answer": "आप ATM, मोबाइल बैंकिंग, SMS बैंकिंग या पासबुक अपडेट से बैलेंस चेक कर सकते हैं।"
+  },
+  {
+    "intent": "account_balance",
+    "language": "hi",
+    "question": "उपलब्ध राशि कितनी है? variant 3",
+    "answer": "आप ATM, मोबाइल बैंकिंग, SMS बैंकिंग या पासबुक अपडेट से बैलेंस चेक कर सकते हैं।"
+  },
+  {
+    "intent": "account_balance",
+    "language": "hi",
+    "question": "मेरा बैलेंस कैसे चेक करूं? variant 4",
+    "answer": "आप ATM, मोबाइल बैंकिंग, SMS बैंकिंग या पासबुक अपडेट से बैलेंस चेक कर सकते हैं।"
+  },
+  {
+    "intent": "account_balance",
+    "language": "hi",
+    "question": "मेरे खाते में कितना बैलेंस है? variant 5",
+    "answer": "आप ATM, मोबाइल बैंकिंग, SMS बैंकिंग या पासबुक अपडेट से बैलेंस चेक कर सकते हैं।"
+  },
+  {
+    "intent": "account_balance",
+    "language": "hi",
+    "question": "उपलब्ध राशि कितनी है? variant 6",
+    "answer": "आप ATM, मोबाइल बैंकिंग, SMS बैंकिंग या पासबुक अपडेट से बैलेंस चेक कर सकते हैं।"
+  },
+  {
+    "intent": "account_balance",
+    "language": "hi",
+    "question": "मेरा बैलेंस कैसे चेक करूं? variant 7",
+    "answer": "आप ATM, मोबाइल बैंकिंग, SMS बैंकिंग या पासबुक अपडेट से बैलेंस चेक कर सकते हैं।"
+  },
+  {
+    "intent": "account_balance",
+    "language": "hi",
+    "question": "मेरे खाते में कितना बैलेंस है? variant 8",
+    "answer": "आप ATM, मोबाइल बैंकिंग, SMS बैंकिंग या पासबुक अपडेट से बैलेंस चेक कर सकते हैं।"
+  },
+  {
+    "intent": "account_balance",
+    "language": "hi",
+    "question": "उपलब्ध राशि कितनी है? variant 9",
+    "answer": "आप ATM, मोबाइल बैंकिंग, SMS बैंकिंग या पासबुक अपडेट से बैलेंस चेक कर सकते हैं।"
+  },
+  {
+    "intent": "account_balance",
+    "language": "hi",
+    "question": "मेरा बैलेंस कैसे चेक करूं? variant 10",
+    "answer": "आप ATM, मोबाइल बैंकिंग, SMS बैंकिंग या पासबुक अपडेट से बैलेंस चेक कर सकते हैं।"
+  },
+  {
+    "intent": "account_balance",
+    "language": "hi",
+    "question": "मेरे खाते में कितना बैलेंस है? variant 11",
+    "answer": "आप ATM, मोबाइल बैंकिंग, SMS बैंकिंग या पासबुक अपडेट से बैलेंस चेक कर सकते हैं।"
+  },
+  {
+    "intent": "account_balance",
+    "language": "hi",
+    "question": "उपलब्ध राशि कितनी है? variant 12",
+    "answer": "आप ATM, मोबाइल बैंकिंग, SMS बैंकिंग या पासबुक अपडेट से बैलेंस चेक कर सकते हैं।"
+  },
+  {
+    "intent": "account_balance",
+    "language": "hi",
+    "question": "मेरा बैलेंस कैसे चेक करूं? variant 13",
+    "answer": "आप ATM, मोबाइल बैंकिंग, SMS बैंकिंग या पासबुक अपडेट से बैलेंस चेक कर सकते हैं।"
+  },
+  {
+    "intent": "account_balance",
+    "language": "hi",
+    "question": "मेरे खाते में कितना बैलेंस है? variant 14",
+    "answer": "आप ATM, मोबाइल बैंकिंग, SMS बैंकिंग या पासबुक अपडेट से बैलेंस चेक कर सकते हैं।"
+  },
+  {
+    "intent": "account_balance",
+    "language": "hi",
+    "question": "उपलब्ध राशि कितनी है? variant 15",
+    "answer": "आप ATM, मोबाइल बैंकिंग, SMS बैंकिंग या पासबुक अपडेट से बैलेंस चेक कर सकते हैं।"
+  },
+  {
+    "intent": "account_balance",
+    "language": "hi",
+    "question": "मेरा बैलेंस कैसे चेक करूं? variant 16",
+    "answer": "आप ATM, मोबाइल बैंकिंग, SMS बैंकिंग या पासबुक अपडेट से बैलेंस चेक कर सकते हैं।"
+  },
+  {
+    "intent": "account_balance",
+    "language": "mr",
+    "question": "माझा बॅलन्स कसा तपासू? variant 1",
+    "answer": "तुम्ही ATM, मोबाइल बँकिंग, SMS बँकिंग किंवा पासबुक अपडेटने शिल्लक तपासू शकता."
+  },
+  {
+    "intent": "account_balance",
+    "language": "mr",
+    "question": "माझ्या खात्यात किती शिल्लक आहे? variant 2",
+    "answer": "तुम्ही ATM, मोबाइल बँकिंग, SMS बँकिंग किंवा पासबुक अपडेटने शिल्लक तपासू शकता."
+  },
+  {
+    "intent": "account_balance",
+    "language": "mr",
+    "question": "उपलब्ध रक्कम किती आहे? variant 3",
+    "answer": "तुम्ही ATM, मोबाइल बँकिंग, SMS बँकिंग किंवा पासबुक अपडेटने शिल्लक तपासू शकता."
+  },
+  {
+    "intent": "account_balance",
+    "language": "mr",
+    "question": "माझा बॅलन्स कसा तपासू? variant 4",
+    "answer": "तुम्ही ATM, मोबाइल बँकिंग, SMS बँकिंग किंवा पासबुक अपडेटने शिल्लक तपासू शकता."
+  },
+  {
+    "intent": "account_balance",
+    "language": "mr",
+    "question": "माझ्या खात्यात किती शिल्लक आहे? variant 5",
+    "answer": "तुम्ही ATM, मोबाइल बँकिंग, SMS बँकिंग किंवा पासबुक अपडेटने शिल्लक तपासू शकता."
+  },
+  {
+    "intent": "account_balance",
+    "language": "mr",
+    "question": "उपलब्ध रक्कम किती आहे? variant 6",
+    "answer": "तुम्ही ATM, मोबाइल बँकिंग, SMS बँकिंग किंवा पासबुक अपडेटने शिल्लक तपासू शकता."
+  },
+  {
+    "intent": "account_balance",
+    "language": "mr",
+    "question": "माझा बॅलन्स कसा तपासू? variant 7",
+    "answer": "तुम्ही ATM, मोबाइल बँकिंग, SMS बँकिंग किंवा पासबुक अपडेटने शिल्लक तपासू शकता."
+  },
+  {
+    "intent": "account_balance",
+    "language": "mr",
+    "question": "माझ्या खात्यात किती शिल्लक आहे? variant 8",
+    "answer": "तुम्ही ATM, मोबाइल बँकिंग, SMS बँकिंग किंवा पासबुक अपडेटने शिल्लक तपासू शकता."
+  },
+  {
+    "intent": "account_balance",
+    "language": "mr",
+    "question": "उपलब्ध रक्कम किती आहे? variant 9",
+    "answer": "तुम्ही ATM, मोबाइल बँकिंग, SMS बँकिंग किंवा पासबुक अपडेटने शिल्लक तपासू शकता."
+  },
+  {
+    "intent": "account_balance",
+    "language": "mr",
+    "question": "माझा बॅलन्स कसा तपासू? variant 10",
+    "answer": "तुम्ही ATM, मोबाइल बँकिंग, SMS बँकिंग किंवा पासबुक अपडेटने शिल्लक तपासू शकता."
+  },
+  {
+    "intent": "account_balance",
+    "language": "mr",
+    "question": "माझ्या खात्यात किती शिल्लक आहे? variant 11",
+    "answer": "तुम्ही ATM, मोबाइल बँकिंग, SMS बँकिंग किंवा पासबुक अपडेटने शिल्लक तपासू शकता."
+  },
+  {
+    "intent": "account_balance",
+    "language": "mr",
+    "question": "उपलब्ध रक्कम किती आहे? variant 12",
+    "answer": "तुम्ही ATM, मोबाइल बँकिंग, SMS बँकिंग किंवा पासबुक अपडेटने शिल्लक तपासू शकता."
+  },
+  {
+    "intent": "account_balance",
+    "language": "mr",
+    "question": "माझा बॅलन्स कसा तपासू? variant 13",
+    "answer": "तुम्ही ATM, मोबाइल बँकिंग, SMS बँकिंग किंवा पासबुक अपडेटने शिल्लक तपासू शकता."
+  },
+  {
+    "intent": "account_balance",
+    "language": "mr",
+    "question": "माझ्या खात्यात किती शिल्लक आहे? variant 14",
+    "answer": "तुम्ही ATM, मोबाइल बँकिंग, SMS बँकिंग किंवा पासबुक अपडेटने शिल्लक तपासू शकता."
+  },
+  {
+    "intent": "account_balance",
+    "language": "mr",
+    "question": "उपलब्ध रक्कम किती आहे? variant 15",
+    "answer": "तुम्ही ATM, मोबाइल बँकिंग, SMS बँकिंग किंवा पासबुक अपडेटने शिल्लक तपासू शकता."
+  },
+  {
+    "intent": "account_balance",
+    "language": "mr",
+    "question": "माझा बॅलन्स कसा तपासू? variant 16",
+    "answer": "तुम्ही ATM, मोबाइल बँकिंग, SMS बँकिंग किंवा पासबुक अपडेटने शिल्लक तपासू शकता."
+  },
+  {
+    "intent": "account_balance",
+    "language": "hi",
+    "question": "mera balance kaise check karu",
+    "answer": "आप ATM, मोबाइल बैंकिंग, SMS बैंकिंग या पासबुक अपडेट से बैलेंस चेक कर सकते हैं।"
+  },
+  {
+    "intent": "account_balance",
+    "language": "mr",
+    "question": "majha balance kasa check karu",
+    "answer": "तुम्ही ATM, मोबाइल बँकिंग, SMS बँकिंग किंवा पासबुक अपडेटने शिल्लक तपासू शकता."
+  },
+  {
+    "intent": "account_balance",
+    "language": "en",
+    "question": "balnce chekc pls",
+    "answer": "You can check your balance using ATM, mobile banking, SMS banking, or passbook update."
+  },
+  {
+    "intent": "account_balance",
+    "language": "en",
+    "question": "need help account_balance now",
+    "answer": "You can check your balance using ATM, mobile banking, SMS banking, or passbook update."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "en",
+    "question": "How to get mini statement? variant 1",
+    "answer": "Mini statement with last transactions is available at ATM and mobile app."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "en",
+    "question": "Show my last transactions? variant 2",
+    "answer": "Mini statement with last transactions is available at ATM and mobile app."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "en",
+    "question": "Need recent transaction list? variant 3",
+    "answer": "Mini statement with last transactions is available at ATM and mobile app."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "en",
+    "question": "How to get mini statement? variant 4",
+    "answer": "Mini statement with last transactions is available at ATM and mobile app."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "en",
+    "question": "Show my last transactions? variant 5",
+    "answer": "Mini statement with last transactions is available at ATM and mobile app."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "en",
+    "question": "Need recent transaction list? variant 6",
+    "answer": "Mini statement with last transactions is available at ATM and mobile app."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "en",
+    "question": "How to get mini statement? variant 7",
+    "answer": "Mini statement with last transactions is available at ATM and mobile app."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "en",
+    "question": "Show my last transactions? variant 8",
+    "answer": "Mini statement with last transactions is available at ATM and mobile app."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "en",
+    "question": "Need recent transaction list? variant 9",
+    "answer": "Mini statement with last transactions is available at ATM and mobile app."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "en",
+    "question": "How to get mini statement? variant 10",
+    "answer": "Mini statement with last transactions is available at ATM and mobile app."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "en",
+    "question": "Show my last transactions? variant 11",
+    "answer": "Mini statement with last transactions is available at ATM and mobile app."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "en",
+    "question": "Need recent transaction list? variant 12",
+    "answer": "Mini statement with last transactions is available at ATM and mobile app."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "en",
+    "question": "How to get mini statement? variant 13",
+    "answer": "Mini statement with last transactions is available at ATM and mobile app."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "en",
+    "question": "Show my last transactions? variant 14",
+    "answer": "Mini statement with last transactions is available at ATM and mobile app."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "en",
+    "question": "Need recent transaction list? variant 15",
+    "answer": "Mini statement with last transactions is available at ATM and mobile app."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "en",
+    "question": "How to get mini statement? variant 16",
+    "answer": "Mini statement with last transactions is available at ATM and mobile app."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "hi",
+    "question": "मिनी स्टेटमेंट कैसे मिलेगा? variant 1",
+    "answer": "मिनी स्टेटमेंट ATM और मोबाइल ऐप पर उपलब्ध है।"
+  },
+  {
+    "intent": "mini_statement",
+    "language": "hi",
+    "question": "मेरे पिछले लेनदेन दिखाओ? variant 2",
+    "answer": "मिनी स्टेटमेंट ATM और मोबाइल ऐप पर उपलब्ध है।"
+  },
+  {
+    "intent": "mini_statement",
+    "language": "hi",
+    "question": "हाल के ट्रांजैक्शन चाहिए? variant 3",
+    "answer": "मिनी स्टेटमेंट ATM और मोबाइल ऐप पर उपलब्ध है।"
+  },
+  {
+    "intent": "mini_statement",
+    "language": "hi",
+    "question": "मिनी स्टेटमेंट कैसे मिलेगा? variant 4",
+    "answer": "मिनी स्टेटमेंट ATM और मोबाइल ऐप पर उपलब्ध है।"
+  },
+  {
+    "intent": "mini_statement",
+    "language": "hi",
+    "question": "मेरे पिछले लेनदेन दिखाओ? variant 5",
+    "answer": "मिनी स्टेटमेंट ATM और मोबाइल ऐप पर उपलब्ध है।"
+  },
+  {
+    "intent": "mini_statement",
+    "language": "hi",
+    "question": "हाल के ट्रांजैक्शन चाहिए? variant 6",
+    "answer": "मिनी स्टेटमेंट ATM और मोबाइल ऐप पर उपलब्ध है।"
+  },
+  {
+    "intent": "mini_statement",
+    "language": "hi",
+    "question": "मिनी स्टेटमेंट कैसे मिलेगा? variant 7",
+    "answer": "मिनी स्टेटमेंट ATM और मोबाइल ऐप पर उपलब्ध है।"
+  },
+  {
+    "intent": "mini_statement",
+    "language": "hi",
+    "question": "मेरे पिछले लेनदेन दिखाओ? variant 8",
+    "answer": "मिनी स्टेटमेंट ATM और मोबाइल ऐप पर उपलब्ध है।"
+  },
+  {
+    "intent": "mini_statement",
+    "language": "hi",
+    "question": "हाल के ट्रांजैक्शन चाहिए? variant 9",
+    "answer": "मिनी स्टेटमेंट ATM और मोबाइल ऐप पर उपलब्ध है।"
+  },
+  {
+    "intent": "mini_statement",
+    "language": "hi",
+    "question": "मिनी स्टेटमेंट कैसे मिलेगा? variant 10",
+    "answer": "मिनी स्टेटमेंट ATM और मोबाइल ऐप पर उपलब्ध है।"
+  },
+  {
+    "intent": "mini_statement",
+    "language": "hi",
+    "question": "मेरे पिछले लेनदेन दिखाओ? variant 11",
+    "answer": "मिनी स्टेटमेंट ATM और मोबाइल ऐप पर उपलब्ध है।"
+  },
+  {
+    "intent": "mini_statement",
+    "language": "hi",
+    "question": "हाल के ट्रांजैक्शन चाहिए? variant 12",
+    "answer": "मिनी स्टेटमेंट ATM और मोबाइल ऐप पर उपलब्ध है।"
+  },
+  {
+    "intent": "mini_statement",
+    "language": "hi",
+    "question": "मिनी स्टेटमेंट कैसे मिलेगा? variant 13",
+    "answer": "मिनी स्टेटमेंट ATM और मोबाइल ऐप पर उपलब्ध है।"
+  },
+  {
+    "intent": "mini_statement",
+    "language": "hi",
+    "question": "मेरे पिछले लेनदेन दिखाओ? variant 14",
+    "answer": "मिनी स्टेटमेंट ATM और मोबाइल ऐप पर उपलब्ध है।"
+  },
+  {
+    "intent": "mini_statement",
+    "language": "hi",
+    "question": "हाल के ट्रांजैक्शन चाहिए? variant 15",
+    "answer": "मिनी स्टेटमेंट ATM और मोबाइल ऐप पर उपलब्ध है।"
+  },
+  {
+    "intent": "mini_statement",
+    "language": "hi",
+    "question": "मिनी स्टेटमेंट कैसे मिलेगा? variant 16",
+    "answer": "मिनी स्टेटमेंट ATM और मोबाइल ऐप पर उपलब्ध है।"
+  },
+  {
+    "intent": "mini_statement",
+    "language": "mr",
+    "question": "मिनी स्टेटमेंट कसे मिळेल? variant 1",
+    "answer": "मिनी स्टेटमेंट ATM आणि मोबाइल अॅपवर उपलब्ध आहे."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "mr",
+    "question": "माझे मागील व्यवहार दाखवा? variant 2",
+    "answer": "मिनी स्टेटमेंट ATM आणि मोबाइल अॅपवर उपलब्ध आहे."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "mr",
+    "question": "अलीकडील ट्रान्झॅक्शन हवे? variant 3",
+    "answer": "मिनी स्टेटमेंट ATM आणि मोबाइल अॅपवर उपलब्ध आहे."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "mr",
+    "question": "मिनी स्टेटमेंट कसे मिळेल? variant 4",
+    "answer": "मिनी स्टेटमेंट ATM आणि मोबाइल अॅपवर उपलब्ध आहे."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "mr",
+    "question": "माझे मागील व्यवहार दाखवा? variant 5",
+    "answer": "मिनी स्टेटमेंट ATM आणि मोबाइल अॅपवर उपलब्ध आहे."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "mr",
+    "question": "अलीकडील ट्रान्झॅक्शन हवे? variant 6",
+    "answer": "मिनी स्टेटमेंट ATM आणि मोबाइल अॅपवर उपलब्ध आहे."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "mr",
+    "question": "मिनी स्टेटमेंट कसे मिळेल? variant 7",
+    "answer": "मिनी स्टेटमेंट ATM आणि मोबाइल अॅपवर उपलब्ध आहे."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "mr",
+    "question": "माझे मागील व्यवहार दाखवा? variant 8",
+    "answer": "मिनी स्टेटमेंट ATM आणि मोबाइल अॅपवर उपलब्ध आहे."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "mr",
+    "question": "अलीकडील ट्रान्झॅक्शन हवे? variant 9",
+    "answer": "मिनी स्टेटमेंट ATM आणि मोबाइल अॅपवर उपलब्ध आहे."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "mr",
+    "question": "मिनी स्टेटमेंट कसे मिळेल? variant 10",
+    "answer": "मिनी स्टेटमेंट ATM आणि मोबाइल अॅपवर उपलब्ध आहे."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "mr",
+    "question": "माझे मागील व्यवहार दाखवा? variant 11",
+    "answer": "मिनी स्टेटमेंट ATM आणि मोबाइल अॅपवर उपलब्ध आहे."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "mr",
+    "question": "अलीकडील ट्रान्झॅक्शन हवे? variant 12",
+    "answer": "मिनी स्टेटमेंट ATM आणि मोबाइल अॅपवर उपलब्ध आहे."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "mr",
+    "question": "मिनी स्टेटमेंट कसे मिळेल? variant 13",
+    "answer": "मिनी स्टेटमेंट ATM आणि मोबाइल अॅपवर उपलब्ध आहे."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "mr",
+    "question": "माझे मागील व्यवहार दाखवा? variant 14",
+    "answer": "मिनी स्टेटमेंट ATM आणि मोबाइल अॅपवर उपलब्ध आहे."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "mr",
+    "question": "अलीकडील ट्रान्झॅक्शन हवे? variant 15",
+    "answer": "मिनी स्टेटमेंट ATM आणि मोबाइल अॅपवर उपलब्ध आहे."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "mr",
+    "question": "मिनी स्टेटमेंट कसे मिळेल? variant 16",
+    "answer": "मिनी स्टेटमेंट ATM आणि मोबाइल अॅपवर उपलब्ध आहे."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "hi",
+    "question": "mera mini statement dikhao",
+    "answer": "मिनी स्टेटमेंट ATM और मोबाइल ऐप पर उपलब्ध है।"
+  },
+  {
+    "intent": "mini_statement",
+    "language": "mr",
+    "question": "majhe recent transaction dakhava",
+    "answer": "मिनी स्टेटमेंट ATM आणि मोबाइल अॅपवर उपलब्ध आहे."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "en",
+    "question": "mini statemnt req",
+    "answer": "Mini statement with last transactions is available at ATM and mobile app."
+  },
+  {
+    "intent": "mini_statement",
+    "language": "en",
+    "question": "need help mini_statement now",
+    "answer": "Mini statement with last transactions is available at ATM and mobile app."
+  },
+  {
+    "intent": "loan_query",
+    "language": "en",
+    "question": "How to apply for loan? variant 1",
+    "answer": "For loan, provide identity, income proof, and bank statements at loan desk."
+  },
+  {
+    "intent": "loan_query",
+    "language": "en",
+    "question": "Loan documents required? variant 2",
+    "answer": "For loan, provide identity, income proof, and bank statements at loan desk."
+  },
+  {
+    "intent": "loan_query",
+    "language": "en",
+    "question": "Need information for home loan? variant 3",
+    "answer": "For loan, provide identity, income proof, and bank statements at loan desk."
+  },
+  {
+    "intent": "loan_query",
+    "language": "en",
+    "question": "How to apply for loan? variant 4",
+    "answer": "For loan, provide identity, income proof, and bank statements at loan desk."
+  },
+  {
+    "intent": "loan_query",
+    "language": "en",
+    "question": "Loan documents required? variant 5",
+    "answer": "For loan, provide identity, income proof, and bank statements at loan desk."
+  },
+  {
+    "intent": "loan_query",
+    "language": "en",
+    "question": "Need information for home loan? variant 6",
+    "answer": "For loan, provide identity, income proof, and bank statements at loan desk."
+  },
+  {
+    "intent": "loan_query",
+    "language": "en",
+    "question": "How to apply for loan? variant 7",
+    "answer": "For loan, provide identity, income proof, and bank statements at loan desk."
+  },
+  {
+    "intent": "loan_query",
+    "language": "en",
+    "question": "Loan documents required? variant 8",
+    "answer": "For loan, provide identity, income proof, and bank statements at loan desk."
+  },
+  {
+    "intent": "loan_query",
+    "language": "en",
+    "question": "Need information for home loan? variant 9",
+    "answer": "For loan, provide identity, income proof, and bank statements at loan desk."
+  },
+  {
+    "intent": "loan_query",
+    "language": "en",
+    "question": "How to apply for loan? variant 10",
+    "answer": "For loan, provide identity, income proof, and bank statements at loan desk."
+  },
+  {
+    "intent": "loan_query",
+    "language": "en",
+    "question": "Loan documents required? variant 11",
+    "answer": "For loan, provide identity, income proof, and bank statements at loan desk."
+  },
+  {
+    "intent": "loan_query",
+    "language": "en",
+    "question": "Need information for home loan? variant 12",
+    "answer": "For loan, provide identity, income proof, and bank statements at loan desk."
+  },
+  {
+    "intent": "loan_query",
+    "language": "en",
+    "question": "How to apply for loan? variant 13",
+    "answer": "For loan, provide identity, income proof, and bank statements at loan desk."
+  },
+  {
+    "intent": "loan_query",
+    "language": "en",
+    "question": "Loan documents required? variant 14",
+    "answer": "For loan, provide identity, income proof, and bank statements at loan desk."
+  },
+  {
+    "intent": "loan_query",
+    "language": "en",
+    "question": "Need information for home loan? variant 15",
+    "answer": "For loan, provide identity, income proof, and bank statements at loan desk."
+  },
+  {
+    "intent": "loan_query",
+    "language": "en",
+    "question": "How to apply for loan? variant 16",
+    "answer": "For loan, provide identity, income proof, and bank statements at loan desk."
+  },
+  {
+    "intent": "loan_query",
+    "language": "hi",
+    "question": "लोन कैसे लें? variant 1",
+    "answer": "लोन के लिए पहचान, आय प्रमाण और बैंक स्टेटमेंट लोन डेस्क पर जमा करें।"
+  },
+  {
+    "intent": "loan_query",
+    "language": "hi",
+    "question": "लोन के लिए कौन से दस्तावेज चाहिए? variant 2",
+    "answer": "लोन के लिए पहचान, आय प्रमाण और बैंक स्टेटमेंट लोन डेस्क पर जमा करें।"
+  },
+  {
+    "intent": "loan_query",
+    "language": "hi",
+    "question": "होम लोन की जानकारी चाहिए? variant 3",
+    "answer": "लोन के लिए पहचान, आय प्रमाण और बैंक स्टेटमेंट लोन डेस्क पर जमा करें।"
+  },
+  {
+    "intent": "loan_query",
+    "language": "hi",
+    "question": "लोन कैसे लें? variant 4",
+    "answer": "लोन के लिए पहचान, आय प्रमाण और बैंक स्टेटमेंट लोन डेस्क पर जमा करें।"
+  },
+  {
+    "intent": "loan_query",
+    "language": "hi",
+    "question": "लोन के लिए कौन से दस्तावेज चाहिए? variant 5",
+    "answer": "लोन के लिए पहचान, आय प्रमाण और बैंक स्टेटमेंट लोन डेस्क पर जमा करें।"
+  },
+  {
+    "intent": "loan_query",
+    "language": "hi",
+    "question": "होम लोन की जानकारी चाहिए? variant 6",
+    "answer": "लोन के लिए पहचान, आय प्रमाण और बैंक स्टेटमेंट लोन डेस्क पर जमा करें।"
+  },
+  {
+    "intent": "loan_query",
+    "language": "hi",
+    "question": "लोन कैसे लें? variant 7",
+    "answer": "लोन के लिए पहचान, आय प्रमाण और बैंक स्टेटमेंट लोन डेस्क पर जमा करें।"
+  },
+  {
+    "intent": "loan_query",
+    "language": "hi",
+    "question": "लोन के लिए कौन से दस्तावेज चाहिए? variant 8",
+    "answer": "लोन के लिए पहचान, आय प्रमाण और बैंक स्टेटमेंट लोन डेस्क पर जमा करें।"
+  },
+  {
+    "intent": "loan_query",
+    "language": "hi",
+    "question": "होम लोन की जानकारी चाहिए? variant 9",
+    "answer": "लोन के लिए पहचान, आय प्रमाण और बैंक स्टेटमेंट लोन डेस्क पर जमा करें।"
+  },
+  {
+    "intent": "loan_query",
+    "language": "hi",
+    "question": "लोन कैसे लें? variant 10",
+    "answer": "लोन के लिए पहचान, आय प्रमाण और बैंक स्टेटमेंट लोन डेस्क पर जमा करें।"
+  },
+  {
+    "intent": "loan_query",
+    "language": "hi",
+    "question": "लोन के लिए कौन से दस्तावेज चाहिए? variant 11",
+    "answer": "लोन के लिए पहचान, आय प्रमाण और बैंक स्टेटमेंट लोन डेस्क पर जमा करें।"
+  },
+  {
+    "intent": "loan_query",
+    "language": "hi",
+    "question": "होम लोन की जानकारी चाहिए? variant 12",
+    "answer": "लोन के लिए पहचान, आय प्रमाण और बैंक स्टेटमेंट लोन डेस्क पर जमा करें।"
+  },
+  {
+    "intent": "loan_query",
+    "language": "hi",
+    "question": "लोन कैसे लें? variant 13",
+    "answer": "लोन के लिए पहचान, आय प्रमाण और बैंक स्टेटमेंट लोन डेस्क पर जमा करें।"
+  },
+  {
+    "intent": "loan_query",
+    "language": "hi",
+    "question": "लोन के लिए कौन से दस्तावेज चाहिए? variant 14",
+    "answer": "लोन के लिए पहचान, आय प्रमाण और बैंक स्टेटमेंट लोन डेस्क पर जमा करें।"
+  },
+  {
+    "intent": "loan_query",
+    "language": "hi",
+    "question": "होम लोन की जानकारी चाहिए? variant 15",
+    "answer": "लोन के लिए पहचान, आय प्रमाण और बैंक स्टेटमेंट लोन डेस्क पर जमा करें।"
+  },
+  {
+    "intent": "loan_query",
+    "language": "hi",
+    "question": "लोन कैसे लें? variant 16",
+    "answer": "लोन के लिए पहचान, आय प्रमाण और बैंक स्टेटमेंट लोन डेस्क पर जमा करें।"
+  },
+  {
+    "intent": "loan_query",
+    "language": "mr",
+    "question": "कर्ज कसे घ्यायचे? variant 1",
+    "answer": "कर्जासाठी ओळखपत्र, उत्पन्न पुरावा आणि बँक स्टेटमेंट लोन डेस्कवर द्या."
+  },
+  {
+    "intent": "loan_query",
+    "language": "mr",
+    "question": "कर्जासाठी कोणती कागदपत्रे लागतात? variant 2",
+    "answer": "कर्जासाठी ओळखपत्र, उत्पन्न पुरावा आणि बँक स्टेटमेंट लोन डेस्कवर द्या."
+  },
+  {
+    "intent": "loan_query",
+    "language": "mr",
+    "question": "होम लोन माहिती हवी? variant 3",
+    "answer": "कर्जासाठी ओळखपत्र, उत्पन्न पुरावा आणि बँक स्टेटमेंट लोन डेस्कवर द्या."
+  },
+  {
+    "intent": "loan_query",
+    "language": "mr",
+    "question": "कर्ज कसे घ्यायचे? variant 4",
+    "answer": "कर्जासाठी ओळखपत्र, उत्पन्न पुरावा आणि बँक स्टेटमेंट लोन डेस्कवर द्या."
+  },
+  {
+    "intent": "loan_query",
+    "language": "mr",
+    "question": "कर्जासाठी कोणती कागदपत्रे लागतात? variant 5",
+    "answer": "कर्जासाठी ओळखपत्र, उत्पन्न पुरावा आणि बँक स्टेटमेंट लोन डेस्कवर द्या."
+  },
+  {
+    "intent": "loan_query",
+    "language": "mr",
+    "question": "होम लोन माहिती हवी? variant 6",
+    "answer": "कर्जासाठी ओळखपत्र, उत्पन्न पुरावा आणि बँक स्टेटमेंट लोन डेस्कवर द्या."
+  },
+  {
+    "intent": "loan_query",
+    "language": "mr",
+    "question": "कर्ज कसे घ्यायचे? variant 7",
+    "answer": "कर्जासाठी ओळखपत्र, उत्पन्न पुरावा आणि बँक स्टेटमेंट लोन डेस्कवर द्या."
+  },
+  {
+    "intent": "loan_query",
+    "language": "mr",
+    "question": "कर्जासाठी कोणती कागदपत्रे लागतात? variant 8",
+    "answer": "कर्जासाठी ओळखपत्र, उत्पन्न पुरावा आणि बँक स्टेटमेंट लोन डेस्कवर द्या."
+  },
+  {
+    "intent": "loan_query",
+    "language": "mr",
+    "question": "होम लोन माहिती हवी? variant 9",
+    "answer": "कर्जासाठी ओळखपत्र, उत्पन्न पुरावा आणि बँक स्टेटमेंट लोन डेस्कवर द्या."
+  },
+  {
+    "intent": "loan_query",
+    "language": "mr",
+    "question": "कर्ज कसे घ्यायचे? variant 10",
+    "answer": "कर्जासाठी ओळखपत्र, उत्पन्न पुरावा आणि बँक स्टेटमेंट लोन डेस्कवर द्या."
+  },
+  {
+    "intent": "loan_query",
+    "language": "mr",
+    "question": "कर्जासाठी कोणती कागदपत्रे लागतात? variant 11",
+    "answer": "कर्जासाठी ओळखपत्र, उत्पन्न पुरावा आणि बँक स्टेटमेंट लोन डेस्कवर द्या."
+  },
+  {
+    "intent": "loan_query",
+    "language": "mr",
+    "question": "होम लोन माहिती हवी? variant 12",
+    "answer": "कर्जासाठी ओळखपत्र, उत्पन्न पुरावा आणि बँक स्टेटमेंट लोन डेस्कवर द्या."
+  },
+  {
+    "intent": "loan_query",
+    "language": "mr",
+    "question": "कर्ज कसे घ्यायचे? variant 13",
+    "answer": "कर्जासाठी ओळखपत्र, उत्पन्न पुरावा आणि बँक स्टेटमेंट लोन डेस्कवर द्या."
+  },
+  {
+    "intent": "loan_query",
+    "language": "mr",
+    "question": "कर्जासाठी कोणती कागदपत्रे लागतात? variant 14",
+    "answer": "कर्जासाठी ओळखपत्र, उत्पन्न पुरावा आणि बँक स्टेटमेंट लोन डेस्कवर द्या."
+  },
+  {
+    "intent": "loan_query",
+    "language": "mr",
+    "question": "होम लोन माहिती हवी? variant 15",
+    "answer": "कर्जासाठी ओळखपत्र, उत्पन्न पुरावा आणि बँक स्टेटमेंट लोन डेस्कवर द्या."
+  },
+  {
+    "intent": "loan_query",
+    "language": "mr",
+    "question": "कर्ज कसे घ्यायचे? variant 16",
+    "answer": "कर्जासाठी ओळखपत्र, उत्पन्न पुरावा आणि बँक स्टेटमेंट लोन डेस्कवर द्या."
+  },
+  {
+    "intent": "loan_query",
+    "language": "hi",
+    "question": "loan ke liye kya document chahiye",
+    "answer": "लोन के लिए पहचान, आय प्रमाण और बैंक स्टेटमेंट लोन डेस्क पर जमा करें।"
+  },
+  {
+    "intent": "loan_query",
+    "language": "mr",
+    "question": "karjasathi konti kagadpatre lagtat",
+    "answer": "कर्जासाठी ओळखपत्र, उत्पन्न पुरावा आणि बँक स्टेटमेंट लोन डेस्कवर द्या."
+  },
+  {
+    "intent": "loan_query",
+    "language": "en",
+    "question": "lon documnts needed",
+    "answer": "For loan, provide identity, income proof, and bank statements at loan desk."
+  },
+  {
+    "intent": "loan_query",
+    "language": "en",
+    "question": "need help loan_query now",
+    "answer": "For loan, provide identity, income proof, and bank statements at loan desk."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "en",
+    "question": "How to update KYC? variant 1",
+    "answer": "For KYC update, visit branch with Aadhaar, PAN, and photo."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "en",
+    "question": "Where can I do KYC? variant 2",
+    "answer": "For KYC update, visit branch with Aadhaar, PAN, and photo."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "en",
+    "question": "KYC process details? variant 3",
+    "answer": "For KYC update, visit branch with Aadhaar, PAN, and photo."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "en",
+    "question": "How to update KYC? variant 4",
+    "answer": "For KYC update, visit branch with Aadhaar, PAN, and photo."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "en",
+    "question": "Where can I do KYC? variant 5",
+    "answer": "For KYC update, visit branch with Aadhaar, PAN, and photo."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "en",
+    "question": "KYC process details? variant 6",
+    "answer": "For KYC update, visit branch with Aadhaar, PAN, and photo."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "en",
+    "question": "How to update KYC? variant 7",
+    "answer": "For KYC update, visit branch with Aadhaar, PAN, and photo."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "en",
+    "question": "Where can I do KYC? variant 8",
+    "answer": "For KYC update, visit branch with Aadhaar, PAN, and photo."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "en",
+    "question": "KYC process details? variant 9",
+    "answer": "For KYC update, visit branch with Aadhaar, PAN, and photo."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "en",
+    "question": "How to update KYC? variant 10",
+    "answer": "For KYC update, visit branch with Aadhaar, PAN, and photo."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "en",
+    "question": "Where can I do KYC? variant 11",
+    "answer": "For KYC update, visit branch with Aadhaar, PAN, and photo."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "en",
+    "question": "KYC process details? variant 12",
+    "answer": "For KYC update, visit branch with Aadhaar, PAN, and photo."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "en",
+    "question": "How to update KYC? variant 13",
+    "answer": "For KYC update, visit branch with Aadhaar, PAN, and photo."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "en",
+    "question": "Where can I do KYC? variant 14",
+    "answer": "For KYC update, visit branch with Aadhaar, PAN, and photo."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "en",
+    "question": "KYC process details? variant 15",
+    "answer": "For KYC update, visit branch with Aadhaar, PAN, and photo."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "en",
+    "question": "How to update KYC? variant 16",
+    "answer": "For KYC update, visit branch with Aadhaar, PAN, and photo."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "hi",
+    "question": "KYC कैसे अपडेट करें? variant 1",
+    "answer": "KYC अपडेट के लिए आधार, PAN और फोटो के साथ शाखा जाएं।"
+  },
+  {
+    "intent": "kyc_update",
+    "language": "hi",
+    "question": "KYC कहाँ होगा? variant 2",
+    "answer": "KYC अपडेट के लिए आधार, PAN और फोटो के साथ शाखा जाएं।"
+  },
+  {
+    "intent": "kyc_update",
+    "language": "hi",
+    "question": "KYC प्रक्रिया बताएं? variant 3",
+    "answer": "KYC अपडेट के लिए आधार, PAN और फोटो के साथ शाखा जाएं।"
+  },
+  {
+    "intent": "kyc_update",
+    "language": "hi",
+    "question": "KYC कैसे अपडेट करें? variant 4",
+    "answer": "KYC अपडेट के लिए आधार, PAN और फोटो के साथ शाखा जाएं।"
+  },
+  {
+    "intent": "kyc_update",
+    "language": "hi",
+    "question": "KYC कहाँ होगा? variant 5",
+    "answer": "KYC अपडेट के लिए आधार, PAN और फोटो के साथ शाखा जाएं।"
+  },
+  {
+    "intent": "kyc_update",
+    "language": "hi",
+    "question": "KYC प्रक्रिया बताएं? variant 6",
+    "answer": "KYC अपडेट के लिए आधार, PAN और फोटो के साथ शाखा जाएं।"
+  },
+  {
+    "intent": "kyc_update",
+    "language": "hi",
+    "question": "KYC कैसे अपडेट करें? variant 7",
+    "answer": "KYC अपडेट के लिए आधार, PAN और फोटो के साथ शाखा जाएं।"
+  },
+  {
+    "intent": "kyc_update",
+    "language": "hi",
+    "question": "KYC कहाँ होगा? variant 8",
+    "answer": "KYC अपडेट के लिए आधार, PAN और फोटो के साथ शाखा जाएं।"
+  },
+  {
+    "intent": "kyc_update",
+    "language": "hi",
+    "question": "KYC प्रक्रिया बताएं? variant 9",
+    "answer": "KYC अपडेट के लिए आधार, PAN और फोटो के साथ शाखा जाएं।"
+  },
+  {
+    "intent": "kyc_update",
+    "language": "hi",
+    "question": "KYC कैसे अपडेट करें? variant 10",
+    "answer": "KYC अपडेट के लिए आधार, PAN और फोटो के साथ शाखा जाएं।"
+  },
+  {
+    "intent": "kyc_update",
+    "language": "hi",
+    "question": "KYC कहाँ होगा? variant 11",
+    "answer": "KYC अपडेट के लिए आधार, PAN और फोटो के साथ शाखा जाएं।"
+  },
+  {
+    "intent": "kyc_update",
+    "language": "hi",
+    "question": "KYC प्रक्रिया बताएं? variant 12",
+    "answer": "KYC अपडेट के लिए आधार, PAN और फोटो के साथ शाखा जाएं।"
+  },
+  {
+    "intent": "kyc_update",
+    "language": "hi",
+    "question": "KYC कैसे अपडेट करें? variant 13",
+    "answer": "KYC अपडेट के लिए आधार, PAN और फोटो के साथ शाखा जाएं।"
+  },
+  {
+    "intent": "kyc_update",
+    "language": "hi",
+    "question": "KYC कहाँ होगा? variant 14",
+    "answer": "KYC अपडेट के लिए आधार, PAN और फोटो के साथ शाखा जाएं।"
+  },
+  {
+    "intent": "kyc_update",
+    "language": "hi",
+    "question": "KYC प्रक्रिया बताएं? variant 15",
+    "answer": "KYC अपडेट के लिए आधार, PAN और फोटो के साथ शाखा जाएं।"
+  },
+  {
+    "intent": "kyc_update",
+    "language": "hi",
+    "question": "KYC कैसे अपडेट करें? variant 16",
+    "answer": "KYC अपडेट के लिए आधार, PAN और फोटो के साथ शाखा जाएं।"
+  },
+  {
+    "intent": "kyc_update",
+    "language": "mr",
+    "question": "KYC कसे अपडेट करायचे? variant 1",
+    "answer": "KYC अपडेटसाठी आधार, PAN आणि फोटो घेऊन शाखेत या."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "mr",
+    "question": "KYC कुठे करायचे? variant 2",
+    "answer": "KYC अपडेटसाठी आधार, PAN आणि फोटो घेऊन शाखेत या."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "mr",
+    "question": "KYC प्रक्रिया सांगा? variant 3",
+    "answer": "KYC अपडेटसाठी आधार, PAN आणि फोटो घेऊन शाखेत या."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "mr",
+    "question": "KYC कसे अपडेट करायचे? variant 4",
+    "answer": "KYC अपडेटसाठी आधार, PAN आणि फोटो घेऊन शाखेत या."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "mr",
+    "question": "KYC कुठे करायचे? variant 5",
+    "answer": "KYC अपडेटसाठी आधार, PAN आणि फोटो घेऊन शाखेत या."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "mr",
+    "question": "KYC प्रक्रिया सांगा? variant 6",
+    "answer": "KYC अपडेटसाठी आधार, PAN आणि फोटो घेऊन शाखेत या."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "mr",
+    "question": "KYC कसे अपडेट करायचे? variant 7",
+    "answer": "KYC अपडेटसाठी आधार, PAN आणि फोटो घेऊन शाखेत या."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "mr",
+    "question": "KYC कुठे करायचे? variant 8",
+    "answer": "KYC अपडेटसाठी आधार, PAN आणि फोटो घेऊन शाखेत या."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "mr",
+    "question": "KYC प्रक्रिया सांगा? variant 9",
+    "answer": "KYC अपडेटसाठी आधार, PAN आणि फोटो घेऊन शाखेत या."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "mr",
+    "question": "KYC कसे अपडेट करायचे? variant 10",
+    "answer": "KYC अपडेटसाठी आधार, PAN आणि फोटो घेऊन शाखेत या."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "mr",
+    "question": "KYC कुठे करायचे? variant 11",
+    "answer": "KYC अपडेटसाठी आधार, PAN आणि फोटो घेऊन शाखेत या."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "mr",
+    "question": "KYC प्रक्रिया सांगा? variant 12",
+    "answer": "KYC अपडेटसाठी आधार, PAN आणि फोटो घेऊन शाखेत या."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "mr",
+    "question": "KYC कसे अपडेट करायचे? variant 13",
+    "answer": "KYC अपडेटसाठी आधार, PAN आणि फोटो घेऊन शाखेत या."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "mr",
+    "question": "KYC कुठे करायचे? variant 14",
+    "answer": "KYC अपडेटसाठी आधार, PAN आणि फोटो घेऊन शाखेत या."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "mr",
+    "question": "KYC प्रक्रिया सांगा? variant 15",
+    "answer": "KYC अपडेटसाठी आधार, PAN आणि फोटो घेऊन शाखेत या."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "mr",
+    "question": "KYC कसे अपडेट करायचे? variant 16",
+    "answer": "KYC अपडेटसाठी आधार, PAN आणि फोटो घेऊन शाखेत या."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "hi",
+    "question": "kyc update kaise karna hai",
+    "answer": "KYC अपडेट के लिए आधार, PAN और फोटो के साथ शाखा जाएं।"
+  },
+  {
+    "intent": "kyc_update",
+    "language": "mr",
+    "question": "kyc update kase karayche",
+    "answer": "KYC अपडेटसाठी आधार, PAN आणि फोटो घेऊन शाखेत या."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "en",
+    "question": "kyc updte how",
+    "answer": "For KYC update, visit branch with Aadhaar, PAN, and photo."
+  },
+  {
+    "intent": "kyc_update",
+    "language": "en",
+    "question": "need help kyc_update now",
+    "answer": "For KYC update, visit branch with Aadhaar, PAN, and photo."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "en",
+    "question": "ATM card not working? variant 1",
+    "answer": "If ATM card is lost or not working, block immediately using helpline or app."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "en",
+    "question": "How to block my card? variant 2",
+    "answer": "If ATM card is lost or not working, block immediately using helpline or app."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "en",
+    "question": "Card lost what to do? variant 3",
+    "answer": "If ATM card is lost or not working, block immediately using helpline or app."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "en",
+    "question": "ATM card not working? variant 4",
+    "answer": "If ATM card is lost or not working, block immediately using helpline or app."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "en",
+    "question": "How to block my card? variant 5",
+    "answer": "If ATM card is lost or not working, block immediately using helpline or app."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "en",
+    "question": "Card lost what to do? variant 6",
+    "answer": "If ATM card is lost or not working, block immediately using helpline or app."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "en",
+    "question": "ATM card not working? variant 7",
+    "answer": "If ATM card is lost or not working, block immediately using helpline or app."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "en",
+    "question": "How to block my card? variant 8",
+    "answer": "If ATM card is lost or not working, block immediately using helpline or app."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "en",
+    "question": "Card lost what to do? variant 9",
+    "answer": "If ATM card is lost or not working, block immediately using helpline or app."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "en",
+    "question": "ATM card not working? variant 10",
+    "answer": "If ATM card is lost or not working, block immediately using helpline or app."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "en",
+    "question": "How to block my card? variant 11",
+    "answer": "If ATM card is lost or not working, block immediately using helpline or app."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "en",
+    "question": "Card lost what to do? variant 12",
+    "answer": "If ATM card is lost or not working, block immediately using helpline or app."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "en",
+    "question": "ATM card not working? variant 13",
+    "answer": "If ATM card is lost or not working, block immediately using helpline or app."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "en",
+    "question": "How to block my card? variant 14",
+    "answer": "If ATM card is lost or not working, block immediately using helpline or app."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "en",
+    "question": "Card lost what to do? variant 15",
+    "answer": "If ATM card is lost or not working, block immediately using helpline or app."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "en",
+    "question": "ATM card not working? variant 16",
+    "answer": "If ATM card is lost or not working, block immediately using helpline or app."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "hi",
+    "question": "ATM कार्ड काम नहीं कर रहा? variant 1",
+    "answer": "ATM कार्ड खो जाए या काम न करे तो हेल्पलाइन या ऐप से तुरंत ब्लॉक करें।"
+  },
+  {
+    "intent": "atm_issue",
+    "language": "hi",
+    "question": "कार्ड ब्लॉक कैसे करें? variant 2",
+    "answer": "ATM कार्ड खो जाए या काम न करे तो हेल्पलाइन या ऐप से तुरंत ब्लॉक करें।"
+  },
+  {
+    "intent": "atm_issue",
+    "language": "hi",
+    "question": "कार्ड खो गया क्या करें? variant 3",
+    "answer": "ATM कार्ड खो जाए या काम न करे तो हेल्पलाइन या ऐप से तुरंत ब्लॉक करें।"
+  },
+  {
+    "intent": "atm_issue",
+    "language": "hi",
+    "question": "ATM कार्ड काम नहीं कर रहा? variant 4",
+    "answer": "ATM कार्ड खो जाए या काम न करे तो हेल्पलाइन या ऐप से तुरंत ब्लॉक करें।"
+  },
+  {
+    "intent": "atm_issue",
+    "language": "hi",
+    "question": "कार्ड ब्लॉक कैसे करें? variant 5",
+    "answer": "ATM कार्ड खो जाए या काम न करे तो हेल्पलाइन या ऐप से तुरंत ब्लॉक करें।"
+  },
+  {
+    "intent": "atm_issue",
+    "language": "hi",
+    "question": "कार्ड खो गया क्या करें? variant 6",
+    "answer": "ATM कार्ड खो जाए या काम न करे तो हेल्पलाइन या ऐप से तुरंत ब्लॉक करें।"
+  },
+  {
+    "intent": "atm_issue",
+    "language": "hi",
+    "question": "ATM कार्ड काम नहीं कर रहा? variant 7",
+    "answer": "ATM कार्ड खो जाए या काम न करे तो हेल्पलाइन या ऐप से तुरंत ब्लॉक करें।"
+  },
+  {
+    "intent": "atm_issue",
+    "language": "hi",
+    "question": "कार्ड ब्लॉक कैसे करें? variant 8",
+    "answer": "ATM कार्ड खो जाए या काम न करे तो हेल्पलाइन या ऐप से तुरंत ब्लॉक करें।"
+  },
+  {
+    "intent": "atm_issue",
+    "language": "hi",
+    "question": "कार्ड खो गया क्या करें? variant 9",
+    "answer": "ATM कार्ड खो जाए या काम न करे तो हेल्पलाइन या ऐप से तुरंत ब्लॉक करें।"
+  },
+  {
+    "intent": "atm_issue",
+    "language": "hi",
+    "question": "ATM कार्ड काम नहीं कर रहा? variant 10",
+    "answer": "ATM कार्ड खो जाए या काम न करे तो हेल्पलाइन या ऐप से तुरंत ब्लॉक करें।"
+  },
+  {
+    "intent": "atm_issue",
+    "language": "hi",
+    "question": "कार्ड ब्लॉक कैसे करें? variant 11",
+    "answer": "ATM कार्ड खो जाए या काम न करे तो हेल्पलाइन या ऐप से तुरंत ब्लॉक करें।"
+  },
+  {
+    "intent": "atm_issue",
+    "language": "hi",
+    "question": "कार्ड खो गया क्या करें? variant 12",
+    "answer": "ATM कार्ड खो जाए या काम न करे तो हेल्पलाइन या ऐप से तुरंत ब्लॉक करें।"
+  },
+  {
+    "intent": "atm_issue",
+    "language": "hi",
+    "question": "ATM कार्ड काम नहीं कर रहा? variant 13",
+    "answer": "ATM कार्ड खो जाए या काम न करे तो हेल्पलाइन या ऐप से तुरंत ब्लॉक करें।"
+  },
+  {
+    "intent": "atm_issue",
+    "language": "hi",
+    "question": "कार्ड ब्लॉक कैसे करें? variant 14",
+    "answer": "ATM कार्ड खो जाए या काम न करे तो हेल्पलाइन या ऐप से तुरंत ब्लॉक करें।"
+  },
+  {
+    "intent": "atm_issue",
+    "language": "hi",
+    "question": "कार्ड खो गया क्या करें? variant 15",
+    "answer": "ATM कार्ड खो जाए या काम न करे तो हेल्पलाइन या ऐप से तुरंत ब्लॉक करें।"
+  },
+  {
+    "intent": "atm_issue",
+    "language": "hi",
+    "question": "ATM कार्ड काम नहीं कर रहा? variant 16",
+    "answer": "ATM कार्ड खो जाए या काम न करे तो हेल्पलाइन या ऐप से तुरंत ब्लॉक करें।"
+  },
+  {
+    "intent": "atm_issue",
+    "language": "mr",
+    "question": "ATM कार्ड काम करत नाही? variant 1",
+    "answer": "ATM कार्ड हरवले किंवा चालत नसल्यास हेल्पलाइन किंवा अॅपमधून लगेच ब्लॉक करा."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "mr",
+    "question": "कार्ड ब्लॉक कसे करायचे? variant 2",
+    "answer": "ATM कार्ड हरवले किंवा चालत नसल्यास हेल्पलाइन किंवा अॅपमधून लगेच ब्लॉक करा."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "mr",
+    "question": "कार्ड हरवले काय करावे? variant 3",
+    "answer": "ATM कार्ड हरवले किंवा चालत नसल्यास हेल्पलाइन किंवा अॅपमधून लगेच ब्लॉक करा."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "mr",
+    "question": "ATM कार्ड काम करत नाही? variant 4",
+    "answer": "ATM कार्ड हरवले किंवा चालत नसल्यास हेल्पलाइन किंवा अॅपमधून लगेच ब्लॉक करा."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "mr",
+    "question": "कार्ड ब्लॉक कसे करायचे? variant 5",
+    "answer": "ATM कार्ड हरवले किंवा चालत नसल्यास हेल्पलाइन किंवा अॅपमधून लगेच ब्लॉक करा."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "mr",
+    "question": "कार्ड हरवले काय करावे? variant 6",
+    "answer": "ATM कार्ड हरवले किंवा चालत नसल्यास हेल्पलाइन किंवा अॅपमधून लगेच ब्लॉक करा."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "mr",
+    "question": "ATM कार्ड काम करत नाही? variant 7",
+    "answer": "ATM कार्ड हरवले किंवा चालत नसल्यास हेल्पलाइन किंवा अॅपमधून लगेच ब्लॉक करा."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "mr",
+    "question": "कार्ड ब्लॉक कसे करायचे? variant 8",
+    "answer": "ATM कार्ड हरवले किंवा चालत नसल्यास हेल्पलाइन किंवा अॅपमधून लगेच ब्लॉक करा."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "mr",
+    "question": "कार्ड हरवले काय करावे? variant 9",
+    "answer": "ATM कार्ड हरवले किंवा चालत नसल्यास हेल्पलाइन किंवा अॅपमधून लगेच ब्लॉक करा."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "mr",
+    "question": "ATM कार्ड काम करत नाही? variant 10",
+    "answer": "ATM कार्ड हरवले किंवा चालत नसल्यास हेल्पलाइन किंवा अॅपमधून लगेच ब्लॉक करा."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "mr",
+    "question": "कार्ड ब्लॉक कसे करायचे? variant 11",
+    "answer": "ATM कार्ड हरवले किंवा चालत नसल्यास हेल्पलाइन किंवा अॅपमधून लगेच ब्लॉक करा."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "mr",
+    "question": "कार्ड हरवले काय करावे? variant 12",
+    "answer": "ATM कार्ड हरवले किंवा चालत नसल्यास हेल्पलाइन किंवा अॅपमधून लगेच ब्लॉक करा."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "mr",
+    "question": "ATM कार्ड काम करत नाही? variant 13",
+    "answer": "ATM कार्ड हरवले किंवा चालत नसल्यास हेल्पलाइन किंवा अॅपमधून लगेच ब्लॉक करा."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "mr",
+    "question": "कार्ड ब्लॉक कसे करायचे? variant 14",
+    "answer": "ATM कार्ड हरवले किंवा चालत नसल्यास हेल्पलाइन किंवा अॅपमधून लगेच ब्लॉक करा."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "mr",
+    "question": "कार्ड हरवले काय करावे? variant 15",
+    "answer": "ATM कार्ड हरवले किंवा चालत नसल्यास हेल्पलाइन किंवा अॅपमधून लगेच ब्लॉक करा."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "mr",
+    "question": "ATM कार्ड काम करत नाही? variant 16",
+    "answer": "ATM कार्ड हरवले किंवा चालत नसल्यास हेल्पलाइन किंवा अॅपमधून लगेच ब्लॉक करा."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "hi",
+    "question": "atm card block kaise karu",
+    "answer": "ATM कार्ड खो जाए या काम न करे तो हेल्पलाइन या ऐप से तुरंत ब्लॉक करें।"
+  },
+  {
+    "intent": "atm_issue",
+    "language": "mr",
+    "question": "atm card block kase karayche",
+    "answer": "ATM कार्ड हरवले किंवा चालत नसल्यास हेल्पलाइन किंवा अॅपमधून लगेच ब्लॉक करा."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "en",
+    "question": "atm crd nt wrkng",
+    "answer": "If ATM card is lost or not working, block immediately using helpline or app."
+  },
+  {
+    "intent": "atm_issue",
+    "language": "en",
+    "question": "need help atm_issue now",
+    "answer": "If ATM card is lost or not working, block immediately using helpline or app."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "en",
+    "question": "How to apply cheque book? variant 1",
+    "answer": "Apply cheque book via branch, net banking, or mobile app."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "en",
+    "question": "Need new cheque book? variant 2",
+    "answer": "Apply cheque book via branch, net banking, or mobile app."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "en",
+    "question": "Cheque book request? variant 3",
+    "answer": "Apply cheque book via branch, net banking, or mobile app."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "en",
+    "question": "How to apply cheque book? variant 4",
+    "answer": "Apply cheque book via branch, net banking, or mobile app."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "en",
+    "question": "Need new cheque book? variant 5",
+    "answer": "Apply cheque book via branch, net banking, or mobile app."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "en",
+    "question": "Cheque book request? variant 6",
+    "answer": "Apply cheque book via branch, net banking, or mobile app."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "en",
+    "question": "How to apply cheque book? variant 7",
+    "answer": "Apply cheque book via branch, net banking, or mobile app."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "en",
+    "question": "Need new cheque book? variant 8",
+    "answer": "Apply cheque book via branch, net banking, or mobile app."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "en",
+    "question": "Cheque book request? variant 9",
+    "answer": "Apply cheque book via branch, net banking, or mobile app."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "en",
+    "question": "How to apply cheque book? variant 10",
+    "answer": "Apply cheque book via branch, net banking, or mobile app."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "en",
+    "question": "Need new cheque book? variant 11",
+    "answer": "Apply cheque book via branch, net banking, or mobile app."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "en",
+    "question": "Cheque book request? variant 12",
+    "answer": "Apply cheque book via branch, net banking, or mobile app."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "en",
+    "question": "How to apply cheque book? variant 13",
+    "answer": "Apply cheque book via branch, net banking, or mobile app."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "en",
+    "question": "Need new cheque book? variant 14",
+    "answer": "Apply cheque book via branch, net banking, or mobile app."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "en",
+    "question": "Cheque book request? variant 15",
+    "answer": "Apply cheque book via branch, net banking, or mobile app."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "en",
+    "question": "How to apply cheque book? variant 16",
+    "answer": "Apply cheque book via branch, net banking, or mobile app."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "hi",
+    "question": "चेक बुक कैसे लें? variant 1",
+    "answer": "चेक बुक के लिए शाखा, नेट बैंकिंग या मोबाइल ऐप से आवेदन करें।"
+  },
+  {
+    "intent": "cheque_book",
+    "language": "hi",
+    "question": "नई चेक बुक चाहिए? variant 2",
+    "answer": "चेक बुक के लिए शाखा, नेट बैंकिंग या मोबाइल ऐप से आवेदन करें।"
+  },
+  {
+    "intent": "cheque_book",
+    "language": "hi",
+    "question": "चेक बुक के लिए आवेदन? variant 3",
+    "answer": "चेक बुक के लिए शाखा, नेट बैंकिंग या मोबाइल ऐप से आवेदन करें।"
+  },
+  {
+    "intent": "cheque_book",
+    "language": "hi",
+    "question": "चेक बुक कैसे लें? variant 4",
+    "answer": "चेक बुक के लिए शाखा, नेट बैंकिंग या मोबाइल ऐप से आवेदन करें।"
+  },
+  {
+    "intent": "cheque_book",
+    "language": "hi",
+    "question": "नई चेक बुक चाहिए? variant 5",
+    "answer": "चेक बुक के लिए शाखा, नेट बैंकिंग या मोबाइल ऐप से आवेदन करें।"
+  },
+  {
+    "intent": "cheque_book",
+    "language": "hi",
+    "question": "चेक बुक के लिए आवेदन? variant 6",
+    "answer": "चेक बुक के लिए शाखा, नेट बैंकिंग या मोबाइल ऐप से आवेदन करें।"
+  },
+  {
+    "intent": "cheque_book",
+    "language": "hi",
+    "question": "चेक बुक कैसे लें? variant 7",
+    "answer": "चेक बुक के लिए शाखा, नेट बैंकिंग या मोबाइल ऐप से आवेदन करें।"
+  },
+  {
+    "intent": "cheque_book",
+    "language": "hi",
+    "question": "नई चेक बुक चाहिए? variant 8",
+    "answer": "चेक बुक के लिए शाखा, नेट बैंकिंग या मोबाइल ऐप से आवेदन करें।"
+  },
+  {
+    "intent": "cheque_book",
+    "language": "hi",
+    "question": "चेक बुक के लिए आवेदन? variant 9",
+    "answer": "चेक बुक के लिए शाखा, नेट बैंकिंग या मोबाइल ऐप से आवेदन करें।"
+  },
+  {
+    "intent": "cheque_book",
+    "language": "hi",
+    "question": "चेक बुक कैसे लें? variant 10",
+    "answer": "चेक बुक के लिए शाखा, नेट बैंकिंग या मोबाइल ऐप से आवेदन करें।"
+  },
+  {
+    "intent": "cheque_book",
+    "language": "hi",
+    "question": "नई चेक बुक चाहिए? variant 11",
+    "answer": "चेक बुक के लिए शाखा, नेट बैंकिंग या मोबाइल ऐप से आवेदन करें।"
+  },
+  {
+    "intent": "cheque_book",
+    "language": "hi",
+    "question": "चेक बुक के लिए आवेदन? variant 12",
+    "answer": "चेक बुक के लिए शाखा, नेट बैंकिंग या मोबाइल ऐप से आवेदन करें।"
+  },
+  {
+    "intent": "cheque_book",
+    "language": "hi",
+    "question": "चेक बुक कैसे लें? variant 13",
+    "answer": "चेक बुक के लिए शाखा, नेट बैंकिंग या मोबाइल ऐप से आवेदन करें।"
+  },
+  {
+    "intent": "cheque_book",
+    "language": "hi",
+    "question": "नई चेक बुक चाहिए? variant 14",
+    "answer": "चेक बुक के लिए शाखा, नेट बैंकिंग या मोबाइल ऐप से आवेदन करें।"
+  },
+  {
+    "intent": "cheque_book",
+    "language": "hi",
+    "question": "चेक बुक के लिए आवेदन? variant 15",
+    "answer": "चेक बुक के लिए शाखा, नेट बैंकिंग या मोबाइल ऐप से आवेदन करें।"
+  },
+  {
+    "intent": "cheque_book",
+    "language": "hi",
+    "question": "चेक बुक कैसे लें? variant 16",
+    "answer": "चेक बुक के लिए शाखा, नेट बैंकिंग या मोबाइल ऐप से आवेदन करें।"
+  },
+  {
+    "intent": "cheque_book",
+    "language": "mr",
+    "question": "चेक बुक कसे घ्यायचे? variant 1",
+    "answer": "चेक बुकसाठी शाखा, नेट बँकिंग किंवा मोबाइल अॅपमधून अर्ज करा."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "mr",
+    "question": "नवीन चेक बुक हवे? variant 2",
+    "answer": "चेक बुकसाठी शाखा, नेट बँकिंग किंवा मोबाइल अॅपमधून अर्ज करा."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "mr",
+    "question": "चेक बुकसाठी अर्ज? variant 3",
+    "answer": "चेक बुकसाठी शाखा, नेट बँकिंग किंवा मोबाइल अॅपमधून अर्ज करा."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "mr",
+    "question": "चेक बुक कसे घ्यायचे? variant 4",
+    "answer": "चेक बुकसाठी शाखा, नेट बँकिंग किंवा मोबाइल अॅपमधून अर्ज करा."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "mr",
+    "question": "नवीन चेक बुक हवे? variant 5",
+    "answer": "चेक बुकसाठी शाखा, नेट बँकिंग किंवा मोबाइल अॅपमधून अर्ज करा."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "mr",
+    "question": "चेक बुकसाठी अर्ज? variant 6",
+    "answer": "चेक बुकसाठी शाखा, नेट बँकिंग किंवा मोबाइल अॅपमधून अर्ज करा."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "mr",
+    "question": "चेक बुक कसे घ्यायचे? variant 7",
+    "answer": "चेक बुकसाठी शाखा, नेट बँकिंग किंवा मोबाइल अॅपमधून अर्ज करा."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "mr",
+    "question": "नवीन चेक बुक हवे? variant 8",
+    "answer": "चेक बुकसाठी शाखा, नेट बँकिंग किंवा मोबाइल अॅपमधून अर्ज करा."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "mr",
+    "question": "चेक बुकसाठी अर्ज? variant 9",
+    "answer": "चेक बुकसाठी शाखा, नेट बँकिंग किंवा मोबाइल अॅपमधून अर्ज करा."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "mr",
+    "question": "चेक बुक कसे घ्यायचे? variant 10",
+    "answer": "चेक बुकसाठी शाखा, नेट बँकिंग किंवा मोबाइल अॅपमधून अर्ज करा."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "mr",
+    "question": "नवीन चेक बुक हवे? variant 11",
+    "answer": "चेक बुकसाठी शाखा, नेट बँकिंग किंवा मोबाइल अॅपमधून अर्ज करा."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "mr",
+    "question": "चेक बुकसाठी अर्ज? variant 12",
+    "answer": "चेक बुकसाठी शाखा, नेट बँकिंग किंवा मोबाइल अॅपमधून अर्ज करा."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "mr",
+    "question": "चेक बुक कसे घ्यायचे? variant 13",
+    "answer": "चेक बुकसाठी शाखा, नेट बँकिंग किंवा मोबाइल अॅपमधून अर्ज करा."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "mr",
+    "question": "नवीन चेक बुक हवे? variant 14",
+    "answer": "चेक बुकसाठी शाखा, नेट बँकिंग किंवा मोबाइल अॅपमधून अर्ज करा."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "mr",
+    "question": "चेक बुकसाठी अर्ज? variant 15",
+    "answer": "चेक बुकसाठी शाखा, नेट बँकिंग किंवा मोबाइल अॅपमधून अर्ज करा."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "mr",
+    "question": "चेक बुक कसे घ्यायचे? variant 16",
+    "answer": "चेक बुकसाठी शाखा, नेट बँकिंग किंवा मोबाइल अॅपमधून अर्ज करा."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "hi",
+    "question": "cheque book apply kaise kare",
+    "answer": "चेक बुक के लिए शाखा, नेट बैंकिंग या मोबाइल ऐप से आवेदन करें।"
+  },
+  {
+    "intent": "cheque_book",
+    "language": "mr",
+    "question": "cheque book sathi arj kasa karu",
+    "answer": "चेक बुकसाठी शाखा, नेट बँकिंग किंवा मोबाइल अॅपमधून अर्ज करा."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "en",
+    "question": "cheqbook aplly",
+    "answer": "Apply cheque book via branch, net banking, or mobile app."
+  },
+  {
+    "intent": "cheque_book",
+    "language": "en",
+    "question": "need help cheque_book now",
+    "answer": "Apply cheque book via branch, net banking, or mobile app."
+  },
+  {
+    "intent": "account_opening",
+    "language": "en",
+    "question": "How to open account? variant 1",
+    "answer": "To open account, bring Aadhaar, PAN, photographs, and minimum initial deposit."
+  },
+  {
+    "intent": "account_opening",
+    "language": "en",
+    "question": "Documents for new account? variant 2",
+    "answer": "To open account, bring Aadhaar, PAN, photographs, and minimum initial deposit."
+  },
+  {
+    "intent": "account_opening",
+    "language": "en",
+    "question": "Start a savings account? variant 3",
+    "answer": "To open account, bring Aadhaar, PAN, photographs, and minimum initial deposit."
+  },
+  {
+    "intent": "account_opening",
+    "language": "en",
+    "question": "How to open account? variant 4",
+    "answer": "To open account, bring Aadhaar, PAN, photographs, and minimum initial deposit."
+  },
+  {
+    "intent": "account_opening",
+    "language": "en",
+    "question": "Documents for new account? variant 5",
+    "answer": "To open account, bring Aadhaar, PAN, photographs, and minimum initial deposit."
+  },
+  {
+    "intent": "account_opening",
+    "language": "en",
+    "question": "Start a savings account? variant 6",
+    "answer": "To open account, bring Aadhaar, PAN, photographs, and minimum initial deposit."
+  },
+  {
+    "intent": "account_opening",
+    "language": "en",
+    "question": "How to open account? variant 7",
+    "answer": "To open account, bring Aadhaar, PAN, photographs, and minimum initial deposit."
+  },
+  {
+    "intent": "account_opening",
+    "language": "en",
+    "question": "Documents for new account? variant 8",
+    "answer": "To open account, bring Aadhaar, PAN, photographs, and minimum initial deposit."
+  },
+  {
+    "intent": "account_opening",
+    "language": "en",
+    "question": "Start a savings account? variant 9",
+    "answer": "To open account, bring Aadhaar, PAN, photographs, and minimum initial deposit."
+  },
+  {
+    "intent": "account_opening",
+    "language": "en",
+    "question": "How to open account? variant 10",
+    "answer": "To open account, bring Aadhaar, PAN, photographs, and minimum initial deposit."
+  },
+  {
+    "intent": "account_opening",
+    "language": "en",
+    "question": "Documents for new account? variant 11",
+    "answer": "To open account, bring Aadhaar, PAN, photographs, and minimum initial deposit."
+  },
+  {
+    "intent": "account_opening",
+    "language": "en",
+    "question": "Start a savings account? variant 12",
+    "answer": "To open account, bring Aadhaar, PAN, photographs, and minimum initial deposit."
+  },
+  {
+    "intent": "account_opening",
+    "language": "en",
+    "question": "How to open account? variant 13",
+    "answer": "To open account, bring Aadhaar, PAN, photographs, and minimum initial deposit."
+  },
+  {
+    "intent": "account_opening",
+    "language": "en",
+    "question": "Documents for new account? variant 14",
+    "answer": "To open account, bring Aadhaar, PAN, photographs, and minimum initial deposit."
+  },
+  {
+    "intent": "account_opening",
+    "language": "en",
+    "question": "Start a savings account? variant 15",
+    "answer": "To open account, bring Aadhaar, PAN, photographs, and minimum initial deposit."
+  },
+  {
+    "intent": "account_opening",
+    "language": "en",
+    "question": "How to open account? variant 16",
+    "answer": "To open account, bring Aadhaar, PAN, photographs, and minimum initial deposit."
+  },
+  {
+    "intent": "account_opening",
+    "language": "hi",
+    "question": "नया खाता कैसे खोलें? variant 1",
+    "answer": "खाता खोलने के लिए आधार, PAN, फोटो और प्रारंभिक जमा राशि लाएं।"
+  },
+  {
+    "intent": "account_opening",
+    "language": "hi",
+    "question": "नए खाते के लिए दस्तावेज? variant 2",
+    "answer": "खाता खोलने के लिए आधार, PAN, फोटो और प्रारंभिक जमा राशि लाएं।"
+  },
+  {
+    "intent": "account_opening",
+    "language": "hi",
+    "question": "सेविंग अकाउंट खोलना है? variant 3",
+    "answer": "खाता खोलने के लिए आधार, PAN, फोटो और प्रारंभिक जमा राशि लाएं।"
+  },
+  {
+    "intent": "account_opening",
+    "language": "hi",
+    "question": "नया खाता कैसे खोलें? variant 4",
+    "answer": "खाता खोलने के लिए आधार, PAN, फोटो और प्रारंभिक जमा राशि लाएं।"
+  },
+  {
+    "intent": "account_opening",
+    "language": "hi",
+    "question": "नए खाते के लिए दस्तावेज? variant 5",
+    "answer": "खाता खोलने के लिए आधार, PAN, फोटो और प्रारंभिक जमा राशि लाएं।"
+  },
+  {
+    "intent": "account_opening",
+    "language": "hi",
+    "question": "सेविंग अकाउंट खोलना है? variant 6",
+    "answer": "खाता खोलने के लिए आधार, PAN, फोटो और प्रारंभिक जमा राशि लाएं।"
+  },
+  {
+    "intent": "account_opening",
+    "language": "hi",
+    "question": "नया खाता कैसे खोलें? variant 7",
+    "answer": "खाता खोलने के लिए आधार, PAN, फोटो और प्रारंभिक जमा राशि लाएं।"
+  },
+  {
+    "intent": "account_opening",
+    "language": "hi",
+    "question": "नए खाते के लिए दस्तावेज? variant 8",
+    "answer": "खाता खोलने के लिए आधार, PAN, फोटो और प्रारंभिक जमा राशि लाएं।"
+  },
+  {
+    "intent": "account_opening",
+    "language": "hi",
+    "question": "सेविंग अकाउंट खोलना है? variant 9",
+    "answer": "खाता खोलने के लिए आधार, PAN, फोटो और प्रारंभिक जमा राशि लाएं।"
+  },
+  {
+    "intent": "account_opening",
+    "language": "hi",
+    "question": "नया खाता कैसे खोलें? variant 10",
+    "answer": "खाता खोलने के लिए आधार, PAN, फोटो और प्रारंभिक जमा राशि लाएं।"
+  },
+  {
+    "intent": "account_opening",
+    "language": "hi",
+    "question": "नए खाते के लिए दस्तावेज? variant 11",
+    "answer": "खाता खोलने के लिए आधार, PAN, फोटो और प्रारंभिक जमा राशि लाएं।"
+  },
+  {
+    "intent": "account_opening",
+    "language": "hi",
+    "question": "सेविंग अकाउंट खोलना है? variant 12",
+    "answer": "खाता खोलने के लिए आधार, PAN, फोटो और प्रारंभिक जमा राशि लाएं।"
+  },
+  {
+    "intent": "account_opening",
+    "language": "hi",
+    "question": "नया खाता कैसे खोलें? variant 13",
+    "answer": "खाता खोलने के लिए आधार, PAN, फोटो और प्रारंभिक जमा राशि लाएं।"
+  },
+  {
+    "intent": "account_opening",
+    "language": "hi",
+    "question": "नए खाते के लिए दस्तावेज? variant 14",
+    "answer": "खाता खोलने के लिए आधार, PAN, फोटो और प्रारंभिक जमा राशि लाएं।"
+  },
+  {
+    "intent": "account_opening",
+    "language": "hi",
+    "question": "सेविंग अकाउंट खोलना है? variant 15",
+    "answer": "खाता खोलने के लिए आधार, PAN, फोटो और प्रारंभिक जमा राशि लाएं।"
+  },
+  {
+    "intent": "account_opening",
+    "language": "hi",
+    "question": "नया खाता कैसे खोलें? variant 16",
+    "answer": "खाता खोलने के लिए आधार, PAN, फोटो और प्रारंभिक जमा राशि लाएं।"
+  },
+  {
+    "intent": "account_opening",
+    "language": "mr",
+    "question": "नवीन खाते कसे उघडायचे? variant 1",
+    "answer": "खाते उघडण्यासाठी आधार, PAN, फोटो आणि प्रारंभिक ठेव रक्कम आणा."
+  },
+  {
+    "intent": "account_opening",
+    "language": "mr",
+    "question": "नवीन खात्यासाठी कागदपत्रे? variant 2",
+    "answer": "खाते उघडण्यासाठी आधार, PAN, फोटो आणि प्रारंभिक ठेव रक्कम आणा."
+  },
+  {
+    "intent": "account_opening",
+    "language": "mr",
+    "question": "सेव्हिंग्स खाते सुरू करायचे? variant 3",
+    "answer": "खाते उघडण्यासाठी आधार, PAN, फोटो आणि प्रारंभिक ठेव रक्कम आणा."
+  },
+  {
+    "intent": "account_opening",
+    "language": "mr",
+    "question": "नवीन खाते कसे उघडायचे? variant 4",
+    "answer": "खाते उघडण्यासाठी आधार, PAN, फोटो आणि प्रारंभिक ठेव रक्कम आणा."
+  },
+  {
+    "intent": "account_opening",
+    "language": "mr",
+    "question": "नवीन खात्यासाठी कागदपत्रे? variant 5",
+    "answer": "खाते उघडण्यासाठी आधार, PAN, फोटो आणि प्रारंभिक ठेव रक्कम आणा."
+  },
+  {
+    "intent": "account_opening",
+    "language": "mr",
+    "question": "सेव्हिंग्स खाते सुरू करायचे? variant 6",
+    "answer": "खाते उघडण्यासाठी आधार, PAN, फोटो आणि प्रारंभिक ठेव रक्कम आणा."
+  },
+  {
+    "intent": "account_opening",
+    "language": "mr",
+    "question": "नवीन खाते कसे उघडायचे? variant 7",
+    "answer": "खाते उघडण्यासाठी आधार, PAN, फोटो आणि प्रारंभिक ठेव रक्कम आणा."
+  },
+  {
+    "intent": "account_opening",
+    "language": "mr",
+    "question": "नवीन खात्यासाठी कागदपत्रे? variant 8",
+    "answer": "खाते उघडण्यासाठी आधार, PAN, फोटो आणि प्रारंभिक ठेव रक्कम आणा."
+  },
+  {
+    "intent": "account_opening",
+    "language": "mr",
+    "question": "सेव्हिंग्स खाते सुरू करायचे? variant 9",
+    "answer": "खाते उघडण्यासाठी आधार, PAN, फोटो आणि प्रारंभिक ठेव रक्कम आणा."
+  },
+  {
+    "intent": "account_opening",
+    "language": "mr",
+    "question": "नवीन खाते कसे उघडायचे? variant 10",
+    "answer": "खाते उघडण्यासाठी आधार, PAN, फोटो आणि प्रारंभिक ठेव रक्कम आणा."
+  },
+  {
+    "intent": "account_opening",
+    "language": "mr",
+    "question": "नवीन खात्यासाठी कागदपत्रे? variant 11",
+    "answer": "खाते उघडण्यासाठी आधार, PAN, फोटो आणि प्रारंभिक ठेव रक्कम आणा."
+  },
+  {
+    "intent": "account_opening",
+    "language": "mr",
+    "question": "सेव्हिंग्स खाते सुरू करायचे? variant 12",
+    "answer": "खाते उघडण्यासाठी आधार, PAN, फोटो आणि प्रारंभिक ठेव रक्कम आणा."
+  },
+  {
+    "intent": "account_opening",
+    "language": "mr",
+    "question": "नवीन खाते कसे उघडायचे? variant 13",
+    "answer": "खाते उघडण्यासाठी आधार, PAN, फोटो आणि प्रारंभिक ठेव रक्कम आणा."
+  },
+  {
+    "intent": "account_opening",
+    "language": "mr",
+    "question": "नवीन खात्यासाठी कागदपत्रे? variant 14",
+    "answer": "खाते उघडण्यासाठी आधार, PAN, फोटो आणि प्रारंभिक ठेव रक्कम आणा."
+  },
+  {
+    "intent": "account_opening",
+    "language": "mr",
+    "question": "सेव्हिंग्स खाते सुरू करायचे? variant 15",
+    "answer": "खाते उघडण्यासाठी आधार, PAN, फोटो आणि प्रारंभिक ठेव रक्कम आणा."
+  },
+  {
+    "intent": "account_opening",
+    "language": "mr",
+    "question": "नवीन खाते कसे उघडायचे? variant 16",
+    "answer": "खाते उघडण्यासाठी आधार, PAN, फोटो आणि प्रारंभिक ठेव रक्कम आणा."
+  },
+  {
+    "intent": "account_opening",
+    "language": "hi",
+    "question": "naya account kaise khole",
+    "answer": "खाता खोलने के लिए आधार, PAN, फोटो और प्रारंभिक जमा राशि लाएं।"
+  },
+  {
+    "intent": "account_opening",
+    "language": "mr",
+    "question": "navin khate kase ughadayche",
+    "answer": "खाते उघडण्यासाठी आधार, PAN, फोटो आणि प्रारंभिक ठेव रक्कम आणा."
+  },
+  {
+    "intent": "account_opening",
+    "language": "en",
+    "question": "acount openng process",
+    "answer": "To open account, bring Aadhaar, PAN, photographs, and minimum initial deposit."
+  },
+  {
+    "intent": "account_opening",
+    "language": "en",
+    "question": "need help account_opening now",
+    "answer": "To open account, bring Aadhaar, PAN, photographs, and minimum initial deposit."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "en",
+    "question": "NEFT or RTGS which to use? variant 1",
+    "answer": "Use NEFT for below 2 lakh and RTGS for 2 lakh or above."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "en",
+    "question": "Transfer by NEFT RTGS? variant 2",
+    "answer": "Use NEFT for below 2 lakh and RTGS for 2 lakh or above."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "en",
+    "question": "Charges for NEFT RTGS? variant 3",
+    "answer": "Use NEFT for below 2 lakh and RTGS for 2 lakh or above."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "en",
+    "question": "NEFT or RTGS which to use? variant 4",
+    "answer": "Use NEFT for below 2 lakh and RTGS for 2 lakh or above."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "en",
+    "question": "Transfer by NEFT RTGS? variant 5",
+    "answer": "Use NEFT for below 2 lakh and RTGS for 2 lakh or above."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "en",
+    "question": "Charges for NEFT RTGS? variant 6",
+    "answer": "Use NEFT for below 2 lakh and RTGS for 2 lakh or above."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "en",
+    "question": "NEFT or RTGS which to use? variant 7",
+    "answer": "Use NEFT for below 2 lakh and RTGS for 2 lakh or above."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "en",
+    "question": "Transfer by NEFT RTGS? variant 8",
+    "answer": "Use NEFT for below 2 lakh and RTGS for 2 lakh or above."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "en",
+    "question": "Charges for NEFT RTGS? variant 9",
+    "answer": "Use NEFT for below 2 lakh and RTGS for 2 lakh or above."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "en",
+    "question": "NEFT or RTGS which to use? variant 10",
+    "answer": "Use NEFT for below 2 lakh and RTGS for 2 lakh or above."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "en",
+    "question": "Transfer by NEFT RTGS? variant 11",
+    "answer": "Use NEFT for below 2 lakh and RTGS for 2 lakh or above."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "en",
+    "question": "Charges for NEFT RTGS? variant 12",
+    "answer": "Use NEFT for below 2 lakh and RTGS for 2 lakh or above."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "en",
+    "question": "NEFT or RTGS which to use? variant 13",
+    "answer": "Use NEFT for below 2 lakh and RTGS for 2 lakh or above."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "en",
+    "question": "Transfer by NEFT RTGS? variant 14",
+    "answer": "Use NEFT for below 2 lakh and RTGS for 2 lakh or above."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "en",
+    "question": "Charges for NEFT RTGS? variant 15",
+    "answer": "Use NEFT for below 2 lakh and RTGS for 2 lakh or above."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "en",
+    "question": "NEFT or RTGS which to use? variant 16",
+    "answer": "Use NEFT for below 2 lakh and RTGS for 2 lakh or above."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "hi",
+    "question": "NEFT या RTGS कौन सा? variant 1",
+    "answer": "2 लाख से कम के लिए NEFT और 2 लाख या अधिक के लिए RTGS उपयोग करें।"
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "hi",
+    "question": "NEFT RTGS से ट्रांसफर? variant 2",
+    "answer": "2 लाख से कम के लिए NEFT और 2 लाख या अधिक के लिए RTGS उपयोग करें।"
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "hi",
+    "question": "NEFT RTGS चार्ज क्या है? variant 3",
+    "answer": "2 लाख से कम के लिए NEFT और 2 लाख या अधिक के लिए RTGS उपयोग करें।"
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "hi",
+    "question": "NEFT या RTGS कौन सा? variant 4",
+    "answer": "2 लाख से कम के लिए NEFT और 2 लाख या अधिक के लिए RTGS उपयोग करें।"
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "hi",
+    "question": "NEFT RTGS से ट्रांसफर? variant 5",
+    "answer": "2 लाख से कम के लिए NEFT और 2 लाख या अधिक के लिए RTGS उपयोग करें।"
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "hi",
+    "question": "NEFT RTGS चार्ज क्या है? variant 6",
+    "answer": "2 लाख से कम के लिए NEFT और 2 लाख या अधिक के लिए RTGS उपयोग करें।"
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "hi",
+    "question": "NEFT या RTGS कौन सा? variant 7",
+    "answer": "2 लाख से कम के लिए NEFT और 2 लाख या अधिक के लिए RTGS उपयोग करें।"
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "hi",
+    "question": "NEFT RTGS से ट्रांसफर? variant 8",
+    "answer": "2 लाख से कम के लिए NEFT और 2 लाख या अधिक के लिए RTGS उपयोग करें।"
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "hi",
+    "question": "NEFT RTGS चार्ज क्या है? variant 9",
+    "answer": "2 लाख से कम के लिए NEFT और 2 लाख या अधिक के लिए RTGS उपयोग करें।"
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "hi",
+    "question": "NEFT या RTGS कौन सा? variant 10",
+    "answer": "2 लाख से कम के लिए NEFT और 2 लाख या अधिक के लिए RTGS उपयोग करें।"
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "hi",
+    "question": "NEFT RTGS से ट्रांसफर? variant 11",
+    "answer": "2 लाख से कम के लिए NEFT और 2 लाख या अधिक के लिए RTGS उपयोग करें।"
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "hi",
+    "question": "NEFT RTGS चार्ज क्या है? variant 12",
+    "answer": "2 लाख से कम के लिए NEFT और 2 लाख या अधिक के लिए RTGS उपयोग करें।"
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "hi",
+    "question": "NEFT या RTGS कौन सा? variant 13",
+    "answer": "2 लाख से कम के लिए NEFT और 2 लाख या अधिक के लिए RTGS उपयोग करें।"
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "hi",
+    "question": "NEFT RTGS से ट्रांसफर? variant 14",
+    "answer": "2 लाख से कम के लिए NEFT और 2 लाख या अधिक के लिए RTGS उपयोग करें।"
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "hi",
+    "question": "NEFT RTGS चार्ज क्या है? variant 15",
+    "answer": "2 लाख से कम के लिए NEFT और 2 लाख या अधिक के लिए RTGS उपयोग करें।"
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "hi",
+    "question": "NEFT या RTGS कौन सा? variant 16",
+    "answer": "2 लाख से कम के लिए NEFT और 2 लाख या अधिक के लिए RTGS उपयोग करें।"
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "mr",
+    "question": "NEFT की RTGS कोणते? variant 1",
+    "answer": "2 लाखांखाली NEFT आणि 2 लाख किंवा अधिकसाठी RTGS वापरा."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "mr",
+    "question": "NEFT RTGS ने ट्रान्सफर? variant 2",
+    "answer": "2 लाखांखाली NEFT आणि 2 लाख किंवा अधिकसाठी RTGS वापरा."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "mr",
+    "question": "NEFT RTGS शुल्क किती? variant 3",
+    "answer": "2 लाखांखाली NEFT आणि 2 लाख किंवा अधिकसाठी RTGS वापरा."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "mr",
+    "question": "NEFT की RTGS कोणते? variant 4",
+    "answer": "2 लाखांखाली NEFT आणि 2 लाख किंवा अधिकसाठी RTGS वापरा."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "mr",
+    "question": "NEFT RTGS ने ट्रान्सफर? variant 5",
+    "answer": "2 लाखांखाली NEFT आणि 2 लाख किंवा अधिकसाठी RTGS वापरा."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "mr",
+    "question": "NEFT RTGS शुल्क किती? variant 6",
+    "answer": "2 लाखांखाली NEFT आणि 2 लाख किंवा अधिकसाठी RTGS वापरा."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "mr",
+    "question": "NEFT की RTGS कोणते? variant 7",
+    "answer": "2 लाखांखाली NEFT आणि 2 लाख किंवा अधिकसाठी RTGS वापरा."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "mr",
+    "question": "NEFT RTGS ने ट्रान्सफर? variant 8",
+    "answer": "2 लाखांखाली NEFT आणि 2 लाख किंवा अधिकसाठी RTGS वापरा."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "mr",
+    "question": "NEFT RTGS शुल्क किती? variant 9",
+    "answer": "2 लाखांखाली NEFT आणि 2 लाख किंवा अधिकसाठी RTGS वापरा."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "mr",
+    "question": "NEFT की RTGS कोणते? variant 10",
+    "answer": "2 लाखांखाली NEFT आणि 2 लाख किंवा अधिकसाठी RTGS वापरा."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "mr",
+    "question": "NEFT RTGS ने ट्रान्सफर? variant 11",
+    "answer": "2 लाखांखाली NEFT आणि 2 लाख किंवा अधिकसाठी RTGS वापरा."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "mr",
+    "question": "NEFT RTGS शुल्क किती? variant 12",
+    "answer": "2 लाखांखाली NEFT आणि 2 लाख किंवा अधिकसाठी RTGS वापरा."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "mr",
+    "question": "NEFT की RTGS कोणते? variant 13",
+    "answer": "2 लाखांखाली NEFT आणि 2 लाख किंवा अधिकसाठी RTGS वापरा."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "mr",
+    "question": "NEFT RTGS ने ट्रान्सफर? variant 14",
+    "answer": "2 लाखांखाली NEFT आणि 2 लाख किंवा अधिकसाठी RTGS वापरा."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "mr",
+    "question": "NEFT RTGS शुल्क किती? variant 15",
+    "answer": "2 लाखांखाली NEFT आणि 2 लाख किंवा अधिकसाठी RTGS वापरा."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "mr",
+    "question": "NEFT की RTGS कोणते? variant 16",
+    "answer": "2 लाखांखाली NEFT आणि 2 लाख किंवा अधिकसाठी RTGS वापरा."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "hi",
+    "question": "neft rtgs transfer ka charge kya hai",
+    "answer": "2 लाख से कम के लिए NEFT और 2 लाख या अधिक के लिए RTGS उपयोग करें।"
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "mr",
+    "question": "neft rtgs transfer sathi charge kiti",
+    "answer": "2 लाखांखाली NEFT आणि 2 लाख किंवा अधिकसाठी RTGS वापरा."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "en",
+    "question": "neft rtgs chargs",
+    "answer": "Use NEFT for below 2 lakh and RTGS for 2 lakh or above."
+  },
+  {
+    "intent": "neft_rtgs",
+    "language": "en",
+    "question": "need help neft_rtgs now",
+    "answer": "Use NEFT for below 2 lakh and RTGS for 2 lakh or above."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "en",
+    "question": "Forgot UPI PIN? variant 1",
+    "answer": "Reset UPI PIN from app using debit card details and OTP verification."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "en",
+    "question": "How to reset UPI PIN? variant 2",
+    "answer": "Reset UPI PIN from app using debit card details and OTP verification."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "en",
+    "question": "UPI PIN reset process? variant 3",
+    "answer": "Reset UPI PIN from app using debit card details and OTP verification."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "en",
+    "question": "Forgot UPI PIN? variant 4",
+    "answer": "Reset UPI PIN from app using debit card details and OTP verification."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "en",
+    "question": "How to reset UPI PIN? variant 5",
+    "answer": "Reset UPI PIN from app using debit card details and OTP verification."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "en",
+    "question": "UPI PIN reset process? variant 6",
+    "answer": "Reset UPI PIN from app using debit card details and OTP verification."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "en",
+    "question": "Forgot UPI PIN? variant 7",
+    "answer": "Reset UPI PIN from app using debit card details and OTP verification."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "en",
+    "question": "How to reset UPI PIN? variant 8",
+    "answer": "Reset UPI PIN from app using debit card details and OTP verification."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "en",
+    "question": "UPI PIN reset process? variant 9",
+    "answer": "Reset UPI PIN from app using debit card details and OTP verification."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "en",
+    "question": "Forgot UPI PIN? variant 10",
+    "answer": "Reset UPI PIN from app using debit card details and OTP verification."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "en",
+    "question": "How to reset UPI PIN? variant 11",
+    "answer": "Reset UPI PIN from app using debit card details and OTP verification."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "en",
+    "question": "UPI PIN reset process? variant 12",
+    "answer": "Reset UPI PIN from app using debit card details and OTP verification."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "en",
+    "question": "Forgot UPI PIN? variant 13",
+    "answer": "Reset UPI PIN from app using debit card details and OTP verification."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "en",
+    "question": "How to reset UPI PIN? variant 14",
+    "answer": "Reset UPI PIN from app using debit card details and OTP verification."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "en",
+    "question": "UPI PIN reset process? variant 15",
+    "answer": "Reset UPI PIN from app using debit card details and OTP verification."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "en",
+    "question": "Forgot UPI PIN? variant 16",
+    "answer": "Reset UPI PIN from app using debit card details and OTP verification."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "hi",
+    "question": "UPI PIN भूल गया? variant 1",
+    "answer": "UPI PIN रीसेट ऐप से डेबिट कार्ड और OTP के जरिए करें।"
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "hi",
+    "question": "UPI PIN रीसेट कैसे करें? variant 2",
+    "answer": "UPI PIN रीसेट ऐप से डेबिट कार्ड और OTP के जरिए करें।"
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "hi",
+    "question": "UPI PIN रीसेट प्रक्रिया? variant 3",
+    "answer": "UPI PIN रीसेट ऐप से डेबिट कार्ड और OTP के जरिए करें।"
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "hi",
+    "question": "UPI PIN भूल गया? variant 4",
+    "answer": "UPI PIN रीसेट ऐप से डेबिट कार्ड और OTP के जरिए करें।"
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "hi",
+    "question": "UPI PIN रीसेट कैसे करें? variant 5",
+    "answer": "UPI PIN रीसेट ऐप से डेबिट कार्ड और OTP के जरिए करें।"
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "hi",
+    "question": "UPI PIN रीसेट प्रक्रिया? variant 6",
+    "answer": "UPI PIN रीसेट ऐप से डेबिट कार्ड और OTP के जरिए करें।"
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "hi",
+    "question": "UPI PIN भूल गया? variant 7",
+    "answer": "UPI PIN रीसेट ऐप से डेबिट कार्ड और OTP के जरिए करें।"
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "hi",
+    "question": "UPI PIN रीसेट कैसे करें? variant 8",
+    "answer": "UPI PIN रीसेट ऐप से डेबिट कार्ड और OTP के जरिए करें।"
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "hi",
+    "question": "UPI PIN रीसेट प्रक्रिया? variant 9",
+    "answer": "UPI PIN रीसेट ऐप से डेबिट कार्ड और OTP के जरिए करें।"
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "hi",
+    "question": "UPI PIN भूल गया? variant 10",
+    "answer": "UPI PIN रीसेट ऐप से डेबिट कार्ड और OTP के जरिए करें।"
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "hi",
+    "question": "UPI PIN रीसेट कैसे करें? variant 11",
+    "answer": "UPI PIN रीसेट ऐप से डेबिट कार्ड और OTP के जरिए करें।"
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "hi",
+    "question": "UPI PIN रीसेट प्रक्रिया? variant 12",
+    "answer": "UPI PIN रीसेट ऐप से डेबिट कार्ड और OTP के जरिए करें।"
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "hi",
+    "question": "UPI PIN भूल गया? variant 13",
+    "answer": "UPI PIN रीसेट ऐप से डेबिट कार्ड और OTP के जरिए करें।"
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "hi",
+    "question": "UPI PIN रीसेट कैसे करें? variant 14",
+    "answer": "UPI PIN रीसेट ऐप से डेबिट कार्ड और OTP के जरिए करें।"
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "hi",
+    "question": "UPI PIN रीसेट प्रक्रिया? variant 15",
+    "answer": "UPI PIN रीसेट ऐप से डेबिट कार्ड और OTP के जरिए करें।"
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "hi",
+    "question": "UPI PIN भूल गया? variant 16",
+    "answer": "UPI PIN रीसेट ऐप से डेबिट कार्ड और OTP के जरिए करें।"
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "mr",
+    "question": "UPI PIN विसरलो? variant 1",
+    "answer": "UPI PIN अॅपमधून डेबिट कार्ड व OTP ने रीसेट करा."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "mr",
+    "question": "UPI PIN रीसेट कसे करायचे? variant 2",
+    "answer": "UPI PIN अॅपमधून डेबिट कार्ड व OTP ने रीसेट करा."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "mr",
+    "question": "UPI PIN रीसेट प्रक्रिया? variant 3",
+    "answer": "UPI PIN अॅपमधून डेबिट कार्ड व OTP ने रीसेट करा."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "mr",
+    "question": "UPI PIN विसरलो? variant 4",
+    "answer": "UPI PIN अॅपमधून डेबिट कार्ड व OTP ने रीसेट करा."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "mr",
+    "question": "UPI PIN रीसेट कसे करायचे? variant 5",
+    "answer": "UPI PIN अॅपमधून डेबिट कार्ड व OTP ने रीसेट करा."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "mr",
+    "question": "UPI PIN रीसेट प्रक्रिया? variant 6",
+    "answer": "UPI PIN अॅपमधून डेबिट कार्ड व OTP ने रीसेट करा."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "mr",
+    "question": "UPI PIN विसरलो? variant 7",
+    "answer": "UPI PIN अॅपमधून डेबिट कार्ड व OTP ने रीसेट करा."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "mr",
+    "question": "UPI PIN रीसेट कसे करायचे? variant 8",
+    "answer": "UPI PIN अॅपमधून डेबिट कार्ड व OTP ने रीसेट करा."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "mr",
+    "question": "UPI PIN रीसेट प्रक्रिया? variant 9",
+    "answer": "UPI PIN अॅपमधून डेबिट कार्ड व OTP ने रीसेट करा."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "mr",
+    "question": "UPI PIN विसरलो? variant 10",
+    "answer": "UPI PIN अॅपमधून डेबिट कार्ड व OTP ने रीसेट करा."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "mr",
+    "question": "UPI PIN रीसेट कसे करायचे? variant 11",
+    "answer": "UPI PIN अॅपमधून डेबिट कार्ड व OTP ने रीसेट करा."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "mr",
+    "question": "UPI PIN रीसेट प्रक्रिया? variant 12",
+    "answer": "UPI PIN अॅपमधून डेबिट कार्ड व OTP ने रीसेट करा."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "mr",
+    "question": "UPI PIN विसरलो? variant 13",
+    "answer": "UPI PIN अॅपमधून डेबिट कार्ड व OTP ने रीसेट करा."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "mr",
+    "question": "UPI PIN रीसेट कसे करायचे? variant 14",
+    "answer": "UPI PIN अॅपमधून डेबिट कार्ड व OTP ने रीसेट करा."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "mr",
+    "question": "UPI PIN रीसेट प्रक्रिया? variant 15",
+    "answer": "UPI PIN अॅपमधून डेबिट कार्ड व OTP ने रीसेट करा."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "mr",
+    "question": "UPI PIN विसरलो? variant 16",
+    "answer": "UPI PIN अॅपमधून डेबिट कार्ड व OTP ने रीसेट करा."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "hi",
+    "question": "upi pin reset kaise hoga",
+    "answer": "UPI PIN रीसेट ऐप से डेबिट कार्ड और OTP के जरिए करें।"
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "mr",
+    "question": "upi pin reset kase karayche",
+    "answer": "UPI PIN अॅपमधून डेबिट कार्ड व OTP ने रीसेट करा."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "en",
+    "question": "upi pin resset",
+    "answer": "Reset UPI PIN from app using debit card details and OTP verification."
+  },
+  {
+    "intent": "upi_pin_reset",
+    "language": "en",
+    "question": "need help upi_pin_reset now",
+    "answer": "Reset UPI PIN from app using debit card details and OTP verification."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "en",
+    "question": "Net banking password reset? variant 1",
+    "answer": "Use forgot password option in net banking and complete OTP verification."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "en",
+    "question": "Forgot netbanking password? variant 2",
+    "answer": "Use forgot password option in net banking and complete OTP verification."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "en",
+    "question": "How to change netbanking password? variant 3",
+    "answer": "Use forgot password option in net banking and complete OTP verification."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "en",
+    "question": "Net banking password reset? variant 4",
+    "answer": "Use forgot password option in net banking and complete OTP verification."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "en",
+    "question": "Forgot netbanking password? variant 5",
+    "answer": "Use forgot password option in net banking and complete OTP verification."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "en",
+    "question": "How to change netbanking password? variant 6",
+    "answer": "Use forgot password option in net banking and complete OTP verification."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "en",
+    "question": "Net banking password reset? variant 7",
+    "answer": "Use forgot password option in net banking and complete OTP verification."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "en",
+    "question": "Forgot netbanking password? variant 8",
+    "answer": "Use forgot password option in net banking and complete OTP verification."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "en",
+    "question": "How to change netbanking password? variant 9",
+    "answer": "Use forgot password option in net banking and complete OTP verification."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "en",
+    "question": "Net banking password reset? variant 10",
+    "answer": "Use forgot password option in net banking and complete OTP verification."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "en",
+    "question": "Forgot netbanking password? variant 11",
+    "answer": "Use forgot password option in net banking and complete OTP verification."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "en",
+    "question": "How to change netbanking password? variant 12",
+    "answer": "Use forgot password option in net banking and complete OTP verification."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "en",
+    "question": "Net banking password reset? variant 13",
+    "answer": "Use forgot password option in net banking and complete OTP verification."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "en",
+    "question": "Forgot netbanking password? variant 14",
+    "answer": "Use forgot password option in net banking and complete OTP verification."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "en",
+    "question": "How to change netbanking password? variant 15",
+    "answer": "Use forgot password option in net banking and complete OTP verification."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "en",
+    "question": "Net banking password reset? variant 16",
+    "answer": "Use forgot password option in net banking and complete OTP verification."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "hi",
+    "question": "नेट बैंकिंग पासवर्ड रीसेट? variant 1",
+    "answer": "नेट बैंकिंग में Forgot Password विकल्प और OTP सत्यापन का उपयोग करें।"
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "hi",
+    "question": "नेट बैंकिंग पासवर्ड भूल गया? variant 2",
+    "answer": "नेट बैंकिंग में Forgot Password विकल्प और OTP सत्यापन का उपयोग करें।"
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "hi",
+    "question": "नेट बैंकिंग पासवर्ड कैसे बदलें? variant 3",
+    "answer": "नेट बैंकिंग में Forgot Password विकल्प और OTP सत्यापन का उपयोग करें।"
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "hi",
+    "question": "नेट बैंकिंग पासवर्ड रीसेट? variant 4",
+    "answer": "नेट बैंकिंग में Forgot Password विकल्प और OTP सत्यापन का उपयोग करें।"
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "hi",
+    "question": "नेट बैंकिंग पासवर्ड भूल गया? variant 5",
+    "answer": "नेट बैंकिंग में Forgot Password विकल्प और OTP सत्यापन का उपयोग करें।"
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "hi",
+    "question": "नेट बैंकिंग पासवर्ड कैसे बदलें? variant 6",
+    "answer": "नेट बैंकिंग में Forgot Password विकल्प और OTP सत्यापन का उपयोग करें।"
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "hi",
+    "question": "नेट बैंकिंग पासवर्ड रीसेट? variant 7",
+    "answer": "नेट बैंकिंग में Forgot Password विकल्प और OTP सत्यापन का उपयोग करें।"
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "hi",
+    "question": "नेट बैंकिंग पासवर्ड भूल गया? variant 8",
+    "answer": "नेट बैंकिंग में Forgot Password विकल्प और OTP सत्यापन का उपयोग करें।"
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "hi",
+    "question": "नेट बैंकिंग पासवर्ड कैसे बदलें? variant 9",
+    "answer": "नेट बैंकिंग में Forgot Password विकल्प और OTP सत्यापन का उपयोग करें।"
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "hi",
+    "question": "नेट बैंकिंग पासवर्ड रीसेट? variant 10",
+    "answer": "नेट बैंकिंग में Forgot Password विकल्प और OTP सत्यापन का उपयोग करें।"
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "hi",
+    "question": "नेट बैंकिंग पासवर्ड भूल गया? variant 11",
+    "answer": "नेट बैंकिंग में Forgot Password विकल्प और OTP सत्यापन का उपयोग करें।"
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "hi",
+    "question": "नेट बैंकिंग पासवर्ड कैसे बदलें? variant 12",
+    "answer": "नेट बैंकिंग में Forgot Password विकल्प और OTP सत्यापन का उपयोग करें।"
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "hi",
+    "question": "नेट बैंकिंग पासवर्ड रीसेट? variant 13",
+    "answer": "नेट बैंकिंग में Forgot Password विकल्प और OTP सत्यापन का उपयोग करें।"
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "hi",
+    "question": "नेट बैंकिंग पासवर्ड भूल गया? variant 14",
+    "answer": "नेट बैंकिंग में Forgot Password विकल्प और OTP सत्यापन का उपयोग करें।"
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "hi",
+    "question": "नेट बैंकिंग पासवर्ड कैसे बदलें? variant 15",
+    "answer": "नेट बैंकिंग में Forgot Password विकल्प और OTP सत्यापन का उपयोग करें।"
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "hi",
+    "question": "नेट बैंकिंग पासवर्ड रीसेट? variant 16",
+    "answer": "नेट बैंकिंग में Forgot Password विकल्प और OTP सत्यापन का उपयोग करें।"
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "mr",
+    "question": "नेट बँकिंग पासवर्ड रीसेट? variant 1",
+    "answer": "नेट बँकिंगमध्ये Forgot Password पर्याय आणि OTP पडताळणी वापरा."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "mr",
+    "question": "नेट बँकिंग पासवर्ड विसरलो? variant 2",
+    "answer": "नेट बँकिंगमध्ये Forgot Password पर्याय आणि OTP पडताळणी वापरा."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "mr",
+    "question": "नेट बँकिंग पासवर्ड कसा बदलायचा? variant 3",
+    "answer": "नेट बँकिंगमध्ये Forgot Password पर्याय आणि OTP पडताळणी वापरा."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "mr",
+    "question": "नेट बँकिंग पासवर्ड रीसेट? variant 4",
+    "answer": "नेट बँकिंगमध्ये Forgot Password पर्याय आणि OTP पडताळणी वापरा."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "mr",
+    "question": "नेट बँकिंग पासवर्ड विसरलो? variant 5",
+    "answer": "नेट बँकिंगमध्ये Forgot Password पर्याय आणि OTP पडताळणी वापरा."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "mr",
+    "question": "नेट बँकिंग पासवर्ड कसा बदलायचा? variant 6",
+    "answer": "नेट बँकिंगमध्ये Forgot Password पर्याय आणि OTP पडताळणी वापरा."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "mr",
+    "question": "नेट बँकिंग पासवर्ड रीसेट? variant 7",
+    "answer": "नेट बँकिंगमध्ये Forgot Password पर्याय आणि OTP पडताळणी वापरा."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "mr",
+    "question": "नेट बँकिंग पासवर्ड विसरलो? variant 8",
+    "answer": "नेट बँकिंगमध्ये Forgot Password पर्याय आणि OTP पडताळणी वापरा."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "mr",
+    "question": "नेट बँकिंग पासवर्ड कसा बदलायचा? variant 9",
+    "answer": "नेट बँकिंगमध्ये Forgot Password पर्याय आणि OTP पडताळणी वापरा."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "mr",
+    "question": "नेट बँकिंग पासवर्ड रीसेट? variant 10",
+    "answer": "नेट बँकिंगमध्ये Forgot Password पर्याय आणि OTP पडताळणी वापरा."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "mr",
+    "question": "नेट बँकिंग पासवर्ड विसरलो? variant 11",
+    "answer": "नेट बँकिंगमध्ये Forgot Password पर्याय आणि OTP पडताळणी वापरा."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "mr",
+    "question": "नेट बँकिंग पासवर्ड कसा बदलायचा? variant 12",
+    "answer": "नेट बँकिंगमध्ये Forgot Password पर्याय आणि OTP पडताळणी वापरा."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "mr",
+    "question": "नेट बँकिंग पासवर्ड रीसेट? variant 13",
+    "answer": "नेट बँकिंगमध्ये Forgot Password पर्याय आणि OTP पडताळणी वापरा."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "mr",
+    "question": "नेट बँकिंग पासवर्ड विसरलो? variant 14",
+    "answer": "नेट बँकिंगमध्ये Forgot Password पर्याय आणि OTP पडताळणी वापरा."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "mr",
+    "question": "नेट बँकिंग पासवर्ड कसा बदलायचा? variant 15",
+    "answer": "नेट बँकिंगमध्ये Forgot Password पर्याय आणि OTP पडताळणी वापरा."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "mr",
+    "question": "नेट बँकिंग पासवर्ड रीसेट? variant 16",
+    "answer": "नेट बँकिंगमध्ये Forgot Password पर्याय आणि OTP पडताळणी वापरा."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "hi",
+    "question": "net banking password reset kaise kare",
+    "answer": "नेट बैंकिंग में Forgot Password विकल्प और OTP सत्यापन का उपयोग करें।"
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "mr",
+    "question": "net banking password reset kasa karu",
+    "answer": "नेट बँकिंगमध्ये Forgot Password पर्याय आणि OTP पडताळणी वापरा."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "en",
+    "question": "netbanking passwrd reset",
+    "answer": "Use forgot password option in net banking and complete OTP verification."
+  },
+  {
+    "intent": "net_banking_reset",
+    "language": "en",
+    "question": "need help net_banking_reset now",
+    "answer": "Use forgot password option in net banking and complete OTP verification."
+  }
+]

@@ -1,0 +1,722 @@
+[
+  {
+    "user_id": "USR001",
+    "account_number": "XXXX-XXXX-1001",
+    "balance": 172621,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR002",
+    "account_number": "XXXX-XXXX-1002",
+    "balance": 34184,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR003",
+    "account_number": "XXXX-XXXX-1003",
+    "balance": 11556,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR004",
+    "account_number": "XXXX-XXXX-1004",
+    "balance": 199393,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR005",
+    "account_number": "XXXX-XXXX-1005",
+    "balance": 77097,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR006",
+    "account_number": "XXXX-XXXX-1006",
+    "balance": 69196,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR007",
+    "account_number": "XXXX-XXXX-1007",
+    "balance": 63513,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR008",
+    "account_number": "XXXX-XXXX-1008",
+    "balance": 41579,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR009",
+    "account_number": "XXXX-XXXX-1009",
+    "balance": 198061,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR010",
+    "account_number": "XXXX-XXXX-1010",
+    "balance": 31868,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR011",
+    "account_number": "XXXX-XXXX-1011",
+    "balance": 182392,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR012",
+    "account_number": "XXXX-XXXX-1012",
+    "balance": 199161,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR013",
+    "account_number": "XXXX-XXXX-1013",
+    "balance": 238879,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR014",
+    "account_number": "XXXX-XXXX-1014",
+    "balance": 147964,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR015",
+    "account_number": "XXXX-XXXX-1015",
+    "balance": 27790,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR016",
+    "account_number": "XXXX-XXXX-1016",
+    "balance": 159794,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR017",
+    "account_number": "XXXX-XXXX-1017",
+    "balance": 115604,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR018",
+    "account_number": "XXXX-XXXX-1018",
+    "balance": 13331,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR019",
+    "account_number": "XXXX-XXXX-1019",
+    "balance": 12811,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR020",
+    "account_number": "XXXX-XXXX-1020",
+    "balance": 29561,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR021",
+    "account_number": "XXXX-XXXX-1021",
+    "balance": 62314,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR022",
+    "account_number": "XXXX-XXXX-1022",
+    "balance": 65990,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR023",
+    "account_number": "XXXX-XXXX-1023",
+    "balance": 137475,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR024",
+    "account_number": "XXXX-XXXX-1024",
+    "balance": 162815,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR025",
+    "account_number": "XXXX-XXXX-1025",
+    "balance": 11956,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR026",
+    "account_number": "XXXX-XXXX-1026",
+    "balance": 152127,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR027",
+    "account_number": "XXXX-XXXX-1027",
+    "balance": 57124,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR028",
+    "account_number": "XXXX-XXXX-1028",
+    "balance": 192700,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR029",
+    "account_number": "XXXX-XXXX-1029",
+    "balance": 175363,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR030",
+    "account_number": "XXXX-XXXX-1030",
+    "balance": 188848,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR031",
+    "account_number": "XXXX-XXXX-1031",
+    "balance": 147853,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR032",
+    "account_number": "XXXX-XXXX-1032",
+    "balance": 114974,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR033",
+    "account_number": "XXXX-XXXX-1033",
+    "balance": 62787,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR034",
+    "account_number": "XXXX-XXXX-1034",
+    "balance": 122757,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR035",
+    "account_number": "XXXX-XXXX-1035",
+    "balance": 159472,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR036",
+    "account_number": "XXXX-XXXX-1036",
+    "balance": 77926,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR037",
+    "account_number": "XXXX-XXXX-1037",
+    "balance": 217187,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR038",
+    "account_number": "XXXX-XXXX-1038",
+    "balance": 232881,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR039",
+    "account_number": "XXXX-XXXX-1039",
+    "balance": 6703,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR040",
+    "account_number": "XXXX-XXXX-1040",
+    "balance": 203916,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR041",
+    "account_number": "XXXX-XXXX-1041",
+    "balance": 216240,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR042",
+    "account_number": "XXXX-XXXX-1042",
+    "balance": 46853,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR043",
+    "account_number": "XXXX-XXXX-1043",
+    "balance": 188013,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR044",
+    "account_number": "XXXX-XXXX-1044",
+    "balance": 115785,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR045",
+    "account_number": "XXXX-XXXX-1045",
+    "balance": 94194,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR046",
+    "account_number": "XXXX-XXXX-1046",
+    "balance": 77842,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR047",
+    "account_number": "XXXX-XXXX-1047",
+    "balance": 45758,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR048",
+    "account_number": "XXXX-XXXX-1048",
+    "balance": 61443,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR049",
+    "account_number": "XXXX-XXXX-1049",
+    "balance": 205145,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR050",
+    "account_number": "XXXX-XXXX-1050",
+    "balance": 93236,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR051",
+    "account_number": "XXXX-XXXX-1051",
+    "balance": 31793,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR052",
+    "account_number": "XXXX-XXXX-1052",
+    "balance": 29312,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR053",
+    "account_number": "XXXX-XXXX-1053",
+    "balance": 104595,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR054",
+    "account_number": "XXXX-XXXX-1054",
+    "balance": 30353,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR055",
+    "account_number": "XXXX-XXXX-1055",
+    "balance": 99104,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR056",
+    "account_number": "XXXX-XXXX-1056",
+    "balance": 227165,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR057",
+    "account_number": "XXXX-XXXX-1057",
+    "balance": 95165,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR058",
+    "account_number": "XXXX-XXXX-1058",
+    "balance": 163263,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR059",
+    "account_number": "XXXX-XXXX-1059",
+    "balance": 74342,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR060",
+    "account_number": "XXXX-XXXX-1060",
+    "balance": 216583,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR061",
+    "account_number": "XXXX-XXXX-1061",
+    "balance": 16390,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR062",
+    "account_number": "XXXX-XXXX-1062",
+    "balance": 196294,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR063",
+    "account_number": "XXXX-XXXX-1063",
+    "balance": 125435,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR064",
+    "account_number": "XXXX-XXXX-1064",
+    "balance": 145568,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR065",
+    "account_number": "XXXX-XXXX-1065",
+    "balance": 37722,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR066",
+    "account_number": "XXXX-XXXX-1066",
+    "balance": 246774,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR067",
+    "account_number": "XXXX-XXXX-1067",
+    "balance": 104230,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR068",
+    "account_number": "XXXX-XXXX-1068",
+    "balance": 25656,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR069",
+    "account_number": "XXXX-XXXX-1069",
+    "balance": 149714,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR070",
+    "account_number": "XXXX-XXXX-1070",
+    "balance": 81854,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR071",
+    "account_number": "XXXX-XXXX-1071",
+    "balance": 222423,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR072",
+    "account_number": "XXXX-XXXX-1072",
+    "balance": 169794,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR073",
+    "account_number": "XXXX-XXXX-1073",
+    "balance": 167141,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR074",
+    "account_number": "XXXX-XXXX-1074",
+    "balance": 237115,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR075",
+    "account_number": "XXXX-XXXX-1075",
+    "balance": 230891,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR076",
+    "account_number": "XXXX-XXXX-1076",
+    "balance": 99800,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR077",
+    "account_number": "XXXX-XXXX-1077",
+    "balance": 156349,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR078",
+    "account_number": "XXXX-XXXX-1078",
+    "balance": 55407,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR079",
+    "account_number": "XXXX-XXXX-1079",
+    "balance": 189699,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR080",
+    "account_number": "XXXX-XXXX-1080",
+    "balance": 23233,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR081",
+    "account_number": "XXXX-XXXX-1081",
+    "balance": 17012,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR082",
+    "account_number": "XXXX-XXXX-1082",
+    "balance": 178346,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR083",
+    "account_number": "XXXX-XXXX-1083",
+    "balance": 64742,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR084",
+    "account_number": "XXXX-XXXX-1084",
+    "balance": 207655,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR085",
+    "account_number": "XXXX-XXXX-1085",
+    "balance": 80861,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR086",
+    "account_number": "XXXX-XXXX-1086",
+    "balance": 25916,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR087",
+    "account_number": "XXXX-XXXX-1087",
+    "balance": 229216,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR088",
+    "account_number": "XXXX-XXXX-1088",
+    "balance": 66024,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR089",
+    "account_number": "XXXX-XXXX-1089",
+    "balance": 232143,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR090",
+    "account_number": "XXXX-XXXX-1090",
+    "balance": 31476,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR091",
+    "account_number": "XXXX-XXXX-1091",
+    "balance": 104647,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR092",
+    "account_number": "XXXX-XXXX-1092",
+    "balance": 77869,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR093",
+    "account_number": "XXXX-XXXX-1093",
+    "balance": 123858,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR094",
+    "account_number": "XXXX-XXXX-1094",
+    "balance": 171640,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR095",
+    "account_number": "XXXX-XXXX-1095",
+    "balance": 223657,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR096",
+    "account_number": "XXXX-XXXX-1096",
+    "balance": 100638,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR097",
+    "account_number": "XXXX-XXXX-1097",
+    "balance": 47638,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR098",
+    "account_number": "XXXX-XXXX-1098",
+    "balance": 102040,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR099",
+    "account_number": "XXXX-XXXX-1099",
+    "balance": 98132,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR100",
+    "account_number": "XXXX-XXXX-1100",
+    "balance": 59921,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR101",
+    "account_number": "XXXX-XXXX-1101",
+    "balance": 180682,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR102",
+    "account_number": "XXXX-XXXX-1102",
+    "balance": 74986,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR103",
+    "account_number": "XXXX-XXXX-1103",
+    "balance": 188977,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR104",
+    "account_number": "XXXX-XXXX-1104",
+    "balance": 184187,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR105",
+    "account_number": "XXXX-XXXX-1105",
+    "balance": 174878,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR106",
+    "account_number": "XXXX-XXXX-1106",
+    "balance": 23717,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR107",
+    "account_number": "XXXX-XXXX-1107",
+    "balance": 164680,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR108",
+    "account_number": "XXXX-XXXX-1108",
+    "balance": 171455,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR109",
+    "account_number": "XXXX-XXXX-1109",
+    "balance": 49862,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR110",
+    "account_number": "XXXX-XXXX-1110",
+    "balance": 145021,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR111",
+    "account_number": "XXXX-XXXX-1111",
+    "balance": 196136,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR112",
+    "account_number": "XXXX-XXXX-1112",
+    "balance": 69175,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR113",
+    "account_number": "XXXX-XXXX-1113",
+    "balance": 47834,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR114",
+    "account_number": "XXXX-XXXX-1114",
+    "balance": 126178,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR115",
+    "account_number": "XXXX-XXXX-1115",
+    "balance": 104471,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR116",
+    "account_number": "XXXX-XXXX-1116",
+    "balance": 75765,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR117",
+    "account_number": "XXXX-XXXX-1117",
+    "balance": 247585,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR118",
+    "account_number": "XXXX-XXXX-1118",
+    "balance": 172772,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR119",
+    "account_number": "XXXX-XXXX-1119",
+    "balance": 185397,
+    "account_type": "savings"
+  },
+  {
+    "user_id": "USR120",
+    "account_number": "XXXX-XXXX-1120",
+    "balance": 151001,
+    "account_type": "savings"
+  }
+]
