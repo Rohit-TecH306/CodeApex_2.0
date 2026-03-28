@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Calculator, X, ChevronRight } from 'lucide-react';
+import { Calculator, X, ChevronRight, IndianRupee, Calendar, Percent, ShieldCheck } from 'lucide-react';
 import { calculateEmi } from '../services/api';
 
 export default function SidebarEmi() {
@@ -22,7 +22,20 @@ export default function SidebarEmi() {
     setLoading(true);
     try {
       const data = await calculateEmi(Number(principal), Number(duration));
-      setResult(data);
+      
+      // Calculate breakdown
+      const totalPayable = data.emi * data.duration_years * 12;
+      const totalInterest = totalPayable - data.principal;
+      const principalPercent = (data.principal / totalPayable) * 100;
+      const interestPercent = (totalInterest / totalPayable) * 100;
+
+      setResult({
+        ...data,
+        totalPayable,
+        totalInterest,
+        principalPercent,
+        interestPercent
+      });
     } catch (err) {
       setError(err.message || 'Error calculating EMI');
     } finally {
@@ -35,12 +48,13 @@ export default function SidebarEmi() {
       {/* Toggle Button */}
       <motion.button
         onClick={() => setIsOpen(true)}
-        className="fixed left-0 top-1/2 -translate-y-1/2 bg-blue-600 text-white p-3 rounded-r-xl shadow-lg z-30 hover:bg-blue-700 transition-colors flex items-center justify-center group"
-        whileHover={{ x: 5 }}
+        className="fixed left-0 top-1/2 -translate-y-1/2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-3 rounded-r-2xl shadow-[0_8px_30px_rgb(0,0,0,0.12)] z-30 hover:shadow-[0_8px_30px_rgb(59,130,246,0.5)] transition-all flex flex-col items-center justify-center group border border-l-0 border-white/20 backdrop-blur-md"
+        whileHover={{ x: 5, scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
       >
-        <Calculator className="w-5 h-5 mr-1" />
-        <span className="font-semibold text-sm">EMI</span>
-        <ChevronRight className="w-4 h-4 ml-1 opacity-0 group-hover:opacity-100 transition-opacity" />
+        <Calculator className="w-6 h-6 mb-1 text-blue-100 group-hover:text-white transition-colors" />
+        <span className="font-bold text-xs tracking-wider" style={{ writingMode: 'vertical-rl', textOrientation: 'mixed' }}>SMART EMI</span>
+        <ChevronRight className="w-5 h-5 mt-1 opacity-50 group-hover:opacity-100 transition-opacity translate-x-[-2px] group-hover:translate-x-0" />
       </motion.button>
 
       {/* Backdrop */}
@@ -51,7 +65,7 @@ export default function SidebarEmi() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             onClick={() => setIsOpen(false)}
-            className="fixed inset-0 bg-black/20 backdrop-blur-sm z-40"
+            className="fixed inset-0 bg-black/40 backdrop-blur-sm z-40"
           />
         )}
       </AnimatePresence>
@@ -60,87 +74,174 @@ export default function SidebarEmi() {
       <AnimatePresence>
         {isOpen && (
           <motion.div
-            initial={{ x: '-100%', opacity: 0.5 }}
-            animate={{ x: 0, opacity: 1 }}
-            exit={{ x: '-100%', opacity: 0.5 }}
+            initial={{ x: '-100%', opacity: 0, borderTopRightRadius: '100px', borderBottomRightRadius: '100px' }}
+            animate={{ x: 0, opacity: 1, borderTopRightRadius: '32px', borderBottomRightRadius: '32px' }}
+            exit={{ x: '-100%', opacity: 0, borderTopRightRadius: '100px', borderBottomRightRadius: '100px' }}
             transition={{ type: "spring", damping: 25, stiffness: 200 }}
-            className="fixed left-0 top-0 h-full w-80 bg-white shadow-2xl z-50 p-6 flex flex-col"
+            className="fixed left-0 top-0 h-full w-[380px] bg-white/95 backdrop-blur-xl shadow-2xl shadow-blue-900/20 z-50 flex flex-col border-r border-white/40 overflow-hidden"
           >
-            <div className="flex items-center justify-between mb-8">
-              <div className="flex items-center text-blue-600">
-                <Calculator className="w-6 h-6 mr-2" />
-                <h2 className="text-xl font-bold">Smart EMI</h2>
+            {/* Header */}
+            <div className="relative p-6 pb-8 bg-gradient-to-br from-blue-600 to-indigo-700 text-white rounded-br-[32px]">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-2xl -translate-y-1/2 translate-x-1/2"></div>
+              
+              <div className="flex items-start justify-between relative z-10">
+                <div className="flex items-center gap-3">
+                  <div className="p-2 bg-white/20 rounded-xl backdrop-blur-sm border border-white/20">
+                    <Calculator className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <h2 className="text-xl font-bold tracking-tight">Smart EMI</h2>
+                    <p className="text-blue-100 text-xs mt-0.5 font-medium">AI-Powered Profiling</p>
+                  </div>
+                </div>
+                <button 
+                  onClick={() => setIsOpen(false)} 
+                  className="text-white/70 hover:text-white hover:bg-white/20 rounded-full p-2 transition-colors cursor-pointer"
+                >
+                  <X className="w-5 h-5" />
+                </button>
               </div>
-              <button onClick={() => setIsOpen(false)} className="text-gray-400 hover:text-gray-700 bg-gray-100 rounded-full p-2">
-                <X className="w-5 h-5" />
-              </button>
             </div>
 
-            <p className="text-sm text-gray-500 mb-6">
-              Calculates your EMI automatically applying your profile's CIBIL score for interest rates.
-            </p>
-
-            <form onSubmit={handleCalculate} className="flex flex-col gap-4">
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Loan Principal (₹)</label>
-                <input
-                  type="number"
-                  min="1000"
-                  step="100"
-                  value={principal}
-                  onChange={(e) => setPrincipal(e.target.value)}
-                  className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-gray-50"
-                  placeholder="e.g. 500000"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Duration (Years)</label>
-                <input
-                  type="number"
-                  min="1"
-                  step="1"
-                  max="30"
-                  value={duration}
-                  onChange={(e) => setDuration(e.target.value)}
-                  className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-gray-50"
-                  placeholder="e.g. 5"
-                />
-              </div>
-
-              {error && <p className="text-red-500 text-sm font-medium">{error}</p>}
-
-              <button
-                type="submit"
-                disabled={loading}
-                className="w-full py-3 bg-blue-600 hover:bg-blue-700 disabled:opacity-70 text-white rounded-xl font-bold transition-colors mt-2 shadow-md"
-              >
-                {loading ? 'Calculating...' : 'Calculate Now'}
-              </button>
-            </form>
-
-            {result && (
-              <motion.div 
-                className="mt-8 p-5 bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-100 rounded-2xl"
-                initial={{ scale: 0.9, opacity: 0 }}
-                animate={{ scale: 1, opacity: 1 }}
-              >
-                <h3 className="text-sm font-semibold text-blue-800 mb-4">Your Loan Offer</h3>
-                
-                <div className="grid grid-cols-2 gap-y-4 gap-x-2 text-sm">
-                  <div className="text-gray-500">CIBIL Score:</div>
-                  <div className="font-semibold text-right">{result.cibil_score}</div>
-                  
-                  <div className="text-gray-500">Interest Rate:</div>
-                  <div className="font-semibold text-right text-green-600">{result.interest_rate}% p.a.</div>
-                  
-                  <div className="text-gray-500">Credit Rating:</div>
-                  <div className="font-semibold text-right">{result.credit_rating}</div>
-                  
-                  <div className="text-gray-500 mt-2 text-lg">Monthly EMI:</div>
-                  <div className="font-bold text-right text-lg mt-2 text-blue-700">₹{result.emi.toLocaleString('en-IN')}</div>
+            {/* Content Body */}
+            <div className="flex-1 overflow-y-auto custom-scrollbar p-6 space-y-6">
+              
+              <form onSubmit={handleCalculate} className="space-y-5">
+                <div className="space-y-1.5">
+                  <label className="block text-sm font-semibold text-gray-700">Loan Principal</label>
+                  <div className="relative group">
+                    <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-gray-400 group-focus-within:text-blue-500 transition-colors">
+                      <IndianRupee className="w-5 h-5" />
+                    </div>
+                    <input
+                      type="number"
+                      min="1000"
+                      step="100"
+                      value={principal}
+                      onChange={(e) => setPrincipal(e.target.value)}
+                      className="w-full pl-10 pr-4 py-3.5 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 bg-white shadow-sm transition-all text-gray-800 font-semibold text-lg"
+                      placeholder="e.g. 500000"
+                    />
+                  </div>
                 </div>
-              </motion.div>
-            )}
+                
+                <div className="space-y-1.5">
+                  <label className="block text-sm font-semibold text-gray-700">Duration (Years)</label>
+                  <div className="relative group">
+                    <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-gray-400 group-focus-within:text-blue-500 transition-colors">
+                      <Calendar className="w-5 h-5" />
+                    </div>
+                    <input
+                      type="number"
+                      min="1"
+                      step="1"
+                      max="30"
+                      value={duration}
+                      onChange={(e) => setDuration(e.target.value)}
+                      className="w-full pl-10 pr-4 py-3.5 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 bg-white shadow-sm transition-all text-gray-800 font-semibold text-lg"
+                      placeholder="e.g. 5"
+                    />
+                  </div>
+                </div>
+
+                {error && (
+                  <motion.p initial={{ opacity: 0, y: -5 }} animate={{ opacity: 1, y: 0 }} className="text-red-500 text-sm font-medium px-1">
+                    {error}
+                  </motion.p>
+                )}
+
+                <button
+                  type="submit"
+                  disabled={loading}
+                  className="relative w-full py-4 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 disabled:opacity-70 text-white rounded-xl font-bold transition-all shadow-lg shadow-blue-500/30 overflow-hidden group"
+                >
+                  <span className="relative z-10 flex items-center justify-center gap-2">
+                    {loading ? (
+                      <motion.div animate={{ rotate: 360 }} transition={{ repeat: Infinity, duration: 1, ease: "linear" }}>
+                        <Calculator className="w-5 h-5" />
+                      </motion.div>
+                    ) : (
+                      'Calculate My Match'
+                    )}
+                  </span>
+                  <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform cursor-pointer"></div>
+                </button>
+              </form>
+
+              {/* Results Area */}
+              <AnimatePresence>
+                {result && (
+                  <motion.div 
+                    className="pt-4 border-t border-gray-100"
+                    initial={{ scale: 0.95, opacity: 0, y: 20 }}
+                    animate={{ scale: 1, opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, scale: 0.9 }}
+                    transition={{ type: "spring", damping: 20, stiffness: 100 }}
+                  >
+                    <div className="bg-gradient-to-br from-indigo-50 via-white to-blue-50 border border-blue-100 rounded-2xl p-5 shadow-[0_4px_20px_rgb(59,130,246,0.05)]">
+                      
+                      {/* Highlighted EMI */}
+                      <div className="text-center mb-6">
+                        <p className="text-sm font-medium text-gray-500 mb-1">Your Estimated EMI</p>
+                        <div className="flex items-baseline justify-center gap-1 text-blue-700">
+                          <span className="text-2xl font-bold">₹</span>
+                          <span className="text-4xl font-extrabold tracking-tight">{Math.round(result.emi).toLocaleString('en-IN')}</span>
+                          <span className="text-gray-500 font-medium text-sm">/mo</span>
+                        </div>
+                      </div>
+
+                      {/* Visual Breakdown Bar */}
+                      <div className="mb-6 space-y-2">
+                        <div className="flex justify-between text-xs font-semibold text-gray-500 px-1">
+                          <span className="flex items-center gap-1"><div className="w-2 h-2 rounded-full bg-blue-500"></div>Principal</span>
+                          <span className="flex items-center gap-1">Interest<div className="w-2 h-2 rounded-full bg-orange-400"></div></span>
+                        </div>
+                        <div className="h-3 w-full bg-gray-100 rounded-full overflow-hidden flex shadow-inner">
+                          <motion.div 
+                            initial={{ width: 0 }} 
+                            animate={{ width: `${result.principalPercent}%` }} 
+                            transition={{ duration: 1, delay: 0.2 }}
+                            className="h-full bg-blue-500" 
+                          />
+                          <motion.div 
+                            initial={{ width: 0 }} 
+                            animate={{ width: `${result.interestPercent}%` }} 
+                            transition={{ duration: 1, delay: 0.2 }}
+                            className="h-full bg-orange-400" 
+                          />
+                        </div>
+                        <div className="flex justify-between text-[11px] text-gray-400 px-1">
+                          <span>₹{result.principal.toLocaleString('en-IN')}</span>
+                          <span>₹{Math.round(result.totalInterest).toLocaleString('en-IN')}</span>
+                        </div>
+                      </div>
+
+                      {/* Info Grid */}
+                      <div className="grid grid-cols-2 gap-3 mb-2">
+                        <div className="bg-white p-3 rounded-xl border border-gray-100 shadow-sm flex flex-col items-center text-center">
+                          <Percent className="w-4 h-4 text-green-500 mb-1" />
+                          <span className="text-[10px] text-gray-400 font-semibold uppercase">Interest Rate</span>
+                          <span className="font-bold text-gray-800">{result.interest_rate}%</span>
+                        </div>
+                        <div className="bg-white p-3 rounded-xl border border-gray-100 shadow-sm flex flex-col items-center text-center">
+                          <ShieldCheck className="w-4 h-4 text-blue-500 mb-1" />
+                          <span className="text-[10px] text-gray-400 font-semibold uppercase">CIBIL Match</span>
+                          <span className="font-bold text-gray-800">{result.cibil_score}</span>
+                        </div>
+                      </div>
+                      
+                      <div className="mt-4 p-3 bg-green-50/50 border border-green-100 rounded-xl text-center">
+                         <p className="text-xs text-green-700 font-medium">
+                           Approval Status: <strong>{result.loan_approval_likelihood}</strong>
+                         </p>
+                      </div>
+
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+
+            </div>
           </motion.div>
         )}
       </AnimatePresence>
