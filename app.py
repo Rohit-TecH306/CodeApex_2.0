@@ -11,6 +11,7 @@ from gtts import gTTS
 from embeddings.search import (
     USER_BY_MOBILE,
     CREDIT_PROFILE_BY_USER,
+    TXNS_BY_USER,
     answer_query,
     detect_language,
     get_follow_up_suggestions,
@@ -70,6 +71,26 @@ def login() -> tuple:
 def logout() -> tuple:
     session.clear()
     return jsonify({"ok": True}), 200
+
+
+@app.get("/api/user-data")
+def user_data() -> tuple:
+    mobile = session.get("mobile")
+    if not mobile:
+        return jsonify({"error": "Not logged in"}), 401
+
+    user = USER_BY_MOBILE.get(mobile)
+    if not user:
+        return jsonify({"error": "Session expired"}), 401
+    
+    user_id = user.get("user_id")
+    profile = CREDIT_PROFILE_BY_USER.get(user_id, {})
+    txns = TXNS_BY_USER.get(user_id, [])
+    
+    return jsonify({
+        "credit_profile": profile,
+        "transactions": txns
+    }), 200
 
 
 @app.post("/api/chat")

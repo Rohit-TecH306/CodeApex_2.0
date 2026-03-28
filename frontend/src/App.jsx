@@ -6,6 +6,8 @@ import StatusText from './components/StatusText';
 import BankInfoCards from './components/BankInfoCards';
 import SuggestionChips from './components/SuggestionChips';
 import SidebarEmi from './components/SidebarEmi';
+import FinancialDashboard from './components/FinancialDashboard';
+import QuickActionDock from './components/QuickActionDock';
 import { loginByMobile, processText, getTtsAudio } from './services/api';
 
 export default function App() {
@@ -18,6 +20,7 @@ export default function App() {
   const [orbState, setOrbState] = useState('idle');
   const [statusMessage, setStatusMessage] = useState('How can I help you today?');
   const [currentSuggestions, setCurrentSuggestions] = useState(null);
+  const [showDashboard, setShowDashboard] = useState(false);
 
   const recognitionRef = useRef(null);
   const audioRef = useRef(null);
@@ -194,6 +197,20 @@ export default function App() {
 
       <Header />
       <SidebarEmi />
+      <FinancialDashboard isOpen={showDashboard} onClose={() => setShowDashboard(false)} />
+      <QuickActionDock 
+        onSpeakClicked={startVoiceSession} 
+        onDashboardClicked={() => setShowDashboard(true)} 
+        onSendPrompt={(prompt) => {
+          setSessionActive(true);
+          runQueryFlow(prompt, language).catch(err => {
+            console.error(err);
+            setStatusMessage('Error: ' + err.message);
+            setOrbState('idle');
+            setSessionActive(false);
+          });
+        }} 
+      />
 
       <div className="absolute top-6 right-8 z-20">
         <select
