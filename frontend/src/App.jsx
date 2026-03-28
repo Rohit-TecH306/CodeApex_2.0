@@ -183,14 +183,15 @@ export default function App() {
   };
 
   if (!user) return (
-    <div className="min-h-screen bg-[#F9FAFB] font-sans flex items-center justify-center relative overflow-hidden">
+    <div className="min-h-screen font-sans flex items-center justify-center relative overflow-hidden bg-[url('/bg.png')] bg-cover bg-center bg-fixed">
       <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-blue-50 rounded-full blur-[120px] opacity-60 -translate-y-1/2 translate-x-1/3 pointer-events-none"></div>
       <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-blue-100/50 rounded-full blur-[100px] opacity-60 translate-y-1/3 -translate-x-1/4 pointer-events-none"></div>
 
-      <div className="bg-white p-10 rounded-3xl shadow-xl z-10 w-full max-w-md border border-gray-100 flex flex-col items-center">
-        <div className="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center text-white text-3xl shadow-lg mb-6">🏦</div>
-        <h2 className="text-2xl font-extrabold text-gray-900 mb-2">Welcome to Kiosk</h2>
-        <p className="text-gray-500 mb-8 text-center">Please enter your registered mobile number to proceed.</p>
+      <div className="bg-white p-10 rounded-3xl shadow-2xl z-10 w-full max-w-md border border-gray-100 flex flex-col items-center relative overflow-hidden">
+        <div className="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center text-white text-3xl shadow-lg mb-4 z-10">🏦</div>
+        <h2 className="text-2xl font-extrabold text-gray-900 mb-1 z-10 text-center">BharatTrust Bank</h2>
+        <h3 className="text-xs font-bold text-blue-600 mb-3 uppercase tracking-widest z-10">Self-Service Kiosk</h3>
+        <p className="text-gray-500 mb-8 text-center text-sm font-medium z-10">Please enter your registered mobile number to proceed.</p>
 
         <form onSubmit={handleLogin} className="w-full flex flex-col gap-4">
           <div>
@@ -216,7 +217,7 @@ export default function App() {
   );
 
   return (
-    <div className="min-h-screen bg-[#F9FAFB] font-sans selection:bg-blue-100 flex flex-col relative overflow-hidden">
+    <div className="min-h-screen font-sans selection:bg-blue-100 flex flex-col relative overflow-hidden bg-[url('/bg.png')] bg-cover bg-center bg-fixed">
       <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-blue-50 rounded-full blur-[120px] opacity-60 -translate-y-1/2 translate-x-1/3 pointer-events-none"></div>
       <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-blue-100/50 rounded-full blur-[100px] opacity-60 translate-y-1/3 -translate-x-1/4 pointer-events-none"></div>
 

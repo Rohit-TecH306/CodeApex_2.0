@@ -110,7 +110,7 @@ export default function SidebarEmi() {
                 <div className="space-y-1.5">
                   <label className="block text-sm font-semibold text-gray-700">Loan Principal</label>
                   <div className="relative group">
-                    <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-gray-400 group-focus-within:text-blue-500 transition-colors">
+                    <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-gray-400 group-focus-within:text-brand transition-colors">
                       <IndianRupee className="w-5 h-5" />
                     </div>
                     <input
@@ -128,7 +128,7 @@ export default function SidebarEmi() {
                 <div className="space-y-1.5">
                   <label className="block text-sm font-semibold text-gray-700">Duration (Years)</label>
                   <div className="relative group">
-                    <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-gray-400 group-focus-within:text-blue-500 transition-colors">
+                    <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-gray-400 group-focus-within:text-brand transition-colors">
                       <Calendar className="w-5 h-5" />
                     </div>
                     <input
@@ -183,7 +183,7 @@ export default function SidebarEmi() {
                       {/* Highlighted EMI */}
                       <div className="text-center mb-6">
                         <p className="text-sm font-medium text-gray-500 mb-1">Your Estimated EMI</p>
-                        <div className="flex items-baseline justify-center gap-1 text-blue-700">
+                        <div className="flex items-baseline justify-center gap-1 text-primary">
                           <span className="text-2xl font-bold">₹</span>
                           <span className="text-4xl font-extrabold tracking-tight">{Math.round(result.emi).toLocaleString('en-IN')}</span>
                           <span className="text-gray-500 font-medium text-sm">/mo</span>
@@ -193,7 +193,7 @@ export default function SidebarEmi() {
                       {/* Visual Breakdown Bar */}
                       <div className="mb-6 space-y-2">
                         <div className="flex justify-between text-xs font-semibold text-gray-500 px-1">
-                          <span className="flex items-center gap-1"><div className="w-2 h-2 rounded-full bg-blue-500"></div>Principal</span>
+                          <span className="flex items-center gap-1"><div className="w-2 h-2 rounded-full bg-brand"></div>Principal</span>
                           <span className="flex items-center gap-1">Interest<div className="w-2 h-2 rounded-full bg-orange-400"></div></span>
                         </div>
                         <div className="h-3 w-full bg-gray-100 rounded-full overflow-hidden flex shadow-inner">
@@ -201,7 +201,7 @@ export default function SidebarEmi() {
                             initial={{ width: 0 }} 
                             animate={{ width: `${result.principalPercent}%` }} 
                             transition={{ duration: 1, delay: 0.2 }}
-                            className="h-full bg-blue-500" 
+                            className="h-full bg-brand" 
                           />
                           <motion.div 
                             initial={{ width: 0 }} 
@@ -224,7 +224,7 @@ export default function SidebarEmi() {
                           <span className="font-bold text-gray-800">{result.interest_rate}%</span>
                         </div>
                         <div className="bg-white p-3 rounded-xl border border-gray-100 shadow-sm flex flex-col items-center text-center">
-                          <ShieldCheck className="w-4 h-4 text-blue-500 mb-1" />
+                          <ShieldCheck className="w-4 h-4 text-brand mb-1" />
                           <span className="text-[10px] text-gray-400 font-semibold uppercase">CIBIL Match</span>
                           <span className="font-bold text-gray-800">{result.cibil_score}</span>
                         </div>
