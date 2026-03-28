@@ -74,10 +74,9 @@ MAX_FAQ_DISTANCE = 0.78
 MIN_FAQ_DISTANCE_GAP = 0.06
 MAX_KNOWLEDGE_DISTANCE = 0.82
 
-# Optional Gemini refinement (recommended for faster multilingual quality).
-GEMINI_ENABLED = os.getenv("GEMINI_ENABLED", "false").strip().lower() in {"1", "true", "yes", "on"}
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-1.5-flash")
+# Optional Ollama refinement (recommended for local offline high quality).
+OLLAMA_ENABLED = os.getenv("OLLAMA_ENABLED", "true").strip().lower() in {"1", "true", "yes", "on"}
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "qwen2.5:3b")
 
 # Optional local Indic LLM refinement (disabled by default).
 INDIC_LLM_ENABLED = os.getenv("INDIC_LLM_ENABLED", "false").strip().lower() in {"1", "true", "yes", "on"}
@@ -88,43 +87,7 @@ INDIC_LLM_DEVICE = os.getenv("INDIC_LLM_DEVICE", "cpu")  # Use "cuda" if GPU ava
 _indic_model = None
 _indic_tokenizer = None
 _indic_model_load_error = None
-_gemini_model = None
-_gemini_model_load_error = None
 _last_refiner = "deterministic"
-
-
-def _lazy_load_gemini_model():
-    """Load Gemini client on first use with fallback."""
-    global _gemini_model, _gemini_model_load_error
-
-    if _gemini_model is not None or _gemini_model_load_error is not None:
-        return _gemini_model
-
-    if not GEMINI_ENABLED:
-        _gemini_model_load_error = "Gemini disabled"
-        return None
-    if not GEMINI_API_KEY:
-        _gemini_model_load_error = "GEMINI_API_KEY missing"
-        return None
-
-    try:
-        # Preferred SDK.
-        from google import genai  # type: ignore[import-not-found]
-
-        _gemini_model = genai.Client(api_key=GEMINI_API_KEY)
-        return _gemini_model
-    except Exception:
-        try:
-            # Legacy fallback for older environments.
-            import google.generativeai as legacy_genai  # type: ignore[import-not-found]
-
-            legacy_genai.configure(api_key=GEMINI_API_KEY)
-            _gemini_model = legacy_genai.GenerativeModel(GEMINI_MODEL)
-            return _gemini_model
-        except Exception as e:
-            _gemini_model_load_error = str(e)
-            print(f"Warning: Could not load Gemini model: {e}. Using fallback responses.")
-            return None
 
 
 def _pick_torch_device() -> str:
@@ -536,10 +499,9 @@ def _maybe_refine_with_indic_model(query: str, answer: str, lang: str) -> str:
         return answer
 
 
-def _maybe_refine_with_gemini(query: str, answer: str, lang: str) -> str:
-    """Optionally improve phrasing using Gemini while keeping facts unchanged."""
-    model = _lazy_load_gemini_model()
-    if model is None:
+def _maybe_refine_with_ollama(query: str, answer: str, lang: str) -> str:
+    """Optionally improve phrasing using local Ollama model while keeping facts unchanged."""
+    if not OLLAMA_ENABLED:
         return answer
 
     protected = {
@@ -551,42 +513,31 @@ def _maybe_refine_with_gemini(query: str, answer: str, lang: str) -> str:
         return answer
 
     language_name = {"en": "English", "hi": "Hindi", "mr": "Marathi"}.get(lang, "English")
-    prompt = (
-        f"You are a banking response refiner. Target language: {language_name}.\n"
-        "Rules:\n"
-        "1) Keep all numbers, amounts, dates, account identifiers and facts exactly unchanged.\n"
-        "2) Do not add new facts, policies, or advice.\n"
-        "3) Keep the response concise and user-friendly.\n"
-        "4) Return only the final refined answer text.\n\n"
-        f"User question: {query}\n"
-        f"Base answer: {answer}"
-    )
+    
+    messages = [
+        {"role": "system", "content": f"You are a helpful, polite banking assistant refiner. Target language: {language_name}. Rules:\n1) Keep all numbers, amounts, dates, account identifiers and facts exactly unchanged.\n2) Do not add new facts, policies, or advice.\n3) Keep the response concise and user-friendly.\n4) Return ONLY the final refined answer text with no conversational filler like 'Here is the refined response'."},
+        {"role": "user", "content": f"User question: {query}\nBase answer: {answer}"}
+    ]
 
     try:
-        # New SDK client path.
-        if hasattr(model, "models"):
-            response = model.models.generate_content(model=GEMINI_MODEL, contents=prompt)
-            candidate = (getattr(response, "text", "") or "").strip()
-            if not candidate:
-                return answer
-            return candidate[:500]
-
-        # Legacy SDK model path.
-        response = model.generate_content(prompt)
-        candidate = (getattr(response, "text", "") or "").strip()
+        import ollama
+        response = ollama.chat(model=OLLAMA_MODEL, messages=messages)
+        candidate = response.get("message", {}).get("content", "").strip()
+        
         if not candidate:
             return answer
         return candidate[:500]
-    except Exception:
+    except Exception as e:
+        print(f"Ollama refinement failed: {e}")
         return answer
 
 
 def refine_answer(query: str, answer: str, lang: str) -> str:
-    """Refine answer with Gemini first, then Indic model fallback."""
+    """Refine answer with Ollama first, then Indic model fallback."""
     global _last_refiner
-    refined = _maybe_refine_with_gemini(query, answer, lang)
+    refined = _maybe_refine_with_ollama(query, answer, lang)
     if refined != answer:
-        _last_refiner = "gemini"
+        _last_refiner = "ollama"
         return refined
 
     refined = _maybe_refine_with_indic_model(query, answer, lang)
@@ -601,15 +552,15 @@ def refine_answer(query: str, answer: str, lang: str) -> str:
 def get_refiner_status() -> Dict[str, str]:
     """Return active and configured refinement backend details."""
     configured = "deterministic"
-    if GEMINI_ENABLED and GEMINI_API_KEY:
-        configured = "gemini"
+    if OLLAMA_ENABLED:
+        configured = "ollama"
     elif INDIC_LLM_ENABLED:
         configured = "indic-llama"
 
     return {
         "configured_mode": configured,
         "last_used_mode": _last_refiner,
-        "gemini_enabled": str(GEMINI_ENABLED).lower(),
+        "ollama_enabled": str(OLLAMA_ENABLED).lower(),
         "indic_enabled": str(INDIC_LLM_ENABLED).lower(),
     }
 
@@ -901,7 +852,7 @@ def get_advanced_knowledge_answer(query: str, lang: str) -> Optional[str]:
     return None
 
 
-def enhance_response_with_gemini(raw_answer: str, user_name: str, lang: str) -> str:
+def enhance_response_with_ollama(raw_answer: str, user_name: str, lang: str) -> str:
     """Compatibility wrapper that routes to the configured refiner backend."""
     _ = user_name
     return refine_answer("", raw_answer, lang)
@@ -964,8 +915,8 @@ def answer_query(user: dict, query: str, lang_hint: Optional[str] = None) -> str
     if "officer" in raw_answer.lower() or "अधिकारी" in raw_answer or "not related" in raw_answer.lower() or "संबंधित नहीं" in raw_answer:
         return raw_answer
 
-    # Apply Gemini rewrite
-    return enhance_response_with_gemini(raw_answer, user.get("name", "User"), lang)
+    # Apply Ollama rewrite
+    return enhance_response_with_ollama(raw_answer, user.get("name", "User"), lang)
 
 
 def get_follow_up_suggestions(query: str, lang_hint: Optional[str] = None) -> List[str]:
