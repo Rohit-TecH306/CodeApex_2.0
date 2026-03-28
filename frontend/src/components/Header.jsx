@@ -1,6 +1,6 @@
 import bankData from '../data/bankData.json';
 
-export default function Header() {
+export default function Header({ children }) {
   const { name, tagline, branchName, branchCode, ifscCode } = bankData.profile;
 
 
@@ -16,10 +16,13 @@ export default function Header() {
         <p className="text-gray-500 font-medium tracking-wide ml-13">{tagline}</p>
       </div>
 
-      <div className="flex flex-col items-end text-sm text-gray-600 font-medium">
-        <p className="text-gray-900 font-bold text-base mb-1">{branchName}</p>
-        <p>Branch Code: <span className="text-blue-600">{branchCode}</span></p>
-        <p>IFSC: <span className="text-blue-600">{ifscCode}</span></p>
+      <div className="flex items-center gap-8">
+        {children}
+        <div className="flex flex-col items-end text-sm text-gray-600 font-medium">
+          <p className="text-gray-900 font-bold text-base mb-1">{branchName}</p>  
+          <p>Branch Code: <span className="text-blue-600">{branchCode}</span></p> 
+          <p>IFSC: <span className="text-blue-600">{ifscCode}</span></p>
+        </div>
       </div>
     </header>
   );

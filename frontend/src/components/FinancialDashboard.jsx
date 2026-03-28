@@ -84,14 +84,15 @@ export default function FinancialDashboard({ isOpen, onClose }) {
             onClick={onClose}
             className="fixed inset-0 bg-black/40 backdrop-blur-sm z-40"
           />
-          <motion.div
-            initial={{ y: '100%', opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            exit={{ y: '100%', opacity: 0 }}
-            transition={{ type: "spring", damping: 25, stiffness: 200 }}
-            className="fixed bottom-0 left-0 w-full h-[85vh] bg-gray-50 rounded-t-[40px] shadow-2xl z-50 overflow-hidden flex flex-col md:h-[80vh] md:w-[800px] md:left-1/2 md:-translate-x-1/2 md:bottom-auto md:top-1/2 md:-translate-y-1/2 md:rounded-3xl"
-          >
-            {/* Header */}
+          <div className="fixed inset-0 z-50 flex items-end md:items-center justify-center pointer-events-none">
+            <motion.div
+              initial={{ y: '100%', opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              exit={{ y: '100%', opacity: 0 }}
+              transition={{ type: "spring", damping: 25, stiffness: 200 }}
+              className="w-full h-[85vh] bg-gray-50 rounded-t-[40px] shadow-2xl overflow-hidden flex flex-col md:h-[80vh] md:w-[800px] md:rounded-3xl pointer-events-auto"
+            >
+              {/* Header */}
             <div className="bg-white p-6 pb-4 border-b border-gray-100 flex items-center justify-between sticky top-0 z-10">
               <div className="flex items-center gap-3">
                 <div className="p-2 bg-blue-50 text-blue-600 rounded-xl">
@@ -217,7 +218,8 @@ export default function FinancialDashboard({ isOpen, onClose }) {
                 </div>
               )}
             </div>
-          </motion.div>
+            </motion.div>
+          </div>
         </>
       )}
     </AnimatePresence>

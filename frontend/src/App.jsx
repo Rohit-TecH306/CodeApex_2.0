@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
+import { User, LogOut } from 'lucide-react';
 import Header from './components/Header';
 import VoiceOrb from './components/VoiceOrb';
 import StatusText from './components/StatusText';
@@ -61,6 +62,20 @@ export default function App() {
     if (audioRef.current) {
       audioRef.current.pause();
       audioRef.current.currentTime = 0;
+    }
+    setOrbState('idle');
+    setStatusMessage('How can I help you today?');
+    setSessionActive(false);
+  };
+
+  const stopListening = (e) => {
+    if (e) { e.stopPropagation(); }
+    if (recognitionRef.current) {
+      try {
+        recognitionRef.current.stop();
+      } catch (err) {
+        console.warn("Could not stop recognition:", err);
+      }
     }
     setOrbState('idle');
     setStatusMessage('How can I help you today?');
@@ -131,6 +146,17 @@ export default function App() {
     }
   };
 
+  const handleLogout = () => {
+    setUser(null);
+    setMobileInput('');
+    setSessionActive(false);
+    setOrbState('idle');
+    setStatusMessage('How can I help you today?');
+    if (audioRef.current) {
+      audioRef.current.pause();
+    }
+  };
+
   const startVoiceSession = () => {
     if (!recognitionRef.current) {
       setStatusMessage('Voice not supported on this browser.');
@@ -195,7 +221,38 @@ export default function App() {
       <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-blue-100/50 rounded-full blur-[100px] opacity-60 translate-y-1/3 -translate-x-1/4 pointer-events-none"></div>
 
 
-      <Header />
+      <Header>
+        <div className="flex items-center gap-4">
+          {user && (
+            <div className="flex items-center gap-2 bg-white/80 backdrop-blur-md border border-gray-200 py-2 px-4 rounded-xl shadow-sm">
+              <div className="w-8 h-8 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">
+                <User size={18} />
+              </div>
+              <span className="font-semibold text-gray-700 hidden sm:block">{user.name}</span>
+              <button
+                onClick={handleLogout}
+                className="ml-2 p-1.5 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-colors"
+                title="Logout"
+              >
+                <LogOut size={18} />
+              </button>
+            </div>
+          )}
+          <select
+            value={language}
+            onChange={(e) => setLanguage(e.target.value)}
+            className="bg-white/80 backdrop-blur-md border border-gray-200 text-gray-700 py-2 px-4 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 font-medium cursor-pointer"
+          >
+            <option value="en-IN">English</option>
+            <option value="hi-IN">Hindi</option>
+            <option value="mr-IN">Marathi</option>
+            <option value="gu-IN">Gujarati</option>
+            <option value="ta-IN">Tamil</option>
+            <option value="te-IN">Telugu</option>
+          </select>
+        </div>
+      </Header>
+      
       <SidebarEmi />
       <FinancialDashboard isOpen={showDashboard} onClose={() => setShowDashboard(false)} />
       <QuickActionDock 
@@ -212,22 +269,7 @@ export default function App() {
         }} 
       />
 
-      <div className="absolute top-6 right-8 z-20">
-        <select
-          value={language}
-          onChange={(e) => setLanguage(e.target.value)}
-          className="bg-white/80 backdrop-blur-md border border-gray-200 text-gray-700 py-2 px-4 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 font-medium cursor-pointer"
-        >
-          <option value="en-IN">English</option>
-          <option value="hi-IN">Hindi</option>
-          <option value="mr-IN">Marathi</option>
-          <option value="gu-IN">Gujarati</option>
-          <option value="ta-IN">Tamil</option>
-          <option value="te-IN">Telugu</option>
-        </select>
-      </div>
-
-      <main className="flex-1 flex flex-col items-center justify-center relative z-10 -mt-10">
+      <main className="flex-1 flex flex-col items-center justify-center relative z-10 -mt-20 pb-20">
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -247,6 +289,15 @@ export default function App() {
               Stop Audio
             </button>
           )}
+          {orbState === 'listening' && (
+            <button
+              onClick={stopListening}
+              className="mt-6 px-6 py-2 bg-orange-500/10 hover:bg-orange-500/20 text-orange-600 rounded-full font-medium transition-colors border border-orange-500/30 flex items-center gap-2"
+            >
+              <svg className="w-5 h-5 text-orange-600" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8 7a1 1 0 00-1 1v4a1 1 0 001 1h4a1 1 0 001-1V8a1 1 0 00-1-1H8z" clipRule="evenodd" /></svg>
+              Stop Listening
+            </button>
+          )}
         </motion.div>
 
         <motion.div
@@ -255,9 +306,8 @@ export default function App() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="w-full mt-4"
         >
-          {currentSuggestions ? (
-            <div className="flex flex-col items-center gap-4">
-              <p className="text-gray-500 text-sm font-medium">Recommended for you:</p>
+          {sessionActive || orbState !== 'idle' ? (
+            <div className="flex flex-col items-center max-w-2xl mx-auto w-full">
               <SuggestionChips
                 language={language}
                 customList={currentSuggestions}
